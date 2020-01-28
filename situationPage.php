@@ -34,12 +34,30 @@ if ($stmt = $conn->prepare("INSERT INTO personalInfo(age,gender,education,freq,t
     header('Location: ./personalInfo.php');
     exit();
 }
-$situation = rand(0, 1);
+$situation = rand(0, 7);
 switch ($situation) {
     case 0:
         require_once("./situations/000.php");
         break;
     case 1:
+        require_once("./situations/001.php");
+        break;
+    case 2:
+        require_once("./situations/010.php");
+        break;
+    case 3:
+        require_once("./situations/011.php");
+        break;
+    case 4:
         require_once("./situations/100.php");
+        break;
+    case 5:
+        require_once("./situations/101.php");
+        break;
+    case 6:
+        require_once("./situations/110.php");
+        break;
+    case 7:
+        require_once("./situations/111.php");
         break;
 }

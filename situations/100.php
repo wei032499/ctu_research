@@ -265,7 +265,7 @@
                 <h1>評論</h1>
 
                 <div id="scores" style="display: flex;justify-content: space-evenly;">
-                    <table class="table table-sm" style="width: 250px;border-left:10px solid rgba(18, 124, 150, 0.85)">
+                    <table class="table table-sm" style="width: 250px;border-left:10px solid rgba(18, 124, 150, 0.85);margin:10px auto">
                         <tbody>
                             <tr>
                                 <th scope="row">耐玩度</th>
@@ -290,7 +290,7 @@
                         </tbody>
                     </table>
 
-                    <div style="text-align:center">
+                    <div style="text-align:center;margin:10px auto">
                         <span style="font-size: 50px">4.6</span>
                         <div style="display:flex;flex-direction:row;justify-content:center">
                             <div style="height:17px;width:17px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAABA0lEQVR4AWMgBEpLS+MYKAFlZWWaJSUlP6urq6XJNgRowKzi4uL/QLqNLAMaGhpEgJq/gwwB4rd9fX2c5LiiFmQADAP56aS4gAkYmBJAjS/QDLkGxNwgF02aNIl95syZrEC1LCD1IBsLgIr2APElqMY/IE0k4BqQzVxAgzaRpBHhunK4F1atWsUMFJhKogFFuAKzFKjgHxEG5BGKlRYCBqwiJmonEjDkBDGG7CdgyFdwtOIDoNSJpOkfUNMh9HAC5il1fBlOBjlxlZeXW0FzsjWQfxEmB+SH48v2XkBFv4B0I9DJbBBRRDKAJsyPQNyO0xCgze5ArI3Pu1VVVZJAS5KQxQC83Tw70VP4pQAAAABJRU5ErkJggg==) no-repeat left">
@@ -309,34 +309,34 @@
                         <div>共 88,609 則評分</div>
                     </div>
 
-                    <table class="table table-sm" style="width:250px">
+                    <table class="table table-sm" style="width:250px;margin:10px auto">
                         <tbody>
                             <tr>
-                                <th scope="row">5</th>
+                                <th scope="row" style="width:15px">5</th>
                                 <td>
                                     <div style="background:#57bb8a;width:375px;">&nbsp;</div>
                                 </td>
                             </tr>
                             <tr>
-                                <th scope="row">4</th>
+                                <th scope="row" style="width:15px">4</th>
                                 <td>
                                     <div style="background:#9ace6a;width:56.25px;">&nbsp;</div>
                                 </td>
                             </tr>
                             <tr>
-                                <th scope="row">3</th>
+                                <th scope="row" style="width:15px">3</th>
                                 <td>
                                     <div style="background:#ffcf02;width:15;">&nbsp;</div>
                                 </td>
                             </tr>
                             <tr>
-                                <th scope="row">2</th>
+                                <th scope="row" style="width:15px">2</th>
                                 <td>
                                     <div style="background:#ff9f02;width:3.75px;">&nbsp;</div>
                                 </td>
                             </tr>
                             <tr>
-                                <th scope="row">1</th>
+                                <th scope="row" style="width:15px">1</th>
                                 <td>
                                     <div style="background:#ff6f31;width:22.5px;">&nbsp;</div>
                                 </td>
@@ -345,7 +345,7 @@
                     </table>
                 </div>
             </section>
-            <section class="col">
+            <section class="col" style="margin-top:50px">
                 <div style="display: flex;margin:8px 0">
                     <img height="48" width="48" style="margin-right:10px;height:48px;width:48px" class="rounded-circle" src="https://lh3.googleusercontent.com/-zki79n99jYo/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3re1tdK1q5sUMEqgwLTJZIJ2ZJwRig/w48-h48-n/photo.jpg">
                     <div style="flex-direction: column">
@@ -441,7 +441,7 @@
                 </div>
             </div>
         </div>
-        <div style="display: flex; flex-direction:row;margin:auto">
+        <div style="display: flex; flex-direction:row;margin:10px auto">
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-info" data-toggle="modal" data-target="#storyModal" style="margin:-30px 5px 0 auto">
                 情境故事

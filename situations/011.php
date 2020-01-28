@@ -1,5 +1,5 @@
-<!--實用品、豐富度高、一致性高-->
-<!--https://www.amazon.com/-/zh_TW/dp/B07RF2123Z/ref=sr_1_2?fst=as%3Aoff&qid=1578845440&rnid=16225007011&s=computers-intl-ship&sr=1-2&th=1-->
+<!--實用品、豐富度低、一致性低-->
+<!--https://www.amazon.com/-/zh_TW/dp/B071YK8NP1/ref=sr_1_3203?fst=as%3Aoff&qid=1580235917&s=computers-intl-ship&sr=1-3203-->
 <html>
 
 <head>
@@ -87,18 +87,16 @@
                 </div>-->
                 <div style="display: flex;flex-direction:row">
                     <div id="titleImg" style="width: 40%">
-                        <img id="imgblock" src="https://d.ecimg.tw/items/DHAEC91900AFTV8/000001_1577441393.jpg" style="width: 90%" />
+                        <img src="https://img.pcstore.com.tw/~prod/M19337879_big.jpg?pimg=static&P=1567942401" style="width: 90%" />
                     </div>
                     <div style="width: 100%">
                         <div style="display: flex;flex-direction:row">
                             <div id="titleImg2" style="width: 40%;display:none">
-                                <img id="imgblock" src="https://d.ecimg.tw/items/DHAEC91900AFTV8/000001_1577441393.jpg" style="width: 90%" />
+                                <img src="https://img.pcstore.com.tw/~prod/M19337879_big.jpg?pimg=static&P=1567942401" style="width: 90%" />
                             </div>
                             <div style="margin: 5px auto 5px 25px ">
-                                <h1>Acer A515-54G-52C4 15.6吋效能筆電(黑)</h1>
+                                <h1>華碩G751JY 17英寸遊戲筆記型電腦[2014型號]</h1>
                                 <div style="display:flex;flex-direction:row">
-                                    <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;">
-                                    </div>
                                     <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;">
                                     </div>
                                     <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;">
@@ -109,24 +107,23 @@
                                         <div style="height:10px;width:5.0px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;">
                                         </div>
                                     </div>
-                                    <span id="count">762</span>
+                                    <div style="height: 10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAoUlEQVR4AWNAB7dv39a+c+eOMQMhcPPmzdlAvBhVFNM00Vu3bn0HKvz14MEDSRRJkDVABX5AnAJUtBqo6D8IA9lrgDgPyM4BykWDTHEHcj6BJFEwQsN7IG0GNhXIMQBynmJR+BZokBG6JyLQFQIVtSGrgZlai8XaTRgKoR75DKRzgSYlA9mvgexH2BROuHv3rhyM//jxYyGg2Iz79+8LgPgAWIi+JMqA+1MAAAAASUVORK5CYII=) no-repeat left;">
+                                    </div>
+                                    <span id="count">10</span>
                                     <div style="width:16px;height:16px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAAW0lEQVR4AWP4TwBSTQEIlAuUbyj/D4QbygWwK1gAlITABdgVHIArOECmggC4ggBMBRAlBuUNQGgAE8VU4ACBmApAejfALIB61QBVwQeoBAJ+QFXwHxNSLy4IQAD87f8pWI1e0gAAAABJRU5ErkJggg==);"></div>
                                 </div>
-                                <div><span>網路售價</span> <span style="color:red;font-size:25px">$21,900</span></div>
+                                <div><span>網路售價</span> <span style="color:red;font-size:25px">$86,000</span></div>
                             </div>
                         </div>
                         <hr />
                         <div style="display: flex; flex-direction:row">
                             <ul class="">
-                                <li>處理器：Intel® Core™ i5-10210U(1.60 GHz/4.20 GHz) </li>
-                                <li>顯示晶片：NVIDIA® GeForce® MX250 2GB GDDR5 VRAM </li>
-                                <li>記憶體：4GB DDR4(Onboard) </li>
-                                <li>硬碟：1TB HDD </li>
-                                <li>螢幕：15.6" FHD/霧面/LED背光/IPS </li>
-                                <li>無線網路：802.11a/b/g/n/ac/ax
-                                    2x2 MU-MIMO、Bluetooth® 5.0 </li>
-                                <li>其他：USB3.1、HDMI </li>
-                                <li>軟體：Windows 10 Home</li>
+                                <li>處理器CPU Intel Core i7-4710HQ Processor, 2.5 GHz (6M Cache, up to 3.5 GHz) </li>
+                                <li>內建隨機記憶體 16GB DDR3L 1600 </li>
+                                <li>最大隨機記憶體 32 GB </li>
+                                <li>記憶體插槽/已佔用 內建4條擴充槽 </li>
+                                <li>顯示晶片 NV GTX860 2G GDDR 5 </li>
+                                <li>硬碟容量/轉速 1TB 7200轉+PCIEx4 512G M.2 SSD </li>
                             </ul>
                         </div>
                     </div>
@@ -140,7 +137,7 @@
                                     <div class="panel panel-default">
                                         <div class="panel-thumbnail">
                                             <a title="image 1" class="thumb">
-                                                <img style="height: 300px" class="img-fluid mx-auto d-block" src="https://images-na.ssl-images-amazon.com/images/I/71sesDsw95L._SX679_.jpg" alt="slide 1" onclick="showImg(this)">
+                                                <img style="height: 300px" class="img-fluid mx-auto d-block" src="https://images-na.ssl-images-amazon.com/images/I/81SPPseOz5L._AC_SX679_.jpg" alt="slide 1" onclick="showImg(this)">
                                             </a>
                                         </div>
                                     </div>
@@ -149,7 +146,7 @@
                                     <div class="panel panel-default">
                                         <div class="panel-thumbnail">
                                             <a title="image 3" class="thumb">
-                                                <img style="height: 300px" class="img-fluid mx-auto d-block" src="https://images-na.ssl-images-amazon.com/images/I/61AGq4CnPgL._SX679_.jpg" alt="slide 2" onclick="showImg(this)">
+                                                <img style="height: 300px" class="img-fluid mx-auto d-block" src="https://images-na.ssl-images-amazon.com/images/I/816OKLoLClL._AC_SX679_.jpg" alt="slide 2" onclick="showImg(this)">
                                             </a>
                                         </div>
                                     </div>
@@ -158,7 +155,7 @@
                                     <div class="panel panel-default">
                                         <div class="panel-thumbnail">
                                             <a title="image 4" class="thumb">
-                                                <img style="height: 300px" class="img-fluid mx-auto d-block" src="https://images-na.ssl-images-amazon.com/images/I/61GbEjT47rL._SX679_.jpg" alt="slide 3" onclick="showImg(this)">
+                                                <img style="height: 300px" class="img-fluid mx-auto d-block" src="https://images-na.ssl-images-amazon.com/images/I/81r6LQ1EpbL._AC_SX679_.jpg" alt="slide 3" onclick="showImg(this)">
                                             </a>
                                         </div>
                                     </div>
@@ -167,30 +164,13 @@
                                     <div class="panel panel-default">
                                         <div class="panel-thumbnail">
                                             <a title="image 5" class="thumb">
-                                                <img style="height: 300px" class="img-fluid mx-auto d-block" src="https://images-na.ssl-images-amazon.com/images/I/61wRBdmqH5L._SX679_.jpg" alt="slide 4" onclick="showImg(this)">
+                                                <img style="height: 300px" class="img-fluid mx-auto d-block" src="https://images-na.ssl-images-amazon.com/images/I/41mjEpTQmRL._AC_.jpg" alt="slide 4" onclick="showImg(this)">
                                             </a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="carousel-item " style="width: auto;padding:5px">
-                                    <div class="panel panel-default">
-                                        <div class="panel-thumbnail">
-                                            <a title="image 6" class="thumb">
-                                                <img style="height: 300px" class="img-fluid mx-auto d-block" src="https://images-na.ssl-images-amazon.com/images/I/81qUpVpdnTL._SX679_.jpg" alt="slide 5" onclick="showImg(this)">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item " style="width: auto;padding:5px">
-                                    <div class="panel panel-default">
-                                        <div class="panel-thumbnail">
-                                            <a title="image 7" class="thumb">
-                                                <!--//via.placeholder.com/600x400?text=6-->
-                                                <img style="height: 300px" class="img-fluid mx-auto d-block" src="https://images-na.ssl-images-amazon.com/images/I/81wgluVKl1L._SX679_.jpg" alt="slide 6" onclick="showImg(this)">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
+
+
 
                             </div>
                             <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev" style="background:white;width: 50px;">
@@ -211,55 +191,67 @@
                         <tbody>
                             <tr>
                                 <th scope="row" class="bg-light">螢幕尺寸</th>
-                                <td>15.6 英吋 </td>
-                            </tr>
-                            <tr>
-                                <th scope="row" class="bg-light">最高螢幕解析度</th>
-                                <td>1920 x 1080 </td>
+                                <td>17.3 英吋 </td>
                             </tr>
                             <tr>
                                 <th scope="row" class="bg-light">處理器</th>
-                                <td>3.9 GHz Intel Core i5 </td>
+                                <td>2.8 GHz Intel Core i7</td>
                             </tr>
                             <tr>
                                 <th scope="row" class="bg-light">RAM</th>
-                                <td>4 GB DDR4 </td>
+                                <td>16 GB DDR </td>
                             </tr>
                             <tr>
                                 <th scope="row" class="bg-light">硬碟</th>
-                                <td>256 GB Flash Memory Solid State </td>
+                                <td>128 GB Flash Memory Solid State </td>
                             </tr>
                             <tr>
                                 <th scope="row" class="bg-light">圖形輔助處理器</th>
-                                <td>Intel UHD Graphics 620 </td>
+                                <td>NVIDIA GeForce GTX 1050 Ti </td>
                             </tr>
                             <tr>
                                 <th scope="row" class="bg-light">晶片組品牌</th>
-                                <td>Intel </td>
+                                <td>nvidia</td>
                             </tr>
                             <tr>
                                 <th scope="row" class="bg-light">卡片說明</th>
-                                <td>Integrated </td>
+                                <td>Dedicated</td>
                             </tr>
                             <tr>
                                 <th scope="row" class="bg-light">無線類型</th>
-                                <td>802.11ac </td>
+                                <td>802.11ac</td>
                             </tr>
-                            <tr>
-                                <th scope="row" class="bg-light">USB 2.0 連接埠數量 </th>
-                                <td>1</td>
-                            </tr>
-                            <tr>
-                                <th scope="row" class="bg-light">USB 3.0 連接埠數量 </th>
-                                <td>3</td>
-                            </tr>
-                            <tr>
-                                <th scope="row" class="bg-light">平均電池壽命（小時） </th>
-                                <td>5 小時 </td>
-                            </tr>
+
                         </tbody>
                     </table>
-                    <img src="https://a.ecimg.tw/img/projects/personal/v0/upload_file/US00012085/NB-ACER/Aspire/A515-54G/Aspire-5_A515-54G-1015v5-low.jpg" alt="" width="750" height="8382">
+                    <span style="FONT-SIZE: xx-large"><strong>
+                            <font face="Helvetica" color="#008080">ASUS&nbsp;G751YJ 電競機</font>
+                        </strong></span>
+                    <p><span style="COLOR: #3366ff"><span style="FONT-FAMILY: Helvetica; COLOR: #008080; FONT-SIZE: large"><span style="COLOR: #339966; FONT-SIZE: large"><strong>本機種搭載Intel 最新第四代Core i7 + 4G獨顯，電競主流規格，搭配512G SSD硬碟，效能超強，17.3吋FHD IPS大螢幕。電競/繪圖 首選機種。</strong></span></span><br><br>■第四代 Core i7-4710HQ<br></span><span style="COLOR: #666666">Intel&nbsp;最新第四代CPU，效能升級，電池續航力大幅提升，影像處理更迅速，資料安全更有保障。&nbsp;<br></span><span style="COLOR: #666666"></span><span style="COLOR: #666666"><br></span><span style="COLOR: #3366ff">■17.3吋 FULL HD IPS螢幕<br></span><span style="COLOR: #666666">質感外型，</span><span style="COLOR: #666666">&nbsp;17.3"FHD IPS (1920*1080) 高解析螢幕，滿足各種需求。</span></p>
+                    <p><span style="COLOR: #666666">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="COLOR: #666666">&nbsp; <br></span><br></p>
+                    <article class="text">
+                        <h1 style="opacity: 1; left: 0px;color:red">此電競筆記型電腦採用 TurboMaster 超頻技術，簡直所向無敵</h1>
+                        <p style="opacity: 1; left: 0px;">G751 是所向無敵的電競筆記型電腦，配備第 4 代 Intel<sup>®</sup> Core™ i7 處理器與 NVIDIA<sup>®</sup> GeForce<sup>®</sup> GTX 繪圖卡，並搭載 TurboMaster 技術與 ROG AudioWizard 強化音效，提供穩定的 GPU 超頻與身歷其境的遊戲體驗。 智慧雙風扇散熱系統在猛烈戰火中維持全面散熱，而特殊按鍵設計讓您可以直接存取 Steam 平台或分享輝煌戰績！</p>
+                    </article>
+                    <img src="https://dlcdnimgs.asus.com/websites/global/products/LYuLg2456gbkV5dw/img/00/00.png" />
+                    <article class="text">
+                        <h1 style="opacity: 1; left: 0px;color:red">頂級電競筆記型電腦搭載 NVIDIA<sup>®</sup> G-SYNC™ 技術</h1>
+                        <p style="opacity: 1; left: 0px;">ROG G751JT/JY 現在已搭載 NVIDIA<sup>®</sup> G-SYNC™ 顯示技術！ 在 ASUS 顯示器研發團隊與 NVIDIA<sup>®</sup> 的密切合作下，G751JT/JY 現在內建 G-SYNC™，可利用 NVIDIA<sup>®</sup> GTX™ GPU 同步顯示器的更新率，呈現極為流暢的視覺效果。 G-SYNC™ 可防止延滯，降低更新率延遲，並消除畫面破圖的情形， 提供最順暢且最快速的遊戲繪圖，而且完全不會影響系統效能！</p><br>
+                        <p class="comment" style="opacity: 1; left: 0px;">*免責聲明： 此方案因時間、國家、機型、規格而異。 請洽詢供應商，瞭解實際方案內容。 此方案可能不會在所有市場上推出。</p>
+                    </article>
+                    <table style="TEXT-TRANSFORM: none; TEXT-INDENT: 0px; FONT: 12px/18px 'Times New Roman'; WHITE-SPACE: normal; LETTER-SPACING: normal; COLOR: rgb(0,0,0); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px" class="black" width="98%" cellspacing="1" cellpadding="3" border="0" align="center">
+                        <tbody>
+
+                            <tr>
+                                <td colspan="2">
+                                    <div align="center">
+                                        <font size="2" color="#996600">※以上商品規格僅供參考用，實際出貨以原廠提供的內容物為準</font>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table><br>
+                    <p></p>
                 </div>
                 <div id="showcontent_button" style="color:green;margin: auto;width: max-content;cursor:pointer" onclick="showcontent()">閱讀完整內容</div>
                 <div id="hidecontent_button" style="color:green;margin: auto;width: max-content;cursor:pointer" onclick="collapse()">收合</div>
@@ -299,36 +291,9 @@
             <section class="col">
                 <h1>評論</h1>
                 <div id="scores" style="display: flex;justify-content: space-evenly;">
-                    <table class="table table-sm" style="width: 250px;border-left:10px solid rgba(18, 124, 150, 0.85);margin:10px auto">
-                        <tbody>
-                            <tr>
-                                <th scope="row">重量輕</th>
-                                <td>5.0</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">螢幕品質</th>
-                                <td>4.5</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">指紋辨識器</th>
-                                <td>4.5</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">電池壽命</th>
-                                <td>4.3</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">觸碰螢幕</th>
-                                <td>3.7</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">遊戲體驗(for gaming)</th>
-                                <td>3.5</td>
-                            </tr>
-                        </tbody>
-                    </table>
+
                     <div style="text-align:center;margin:10px auto">
-                        <span style="font-size: 50px">4.4</span>
+                        <span style="font-size: 50px">3.3</span>
                         <div style="display:flex;flex-direction:row;justify-content:center">
                             <div style="height:17px;width:17px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAABA0lEQVR4AWMgBEpLS+MYKAFlZWWaJSUlP6urq6XJNgRowKzi4uL/QLqNLAMaGhpEgJq/gwwB4rd9fX2c5LiiFmQADAP56aS4gAkYmBJAjS/QDLkGxNwgF02aNIl95syZrEC1LCD1IBsLgIr2APElqMY/IE0k4BqQzVxAgzaRpBHhunK4F1atWsUMFJhKogFFuAKzFKjgHxEG5BGKlRYCBqwiJmonEjDkBDGG7CdgyFdwtOIDoNSJpOkfUNMh9HAC5il1fBlOBjlxlZeXW0FzsjWQfxEmB+SH48v2XkBFv4B0I9DJbBBRRDKAJsyPQNyO0xCgze5ArI3Pu1VVVZJAS5KQxQC83Tw70VP4pQAAAABJRU5ErkJggg==) no-repeat left">
                             </div>
@@ -336,46 +301,46 @@
                             </div>
                             <div style="height:17px;width:17px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAABA0lEQVR4AWMgBEpLS+MYKAFlZWWaJSUlP6urq6XJNgRowKzi4uL/QLqNLAMaGhpEgJq/gwwB4rd9fX2c5LiiFmQADAP56aS4gAkYmBJAjS/QDLkGxNwgF02aNIl95syZrEC1LCD1IBsLgIr2APElqMY/IE0k4BqQzVxAgzaRpBHhunK4F1atWsUMFJhKogFFuAKzFKjgHxEG5BGKlRYCBqwiJmonEjDkBDGG7CdgyFdwtOIDoNSJpOkfUNMh9HAC5il1fBlOBjlxlZeXW0FzsjWQfxEmB+SH48v2XkBFv4B0I9DJbBBRRDKAJsyPQNyO0xCgze5ArI3Pu1VVVZJAS5KQxQC83Tw70VP4pQAAAABJRU5ErkJggg==) no-repeat left">
                             </div>
-                            <div style="height:17px;width:17px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAABA0lEQVR4AWMgBEpLS+MYKAFlZWWaJSUlP6urq6XJNgRowKzi4uL/QLqNLAMaGhpEgJq/gwwB4rd9fX2c5LiiFmQADAP56aS4gAkYmBJAjS/QDLkGxNwgF02aNIl95syZrEC1LCD1IBsLgIr2APElqMY/IE0k4BqQzVxAgzaRpBHhunK4F1atWsUMFJhKogFFuAKzFKjgHxEG5BGKlRYCBqwiJmonEjDkBDGG7CdgyFdwtOIDoNSJpOkfUNMh9HAC5il1fBlOBjlxlZeXW0FzsjWQfxEmB+SH48v2XkBFv4B0I9DJbBBRRDKAJsyPQNyO0xCgze5ArI3Pu1VVVZJAS5KQxQC83Tw70VP4pQAAAABJRU5ErkJggg==) no-repeat left">
-                            </div>
+
                             <div style="height: 17px;width:17px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA+ElEQVR4AWPAB+7cuaPy4MEDSQZywc2bN6fcunWrmSzNDx8+FAQa8AWIX9+/f5+DZANu375dAdT8H4SB7BSSNP///58V6PQnMAOA7MvEaGID2iQDxEZADdUwzUiuSAbSZnfv3jUBBq4xkG8IxNqggKoCangPUkQi/gXUFwy2HchoIlHzT6Dt/uiBlgSU+E1IM9CyH0DsjSvk3YGKPuHTDFJDKPHsxWPAe2JS32t8Xrh37548Ts2gdE8oDGCBhzsMEIrvg/hA7Atk30MyoB6bXlh0lgHxXyCe8OLFC26Y+OPHjzlBUQ2NgXX4XFAOVGCOL3sD5achiwEAj9G1Uf/5qQgAAAAASUVORK5CYII=) no-repeat left">
                                 <div style="height:17px;width:8.0px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAABA0lEQVR4AWMgBEpLS+MYKAFlZWWaJSUlP6urq6XJNgRowKzi4uL/QLqNLAMaGhpEgJq/gwwB4rd9fX2c5LiiFmQADAP56aS4gAkYmBJAjS/QDLkGxNwgF02aNIl95syZrEC1LCD1IBsLgIr2APElqMY/IE0k4BqQzVxAgzaRpBHhunK4F1atWsUMFJhKogFFuAKzFKjgHxEG5BGKlRYCBqwiJmonEjDkBDGG7CdgyFdwtOIDoNSJpOkfUNMh9HAC5il1fBlOBjlxlZeXW0FzsjWQfxEmB+SH48v2XkBFv4B0I9DJbBBRRDKAJsyPQNyO0xCgze5ArI3Pu1VVVZJAS5KQxQC83Tw70VP4pQAAAABJRU5ErkJggg==) no-repeat left">
                                 </div>
                             </div>
+                            <div style="height: 17px;width:17px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA+ElEQVR4AWPAB+7cuaPy4MEDSQZywc2bN6fcunWrmSzNDx8+FAQa8AWIX9+/f5+DZANu375dAdT8H4SB7BSSNP///58V6PQnMAOA7MvEaGID2iQDxEZADdUwzUiuSAbSZnfv3jUBBq4xkG8IxNqggKoCangPUkQi/gXUFwy2HchoIlHzT6Dt/uiBlgSU+E1IM9CyH0DsjSvk3YGKPuHTDFJDKPHsxWPAe2JS32t8Xrh37548Ts2gdE8oDGCBhzsMEIrvg/hA7Atk30MyoB6bXlh0lgHxXyCe8OLFC26Y+OPHjzlBUQ2NgXX4XFAOVGCOL3sD5achiwEAj9G1Uf/5qQgAAAAASUVORK5CYII=) no-repeat left"></div>
                         </div>
-                        <div>共 762 則評分</div>
+                        <div>共 10 則評分</div>
                     </div>
 
-                    <table class="table table-sm" style="max-width:250px;margin:10px auto">
+                    <table class="table table-sm" style="max-width:350px;margin:10px auto">
                         <tbody>
                             <tr>
                                 <th scope="row" style="width:15px">5</th>
                                 <td>
-                                    <div style="background:#57bb8a;width:246px;">&nbsp;</div>
+                                    <div style="background:#57bb8a;width:60.8px;">&nbsp;</div>
                                 </td>
                             </tr>
                             <tr>
                                 <th scope="row" style="width:15px">4</th>
                                 <td>
-                                    <div style="background:#9ace6a;width:60.8px;">&nbsp;</div>
+                                    <div style="background:#9ace6a;width:75.2px;">&nbsp;</div>
                                 </td>
                             </tr>
                             <tr>
                                 <th scope="row" style="width:15px">3</th>
                                 <td>
-                                    <div style="background:#ffcf02;width:15.2px;">&nbsp;</div>
+                                    <div style="background:#ffcf02;width:60.2px;">&nbsp;</div>
                                 </td>
                             </tr>
                             <tr>
                                 <th scope="row" style="width:15px">2</th>
                                 <td>
-                                    <div style="background:#ff9f02;width:7.6px;">&nbsp;</div>
+                                    <div style="background:#ff9f02;width:0px;">&nbsp;</div>
                                 </td>
                             </tr>
                             <tr>
                                 <th scope="row" style="width:15px">1</th>
                                 <td>
-                                    <div style="background:#ff6f31;width:30.4px;">&nbsp;</div>
+                                    <div style="background:#ff6f31;width:60.8px;">&nbsp;</div>
                                 </td>
                             </tr>
                         </tbody>
@@ -386,40 +351,17 @@
                 <div style="display: flex;margin:8px 0">
                     <img height="48" width="48" style="margin-right:10px;height:48px;width:48px" class="rounded-circle" src="https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png">
                     <div style="flex-direction: column">
-                        <h5>Prima</h5>
+                        <h5>CW</h5>
                         <div style="display:flex;flex-direction:row">
                             <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
                             <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
                             <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
                             <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
                             <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
-                            <span style="font-size: 10px">2019年11月13日</span>
+                            <span style="font-size: 10px">2018年5月27日</span>
                         </div>
                         <div>
-                            愛上這款Acer Aspire 5的一切！<br />
-                            我愛這款Acer Aspire 5的所有功能！
-                            256GB SSD（固態硬盤）產生了巨大的變化，並確實增加了這款Acer的性能。超級快！！開啟時，我在不到2秒的時間內看到登錄畫面。也喜歡添加的指紋讀取器；一按，我就到桌面了。我可以使用Bluestacks模擬器和Firefox瀏覽，並以超快的速度同時打開所有郵箱！
-                            15.6英寸的螢幕色彩和清晰度非常出色。發光鍵盤是一個額外的優點！
-                            我的電池續航時間約為6到7個小時，而且重量非常輕且攜帶輕巧！
-                            對此筆記本電腦說不出什麼不好...我喜歡它！
-                        </div>
-                    </div>
-                </div>
-                <hr />
-                <div style="display: flex;margin:8px 0">
-                    <img height="48" width="48" style="margin-right:10px;height:48px;width:48px" class="rounded-circle" src="https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/e5165404-74a4-418a-8f81-1e24e61b2937._CR40,0,420,420_SX48_.jpg">
-                    <div style="flex-direction: column">
-                        <h5>Marc Spector</h5>
-                        <div style="display:flex;flex-direction:row">
-                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
-                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
-                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
-                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
-                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
-                            <span style="font-size: 10px">2020年1月10日</span>
-                        </div>
-                        <div>
-                            在購買之前，我比較了很多筆記型電腦。這台電腦擁有我想要的一切。我已經使用了幾個月了，沒有任何問題。外殼圓滑。鍵盤安靜且反應靈敏。觸摸板需要一些時間來適應，但是新筆記本電腦總是如此。電池壽命異常長-我可以連續幾天。如預期的那樣，啟動速度非常快。我將這台機器用於文書處理。我不將其用於遊戲，因為它不是用來玩遊戲的。
+                            我覺得128G的SSD實在太小了。256G會好一點。
                         </div>
                     </div>
                 </div>
@@ -427,38 +369,129 @@
                 <div style="display: flex;margin:8px 0">
                     <img height="48" width="48" style="margin-right:10px;height:48px;width:48px" class="rounded-circle" src="https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png">
                     <div style="flex-direction: column">
-                        <h5>Dan Witham</h5>
+                        <h5>Heatbox86</h5>
                         <div style="display:flex;flex-direction:row">
                             <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
                             <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
                             <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
                             <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
-                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
-                            <span style="font-size: 10px">2020年1月10日</span>
+                            <div style="height: 10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAoUlEQVR4AWNAB7dv39a+c+eOMQMhcPPmzdlAvBhVFNM00Vu3bn0HKvz14MEDSRRJkDVABX5AnAJUtBqo6D8IA9lrgDgPyM4BykWDTHEHcj6BJFEwQsN7IG0GNhXIMQBynmJR+BZokBG6JyLQFQIVtSGrgZlai8XaTRgKoR75DKRzgSYlA9mvgexH2BROuHv3rhyM//jxYyGg2Iz79+8LgPgAWIi+JMqA+1MAAAAASUVORK5CYII=) no-repeat left;"></div>
+                            <span style="font-size: 10px">2019年5月20日</span>
                         </div>
                         <div>
-                            我以前用了很久的Dell，但現在不再買Dell了!!我有一台Dell的筆電，每次都要花費五分鐘以上的時間才能啟動。處於睡眠模式，關閉還是其他狀態都一樣。換了Acer之後，電腦真的快了很多!!!
+                            我平常使用3D CAD，使用起來頗順暢，遊戲體驗也不錯!
                         </div>
                     </div>
                 </div>
                 <hr />
                 <div style="display: flex;margin:8px 0">
-                    <img height="48" width="48" style="margin-right:10px;height:48px;width:48px" class="rounded-circle" src="https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/823b0c70-dfb7-4414-b2d7-e731b7cd4668._CR62,0,375,375_SX48_.jpg">
+                    <img height="48" width="48" style="margin-right:10px;height:48px;width:48px" class="rounded-circle" src="https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png">
                     <div style="flex-direction: column">
-                        <h5>Pam Eberle</h5>
+                        <h5>Amazon Customer</h5>
+                        <div style="display:flex;flex-direction:row">
+                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
+                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
+                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
+                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
+                            <div style="height: 10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAoUlEQVR4AWNAB7dv39a+c+eOMQMhcPPmzdlAvBhVFNM00Vu3bn0HKvz14MEDSRRJkDVABX5AnAJUtBqo6D8IA9lrgDgPyM4BykWDTHEHcj6BJFEwQsN7IG0GNhXIMQBynmJR+BZokBG6JyLQFQIVtSGrgZlai8XaTRgKoR75DKRzgSYlA9mvgexH2BROuHv3rhyM//jxYyGg2Iz79+8LgPgAWIi+JMqA+1MAAAAASUVORK5CYII=) no-repeat left;"></div>
+                            <span style="font-size: 10px">2018年3月12日</span>
+                        </div>
+                        <div>
+                            使用起來速度不錯。但增加RAM要把整個底部拆開，這點稍微麻煩一點。
+                        </div>
+                    </div>
+                </div>
+                <hr />
+                <div style="display: flex;margin:8px 0">
+                    <img height="48" width="48" style="margin-right:10px;height:48px;width:48px" class="rounded-circle" src="https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png">
+                    <div style="flex-direction: column">
+                        <h5>SealBeachcomber</h5>
+                        <div style="display:flex;flex-direction:row">
+                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
+                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
+                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
+                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
+                            <div style="height: 10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAoUlEQVR4AWNAB7dv39a+c+eOMQMhcPPmzdlAvBhVFNM00Vu3bn0HKvz14MEDSRRJkDVABX5AnAJUtBqo6D8IA9lrgDgPyM4BykWDTHEHcj6BJFEwQsN7IG0GNhXIMQBynmJR+BZokBG6JyLQFQIVtSGrgZlai8XaTRgKoR75DKRzgSYlA9mvgexH2BROuHv3rhyM//jxYyGg2Iz79+8LgPgAWIi+JMqA+1MAAAAASUVORK5CYII=) no-repeat left;"></div>
+                            <span style="font-size: 10px">2019年2月28日</span>
+                        </div>
+                        <div>
+                            電池有點小，很容易沒電，但整體使用起來還不錯!
+                        </div>
+                    </div>
+                </div>
+                <hr />
+                <div style="display: flex;margin:8px 0">
+                    <img height="48" width="48" style="margin-right:10px;height:48px;width:48px" class="rounded-circle" src="https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png">
+                    <div style="flex-direction: column">
+                        <h5>Chaddius</h5>
+                        <div style="display:flex;flex-direction:row">
+                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
+                            <div style="height: 10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAoUlEQVR4AWNAB7dv39a+c+eOMQMhcPPmzdlAvBhVFNM00Vu3bn0HKvz14MEDSRRJkDVABX5AnAJUtBqo6D8IA9lrgDgPyM4BykWDTHEHcj6BJFEwQsN7IG0GNhXIMQBynmJR+BZokBG6JyLQFQIVtSGrgZlai8XaTRgKoR75DKRzgSYlA9mvgexH2BROuHv3rhyM//jxYyGg2Iz79+8LgPgAWIi+JMqA+1MAAAAASUVORK5CYII=) no-repeat left;"></div>
+                            <div style="height: 10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAoUlEQVR4AWNAB7dv39a+c+eOMQMhcPPmzdlAvBhVFNM00Vu3bn0HKvz14MEDSRRJkDVABX5AnAJUtBqo6D8IA9lrgDgPyM4BykWDTHEHcj6BJFEwQsN7IG0GNhXIMQBynmJR+BZokBG6JyLQFQIVtSGrgZlai8XaTRgKoR75DKRzgSYlA9mvgexH2BROuHv3rhyM//jxYyGg2Iz79+8LgPgAWIi+JMqA+1MAAAAASUVORK5CYII=) no-repeat left;"></div>
+                            <div style="height: 10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAoUlEQVR4AWNAB7dv39a+c+eOMQMhcPPmzdlAvBhVFNM00Vu3bn0HKvz14MEDSRRJkDVABX5AnAJUtBqo6D8IA9lrgDgPyM4BykWDTHEHcj6BJFEwQsN7IG0GNhXIMQBynmJR+BZokBG6JyLQFQIVtSGrgZlai8XaTRgKoR75DKRzgSYlA9mvgexH2BROuHv3rhyM//jxYyGg2Iz79+8LgPgAWIi+JMqA+1MAAAAASUVORK5CYII=) no-repeat left;"></div>
+                            <div style="height: 10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAoUlEQVR4AWNAB7dv39a+c+eOMQMhcPPmzdlAvBhVFNM00Vu3bn0HKvz14MEDSRRJkDVABX5AnAJUtBqo6D8IA9lrgDgPyM4BykWDTHEHcj6BJFEwQsN7IG0GNhXIMQBynmJR+BZokBG6JyLQFQIVtSGrgZlai8XaTRgKoR75DKRzgSYlA9mvgexH2BROuHv3rhyM//jxYyGg2Iz79+8LgPgAWIi+JMqA+1MAAAAASUVORK5CYII=) no-repeat left;"></div>
+                            <span style="font-size: 10px">2018年8月28日</span>
+                        </div>
+                        <div>
+                            才用了六個月就壞掉，送修回來又壞其他東西，爛!
+                        </div>
+                    </div>
+                </div>
+                <hr />
+                <div style="display: flex;margin:8px 0">
+                    <img height="48" width="48" style="margin-right:10px;height:48px;width:48px" class="rounded-circle" src="https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png">
+                    <div style="flex-direction: column">
+                        <h5>Chaddius</h5>
+                        <div style="display:flex;flex-direction:row">
+                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
+                            <div style="height: 10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAoUlEQVR4AWNAB7dv39a+c+eOMQMhcPPmzdlAvBhVFNM00Vu3bn0HKvz14MEDSRRJkDVABX5AnAJUtBqo6D8IA9lrgDgPyM4BykWDTHEHcj6BJFEwQsN7IG0GNhXIMQBynmJR+BZokBG6JyLQFQIVtSGrgZlai8XaTRgKoR75DKRzgSYlA9mvgexH2BROuHv3rhyM//jxYyGg2Iz79+8LgPgAWIi+JMqA+1MAAAAASUVORK5CYII=) no-repeat left;"></div>
+                            <div style="height: 10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAoUlEQVR4AWNAB7dv39a+c+eOMQMhcPPmzdlAvBhVFNM00Vu3bn0HKvz14MEDSRRJkDVABX5AnAJUtBqo6D8IA9lrgDgPyM4BykWDTHEHcj6BJFEwQsN7IG0GNhXIMQBynmJR+BZokBG6JyLQFQIVtSGrgZlai8XaTRgKoR75DKRzgSYlA9mvgexH2BROuHv3rhyM//jxYyGg2Iz79+8LgPgAWIi+JMqA+1MAAAAASUVORK5CYII=) no-repeat left;"></div>
+                            <div style="height: 10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAoUlEQVR4AWNAB7dv39a+c+eOMQMhcPPmzdlAvBhVFNM00Vu3bn0HKvz14MEDSRRJkDVABX5AnAJUtBqo6D8IA9lrgDgPyM4BykWDTHEHcj6BJFEwQsN7IG0GNhXIMQBynmJR+BZokBG6JyLQFQIVtSGrgZlai8XaTRgKoR75DKRzgSYlA9mvgexH2BROuHv3rhyM//jxYyGg2Iz79+8LgPgAWIi+JMqA+1MAAAAASUVORK5CYII=) no-repeat left;"></div>
+                            <div style="height: 10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAoUlEQVR4AWNAB7dv39a+c+eOMQMhcPPmzdlAvBhVFNM00Vu3bn0HKvz14MEDSRRJkDVABX5AnAJUtBqo6D8IA9lrgDgPyM4BykWDTHEHcj6BJFEwQsN7IG0GNhXIMQBynmJR+BZokBG6JyLQFQIVtSGrgZlai8XaTRgKoR75DKRzgSYlA9mvgexH2BROuHv3rhyM//jxYyGg2Iz79+8LgPgAWIi+JMqA+1MAAAAASUVORK5CYII=) no-repeat left;"></div>
+                            <span style="font-size: 10px">2018年3月28日</span>
+                        </div>
+                        <div>
+                            這是我買過最爛的華碩產品!!喇叭音質非常糟糕，有時候還會沒聲音!!!
+                        </div>
+                    </div>
+                </div>
+                <hr />
+                <div style="display: flex;margin:8px 0">
+                    <img height="48" width="48" style="margin-right:10px;height:48px;width:48px" class="rounded-circle" src="https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png">
+                    <div style="flex-direction: column">
+                        <h5>Brian</h5>
                         <div style="display:flex;flex-direction:row">
                             <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
                             <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
                             <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
                             <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
                             <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
-                            <span style="font-size: 10px">2020年1月9日</span>
+                            <span style="font-size: 10px">2018年5月27日</span>
                         </div>
                         <div>
-                            出色的超薄筆記型電腦。喜歡背光鍵盤。快速加載並滿足我的需求。
+                            遊戲玩起來非常順!!!喜歡~~
                         </div>
                     </div>
                 </div>
+                <hr />
+                <div style="display: flex;margin:8px 0">
+                    <img height="48" width="48" style="margin-right:10px;height:48px;width:48px" class="rounded-circle" src="https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png">
+                    <div style="flex-direction: column">
+                        <h5>Adwd</h5>
+                        <div style="display:flex;flex-direction:row">
+                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
+                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
+                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
+                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
+                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
+                            <span style="font-size: 10px">2019年5月2日</span>
+                        </div>
+                        <div>
+                            外型好看，速度也快~
+                        </div>
+                    </div>
+                </div>
+
             </section>
 
 
