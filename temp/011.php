@@ -1,5 +1,5 @@
-<!--享樂品、豐富度低、一致性高-->
-<!--https://play.google.com/store/apps/details?id=com.gamamobi.twsm-->
+<!--實用品、豐富度低、一致性低-->
+<!--https://www.amazon.com/-/zh_TW/dp/B071YK8NP1/ref=sr_1_3203?fst=as%3Aoff&qid=1580235917&s=computers-intl-ship&sr=1-3203-->
 <html>
 
 <head>
@@ -15,6 +15,7 @@
 <script>
     function start() {
         $('#start').trigger('click');
+        $('.container').addClass("show");
     }
 </script>
 
@@ -77,7 +78,7 @@
 
 
 
-    <div class="container" style="margin: 10px auto">
+    <div class="container fade" style="margin: 10px auto">
         <div class="shadow p-3 mb-5 bg-white rounded" style="padding:2.5rem!important">
 
             <section class="col">
@@ -86,18 +87,16 @@
                 </div>-->
                 <div style="display: flex;flex-direction:row">
                     <div id="titleImg" style="width: 40%">
-                        <img src="https://lh3.googleusercontent.com/QOtigLd_B6KHy3nk7KpBUOY6ugZJq9LqysiSPGJEePZIHBAm993pLqhB0lCT-TiiesA=s360" style="width: 90%" />
+                        <img src="https://img.pcstore.com.tw/~prod/M19337879_big.jpg?pimg=static&P=1567942401" style="width: 90%" />
                     </div>
                     <div style="width: 100%">
                         <div style="display: flex;flex-direction:row">
                             <div id="titleImg2" style="width: 40%;display:none">
-                                <img src="https://lh3.googleusercontent.com/QOtigLd_B6KHy3nk7KpBUOY6ugZJq9LqysiSPGJEePZIHBAm993pLqhB0lCT-TiiesA=s360" style="width: 90%" />
+                                <img src="https://img.pcstore.com.tw/~prod/M19337879_big.jpg?pimg=static&P=1567942401" style="width: 90%" />
                             </div>
                             <div style="margin: 5px auto 5px 25px ">
-                                <h1>遺落大陸：帝國崛起</h1>
+                                <h1>華碩G751JY 17英寸遊戲筆記型電腦[2014型號]</h1>
                                 <div style="display:flex;flex-direction:row">
-                                    <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;">
-                                    </div>
                                     <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;">
                                     </div>
                                     <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;">
@@ -108,25 +107,25 @@
                                         <div style="height:10px;width:5.0px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;">
                                         </div>
                                     </div>
-                                    <span id="count">25,474</span>
+                                    <div style="height: 10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAoUlEQVR4AWNAB7dv39a+c+eOMQMhcPPmzdlAvBhVFNM00Vu3bn0HKvz14MEDSRRJkDVABX5AnAJUtBqo6D8IA9lrgDgPyM4BykWDTHEHcj6BJFEwQsN7IG0GNhXIMQBynmJR+BZokBG6JyLQFQIVtSGrgZlai8XaTRgKoR75DKRzgSYlA9mvgexH2BROuHv3rhyM//jxYyGg2Iz79+8LgPgAWIi+JMqA+1MAAAAASUVORK5CYII=) no-repeat left;">
+                                    </div>
+                                    <span id="count">10</span>
                                     <div style="width:16px;height:16px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAAW0lEQVR4AWP4TwBSTQEIlAuUbyj/D4QbygWwK1gAlITABdgVHIArOECmggC4ggBMBRAlBuUNQGgAE8VU4ACBmApAejfALIB61QBVwQeoBAJ+QFXwHxNSLy4IQAD87f8pWI1e0gAAAABJRU5ErkJggg==);"></div>
                                 </div>
+                                <div><span>網路售價</span> <span style="color:red;font-size:25px">$86,000</span></div>
                             </div>
                         </div>
                         <hr />
                         <div style="display: flex; flex-direction:row">
                             <ul class="">
-                                <li>主機平台：<a class="" href="/?p=Android">Android</a></li>
-                                <li>遊戲類型：<a href="index.php?t=1&amp;p=Android&amp;k=%E8%A7%92%E8%89%B2%E6%89%AE%E6%BC%94" target="_blank">角色扮演</a></li>
-                                <li>Android 最低版本需求：5.0 以上版本</li>
-                            </ul>
-                            <ul>
-                                <li>遊戲售價：遊戲內購買</li>
-                                <li>互動式元素：使用者互動</li>
-                                <li>作品分級：16 歲以上，極度暴力</li>
+                                <li>處理器CPU Intel Core i7-4710HQ Processor, 2.5 GHz (6M Cache, up to 3.5 GHz) </li>
+                                <li>內建隨機記憶體 16GB DDR3L 1600 </li>
+                                <li>最大隨機記憶體 32 GB </li>
+                                <li>記憶體插槽/已佔用 內建4條擴充槽 </li>
+                                <li>顯示晶片 NV GTX860 2G GDDR 5 </li>
+                                <li>硬碟容量/轉速 1TB 7200轉+PCIEx4 512G M.2 SSD </li>
                             </ul>
                         </div>
-
                     </div>
                 </div>
                 <!--carousel-->
@@ -138,7 +137,7 @@
                                     <div class="panel panel-default">
                                         <div class="panel-thumbnail">
                                             <a title="image 1" class="thumb">
-                                                <img style="max-width:450px;height:300px" class="img-fluid mx-auto d-block" src="https://lh3.googleusercontent.com/ScbOW1tdZfXqYH8aQJDe6ZL1q0QfwqSzRp0QyLAguFSKdZ9Ok4H_ZeN2ZHln5K5WVsQ3=w1440-h620" alt="slide 1" onclick="showImg(this)">
+                                                <img style="height: 300px" class="img-fluid mx-auto d-block" src="https://images-na.ssl-images-amazon.com/images/I/81SPPseOz5L._AC_SX679_.jpg" alt="slide 1" onclick="showImg(this)">
                                             </a>
                                         </div>
                                     </div>
@@ -147,7 +146,7 @@
                                     <div class="panel panel-default">
                                         <div class="panel-thumbnail">
                                             <a title="image 3" class="thumb">
-                                                <img style="max-width:450px;height:300px" class="img-fluid mx-auto d-block" src="https://lh3.googleusercontent.com/Ud-GWcTqlCrpaze1d1nPrUvOpZPoHvILcG4wjO9zErtP4TmA9mzJNqndgM7XQF2fm7c=w1440-h620" alt="slide 2" onclick="showImg(this)">
+                                                <img style="height: 300px" class="img-fluid mx-auto d-block" src="https://images-na.ssl-images-amazon.com/images/I/816OKLoLClL._AC_SX679_.jpg" alt="slide 2" onclick="showImg(this)">
                                             </a>
                                         </div>
                                     </div>
@@ -156,7 +155,7 @@
                                     <div class="panel panel-default">
                                         <div class="panel-thumbnail">
                                             <a title="image 4" class="thumb">
-                                                <img style="max-width:450px;height:300px" class="img-fluid mx-auto d-block" src="https://lh3.googleusercontent.com/3plR5n26LUMd13ke9J96wPJdQwlaWiXFpPqsNkJ756Ix6U-a02gdPVCcckUnkD-L3u8=w1440-h620" alt="slide 3" onclick="showImg(this)">
+                                                <img style="height: 300px" class="img-fluid mx-auto d-block" src="https://images-na.ssl-images-amazon.com/images/I/81r6LQ1EpbL._AC_SX679_.jpg" alt="slide 3" onclick="showImg(this)">
                                             </a>
                                         </div>
                                     </div>
@@ -165,30 +164,13 @@
                                     <div class="panel panel-default">
                                         <div class="panel-thumbnail">
                                             <a title="image 5" class="thumb">
-                                                <img style="max-width:450px;height:300px" class="img-fluid mx-auto d-block" src="https://lh3.googleusercontent.com/b2iQLd-B02egYJ7y3aNjFxjP7zQrvis4uKjX2UstcCYzB5fsfxZqOhgHe3PQC2cImQ=w1440-h620" alt="slide 4" onclick="showImg(this)">
+                                                <img style="height: 300px" class="img-fluid mx-auto d-block" src="https://images-na.ssl-images-amazon.com/images/I/41mjEpTQmRL._AC_.jpg" alt="slide 4" onclick="showImg(this)">
                                             </a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="carousel-item " style="width: auto;padding:5px">
-                                    <div class="panel panel-default">
-                                        <div class="panel-thumbnail">
-                                            <a title="image 6" class="thumb">
-                                                <img style="max-width:450px;height:300px" class="img-fluid mx-auto d-block" src="https://lh3.googleusercontent.com/ZmfkYdWLrC6w4i4b55NE5MqrdFFjI7xoS-AsTe9zpwzUQCnyg-Oh-Ug7Ur3dU-RyPQ=w1440-h620" alt="slide 5" onclick="showImg(this)">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item " style="width: auto;padding:5px">
-                                    <div class="panel panel-default">
-                                        <div class="panel-thumbnail">
-                                            <a title="image 7" class="thumb">
-                                                <!--//via.placeholder.com/600x400?text=6-->
-                                                <img style="max-width:450px;height:300px" class="img-fluid mx-auto d-block" src="https://lh3.googleusercontent.com/F0Q1RpIujSn5IriFmq3ARyddQvR2WgG_oUd9PgpTa7bdY1t_da-Vzmk1rAzeecyiCxo=w1440-h620" alt="slide 6" onclick="showImg(this)">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
+
+
 
                             </div>
                             <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev" style="background:white;width: 50px;">
@@ -205,7 +187,71 @@
                 <hr />
 
                 <div id="gamecontent" style="overflow-x: auto;overflow-y: hidden">
-                    我們知道，你在期待什麼，在這被人遺落的大陸<br>一個讓你一見傾心的真實美景，一個遼闊沒有侷限的自由世界<br>在樹下席地而坐的看著日出日落<br>走過百岳高山，踏著碧綠清透的溪水<br>從今而起，手機不再限制你對世界的想像！<br><br><br>《世界之美，細節之最，讓你幻想成真》<br><br>別人都說自己是次世代引擎，你可想過遊戲內如何做到「風吹花草飄動，光透樹影搖，水波清透瀲灩」？<br>完美世界出品，神魔Online研發團隊再次以全新Unity4引擎，改寫一個世代的畫面里程標準，2019年於港台全球首發，玩家可以首次體驗端遊IP完美移植，遊戲真實美到令人讚嘆，人物衣著精緻的讓你一見傾心。<br><br>《次世代畫面，彷彿身歷其境的史詩篇章》<br>次世代3D技術塑造了恢宏又不失細膩的魔幻大世界，從沉睡叢林的石柱林到凱旋平原的蘑菇屋，不同地域更有著不同的風情與刻劃。而憑藉引擎優異的運算能力，將使你感受到異於以往鮮活別緻的四季景色，更加真實的光影效果變換。從彷彿天堂中飄動的雲彩，到地面潺潺溪流的波紋，模擬真實環境的呈現模式讓你連髮絲的飄動都能感受到，在全新Unity引擎升級過後的遺落大陸，森林、溪流、金屬、布紡等材質也將更加真實的呈現。<br><br>《PC手遊雙端同步，特製掛機隨時打寶》<br>高清PC版本同步推出，端遊式操作體驗讓你更好馳騁大陸。更特別製作全地圖掛機打寶玩法，特殊材料，稀有裝備，坐騎外觀，時裝寶物，只有你想不到，沒有你爆不到，告別枯燥無味，一成不變的一條龍模式，讓你更自由的闖蕩在遺落大陸這片大地之中。<br><br><br><br>《自由冒險，指尖下的魔幻旅程，這才是享受遊戲》<br>身處天使降臨的奇幻世界，多彩多姿的生活必不可少，個性化捏臉搭配各部位不同時裝，自由更換打造屬於你的百變姿態，奇異風情因地域的不同而別有滋味。在克蘭蒙多，可以360度無死角的自由飛翔在天空，也可以騎乘海陸空不同的坐騎馳騁在大地，湖邊踏水時可能觸發神秘星運，登高望遠可發現更多秘密，或挖寶收集稀奇古怪的物件去黑市兌換，輕鬆的生活技能，與同伴一起觸發神秘事件，一個百態自在的虛擬世界，可以滿足你一切想像，盡在眼前。<br><br>《職業，自由轉職隨心切換，享受拳拳到肉的打擊感…》<br>跳躍！攻擊！技能！連招！<br>職業雙重轉生系統，無論近戰防補、遠攻幻法，都能讓你從前期開始細細品味體驗，轉生後更是戰力爆發，流暢的爽快感直接就給你電腦遊戲等級的畫面撼動！<br>【戰士】：正面戰場坦克擔當的聖堂戰士，兼顧輸出與回血能力的惡魔劍士<br>【刺客】：擅長連續攻擊令敵人無法招架的追獵者，集潛行，隱秘，偷襲一體的影舞者<br>【法師】：四系元素於一身帶有強力範圍群攻的元素法師，控制和DEBUFF相結合的咒術師<br>【牧師】：範圍群體治療並帶有AOE傷害的神官，自帶無敵BUFF及群體減傷的聖女<br>【火槍手】：超高暴擊集移動和空中射擊於一身的神槍手，可召喚軍械設備且可變身的機械師<br>雙職可自由隨時切換，技能、天賦按照自己需求任意搭配，沒有最強的職業，只有最強的你。<br><br><br>《跨服世界，爭奪要塞競逐神裝所有權》<br>「清脆悅耳的裝備寶石掉落聲響，永遠是MMORPG玩家線上最期待的」<br>稀有裝備散落在世界每一處，大地圖無縫連接，各地BOSS攜帶神裝、龍族神器等你挑戰，所有伺服器的勇士無時無刻虎視眈眈，共逐於這個讓你隨身之處充滿驚喜，激情，慾望的克蘭蒙多大陸之上。強強聯手，馬上與你的朋友一起線上出發，每一天都有新的挑戰再等著你們，每一個白天與黑夜，都是令人屏息期待著。<br><br><br>《新公會系統，團結的力量才是王道》<br><br>「從這裡開始，到那座山頭，通通都是咱們的！」<br>我們有地盤要搶，那屬於你們的公會之城，更必須得高調建造！<br>全開放的要塞占領地圖，是一個屬於所有公會的團隊榮譽，開礦伐木興建公會設施，革命性的新功能讓每個人都能親手搭建屬於自己的家，每個人都需要為公會的利益以及權利而團結一起，除了讓人熱血沸騰指尖顫抖的跨服要塞激戰，還有更多趣味競技系統讓大家樂此不疲，就是一起玩，我們才有了更多上線的樂趣與動力。<br><br><br>《公平交易，戰利品一鍵自動拍賣》<br><br>在克蘭蒙多大陸上，關於金錢的一切都將由你做主！自由交易系統，讓你價值連城的道具，都能轉化成遊戲中的每一筆金錢！全自動的拍賣行機制，公會戰利品自動拍賣，不用再為了利益與朋友反目，一鍵自由交易，錢到貨出，更無黑心中間商賺取差價！讓你輕鬆練等、快速賺錢累積財富、爽爽的看著自己越變越強….越變越強…<br><br><br>《多樣玩法，沒有限制的自由世界》<br><br>冰風谷戰場、公平競技場、要塞戰、領地戰、跨服戰滿足你PVE、PVP(沙場相見面，老子就是殺！)、GVG的各種喜好(多人混戰，砍左手綁藍布條的！)，更有趣味答題，競速尋人，盜寶哥布林，托比的寶藏等休閒玩法讓你輕鬆無壓力。養成體系豐富，時裝稱號、萌寵助戰，寶物強化，特效神兵，神器幻化，寶石護航，豐富坐騎助你馳騁在神魔的戰場上，不用被束縛的幻想空間裡。<br><br>＊遊戲最低運行需求<br><br>記憶體(RAM)：2G以上。<br>儲存空間(ROM)：5GB 以上可用空間。<br>Android系統版本：5.0或以上<br><br><br>※本軟體因涉及暴力情節，依遊戲軟體分級管理辦法分類為輔12級。<br>※本遊戲為免費使用，遊戲內另提供購買虛擬遊戲幣、物品等付費服務。<br>※請注意遊戲時間，避免沉迷。
+                    <table class="table table-sm" style="width: 80%;margin:auto">
+                        <tbody>
+                            <tr>
+                                <th scope="row" class="bg-light">螢幕尺寸</th>
+                                <td>17.3 英吋 </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="bg-light">處理器</th>
+                                <td>2.8 GHz Intel Core i7</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="bg-light">RAM</th>
+                                <td>16 GB DDR </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="bg-light">硬碟</th>
+                                <td>128 GB Flash Memory Solid State </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="bg-light">圖形輔助處理器</th>
+                                <td>NVIDIA GeForce GTX 1050 Ti </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="bg-light">晶片組品牌</th>
+                                <td>nvidia</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="bg-light">卡片說明</th>
+                                <td>Dedicated</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="bg-light">無線類型</th>
+                                <td>802.11ac</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                    <span style="FONT-SIZE: xx-large"><strong>
+                            <font face="Helvetica" color="#008080">ASUS&nbsp;G751YJ 電競機</font>
+                        </strong></span>
+                    <p><span style="COLOR: #3366ff"><span style="FONT-FAMILY: Helvetica; COLOR: #008080; FONT-SIZE: large"><span style="COLOR: #339966; FONT-SIZE: large"><strong>本機種搭載Intel 最新第四代Core i7 + 4G獨顯，電競主流規格，搭配512G SSD硬碟，效能超強，17.3吋FHD IPS大螢幕。電競/繪圖 首選機種。</strong></span></span><br><br>■第四代 Core i7-4710HQ<br></span><span style="COLOR: #666666">Intel&nbsp;最新第四代CPU，效能升級，電池續航力大幅提升，影像處理更迅速，資料安全更有保障。&nbsp;<br></span><span style="COLOR: #666666"></span><span style="COLOR: #666666"><br></span><span style="COLOR: #3366ff">■17.3吋 FULL HD IPS螢幕<br></span><span style="COLOR: #666666">質感外型，</span><span style="COLOR: #666666">&nbsp;17.3"FHD IPS (1920*1080) 高解析螢幕，滿足各種需求。</span></p>
+                    <p><span style="COLOR: #666666">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="COLOR: #666666">&nbsp; <br></span><br></p>
+                    <article class="text">
+                        <h1 style="opacity: 1; left: 0px;color:red">此電競筆記型電腦採用 TurboMaster 超頻技術，簡直所向無敵</h1>
+                        <p style="opacity: 1; left: 0px;">G751 是所向無敵的電競筆記型電腦，配備第 4 代 Intel<sup>®</sup> Core™ i7 處理器與 NVIDIA<sup>®</sup> GeForce<sup>®</sup> GTX 繪圖卡，並搭載 TurboMaster 技術與 ROG AudioWizard 強化音效，提供穩定的 GPU 超頻與身歷其境的遊戲體驗。 智慧雙風扇散熱系統在猛烈戰火中維持全面散熱，而特殊按鍵設計讓您可以直接存取 Steam 平台或分享輝煌戰績！</p>
+                    </article>
+                    <img src="https://dlcdnimgs.asus.com/websites/global/products/LYuLg2456gbkV5dw/img/00/00.png" />
+                    <article class="text">
+                        <h1 style="opacity: 1; left: 0px;color:red">頂級電競筆記型電腦搭載 NVIDIA<sup>®</sup> G-SYNC™ 技術</h1>
+                        <p style="opacity: 1; left: 0px;">ROG G751JT/JY 現在已搭載 NVIDIA<sup>®</sup> G-SYNC™ 顯示技術！ 在 ASUS 顯示器研發團隊與 NVIDIA<sup>®</sup> 的密切合作下，G751JT/JY 現在內建 G-SYNC™，可利用 NVIDIA<sup>®</sup> GTX™ GPU 同步顯示器的更新率，呈現極為流暢的視覺效果。 G-SYNC™ 可防止延滯，降低更新率延遲，並消除畫面破圖的情形， 提供最順暢且最快速的遊戲繪圖，而且完全不會影響系統效能！</p><br>
+                        <p class="comment" style="opacity: 1; left: 0px;">*免責聲明： 此方案因時間、國家、機型、規格而異。 請洽詢供應商，瞭解實際方案內容。 此方案可能不會在所有市場上推出。</p>
+                    </article>
+                    <table style="TEXT-TRANSFORM: none; TEXT-INDENT: 0px; FONT: 12px/18px 'Times New Roman'; WHITE-SPACE: normal; LETTER-SPACING: normal; COLOR: rgb(0,0,0); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px" class="black" width="98%" cellspacing="1" cellpadding="3" border="0" align="center">
+                        <tbody>
+
+                            <tr>
+                                <td colspan="2">
+                                    <div align="center">
+                                        <font size="2" color="#996600">※以上商品規格僅供參考用，實際出貨以原廠提供的內容物為準</font>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table><br>
+                    <p></p>
                 </div>
                 <div id="showcontent_button" style="color:green;margin: auto;width: max-content;cursor:pointer" onclick="showcontent()">閱讀完整內容</div>
                 <div id="hidecontent_button" style="color:green;margin: auto;width: max-content;cursor:pointer" onclick="collapse()">收合</div>
@@ -244,10 +290,10 @@
             <hr />
             <section class="col">
                 <h1>評論</h1>
-
                 <div id="scores" style="display: flex;justify-content: space-evenly;">
+
                     <div style="text-align:center;margin:10px auto">
-                        <span style="font-size: 50px">4.7</span>
+                        <span style="font-size: 50px">3.3</span>
                         <div style="display:flex;flex-direction:row;justify-content:center">
                             <div style="height:17px;width:17px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAABA0lEQVR4AWMgBEpLS+MYKAFlZWWaJSUlP6urq6XJNgRowKzi4uL/QLqNLAMaGhpEgJq/gwwB4rd9fX2c5LiiFmQADAP56aS4gAkYmBJAjS/QDLkGxNwgF02aNIl95syZrEC1LCD1IBsLgIr2APElqMY/IE0k4BqQzVxAgzaRpBHhunK4F1atWsUMFJhKogFFuAKzFKjgHxEG5BGKlRYCBqwiJmonEjDkBDGG7CdgyFdwtOIDoNSJpOkfUNMh9HAC5il1fBlOBjlxlZeXW0FzsjWQfxEmB+SH48v2XkBFv4B0I9DJbBBRRDKAJsyPQNyO0xCgze5ArI3Pu1VVVZJAS5KQxQC83Tw70VP4pQAAAABJRU5ErkJggg==) no-repeat left">
                             </div>
@@ -255,14 +301,14 @@
                             </div>
                             <div style="height:17px;width:17px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAABA0lEQVR4AWMgBEpLS+MYKAFlZWWaJSUlP6urq6XJNgRowKzi4uL/QLqNLAMaGhpEgJq/gwwB4rd9fX2c5LiiFmQADAP56aS4gAkYmBJAjS/QDLkGxNwgF02aNIl95syZrEC1LCD1IBsLgIr2APElqMY/IE0k4BqQzVxAgzaRpBHhunK4F1atWsUMFJhKogFFuAKzFKjgHxEG5BGKlRYCBqwiJmonEjDkBDGG7CdgyFdwtOIDoNSJpOkfUNMh9HAC5il1fBlOBjlxlZeXW0FzsjWQfxEmB+SH48v2XkBFv4B0I9DJbBBRRDKAJsyPQNyO0xCgze5ArI3Pu1VVVZJAS5KQxQC83Tw70VP4pQAAAABJRU5ErkJggg==) no-repeat left">
                             </div>
-                            <div style="height:17px;width:17px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAABA0lEQVR4AWMgBEpLS+MYKAFlZWWaJSUlP6urq6XJNgRowKzi4uL/QLqNLAMaGhpEgJq/gwwB4rd9fX2c5LiiFmQADAP56aS4gAkYmBJAjS/QDLkGxNwgF02aNIl95syZrEC1LCD1IBsLgIr2APElqMY/IE0k4BqQzVxAgzaRpBHhunK4F1atWsUMFJhKogFFuAKzFKjgHxEG5BGKlRYCBqwiJmonEjDkBDGG7CdgyFdwtOIDoNSJpOkfUNMh9HAC5il1fBlOBjlxlZeXW0FzsjWQfxEmB+SH48v2XkBFv4B0I9DJbBBRRDKAJsyPQNyO0xCgze5ArI3Pu1VVVZJAS5KQxQC83Tw70VP4pQAAAABJRU5ErkJggg==) no-repeat left">
-                            </div>
+
                             <div style="height: 17px;width:17px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA+ElEQVR4AWPAB+7cuaPy4MEDSQZywc2bN6fcunWrmSzNDx8+FAQa8AWIX9+/f5+DZANu375dAdT8H4SB7BSSNP///58V6PQnMAOA7MvEaGID2iQDxEZADdUwzUiuSAbSZnfv3jUBBq4xkG8IxNqggKoCangPUkQi/gXUFwy2HchoIlHzT6Dt/uiBlgSU+E1IM9CyH0DsjSvk3YGKPuHTDFJDKPHsxWPAe2JS32t8Xrh37548Ts2gdE8oDGCBhzsMEIrvg/hA7Atk30MyoB6bXlh0lgHxXyCe8OLFC26Y+OPHjzlBUQ2NgXX4XFAOVGCOL3sD5achiwEAj9G1Uf/5qQgAAAAASUVORK5CYII=) no-repeat left">
-                                <div style="height:17px;width:9.0px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAABA0lEQVR4AWMgBEpLS+MYKAFlZWWaJSUlP6urq6XJNgRowKzi4uL/QLqNLAMaGhpEgJq/gwwB4rd9fX2c5LiiFmQADAP56aS4gAkYmBJAjS/QDLkGxNwgF02aNIl95syZrEC1LCD1IBsLgIr2APElqMY/IE0k4BqQzVxAgzaRpBHhunK4F1atWsUMFJhKogFFuAKzFKjgHxEG5BGKlRYCBqwiJmonEjDkBDGG7CdgyFdwtOIDoNSJpOkfUNMh9HAC5il1fBlOBjlxlZeXW0FzsjWQfxEmB+SH48v2XkBFv4B0I9DJbBBRRDKAJsyPQNyO0xCgze5ArI3Pu1VVVZJAS5KQxQC83Tw70VP4pQAAAABJRU5ErkJggg==) no-repeat left">
+                                <div style="height:17px;width:8.0px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAABA0lEQVR4AWMgBEpLS+MYKAFlZWWaJSUlP6urq6XJNgRowKzi4uL/QLqNLAMaGhpEgJq/gwwB4rd9fX2c5LiiFmQADAP56aS4gAkYmBJAjS/QDLkGxNwgF02aNIl95syZrEC1LCD1IBsLgIr2APElqMY/IE0k4BqQzVxAgzaRpBHhunK4F1atWsUMFJhKogFFuAKzFKjgHxEG5BGKlRYCBqwiJmonEjDkBDGG7CdgyFdwtOIDoNSJpOkfUNMh9HAC5il1fBlOBjlxlZeXW0FzsjWQfxEmB+SH48v2XkBFv4B0I9DJbBBRRDKAJsyPQNyO0xCgze5ArI3Pu1VVVZJAS5KQxQC83Tw70VP4pQAAAABJRU5ErkJggg==) no-repeat left">
                                 </div>
                             </div>
+                            <div style="height: 17px;width:17px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA+ElEQVR4AWPAB+7cuaPy4MEDSQZywc2bN6fcunWrmSzNDx8+FAQa8AWIX9+/f5+DZANu375dAdT8H4SB7BSSNP///58V6PQnMAOA7MvEaGID2iQDxEZADdUwzUiuSAbSZnfv3jUBBq4xkG8IxNqggKoCangPUkQi/gXUFwy2HchoIlHzT6Dt/uiBlgSU+E1IM9CyH0DsjSvk3YGKPuHTDFJDKPHsxWPAe2JS32t8Xrh37548Ts2gdE8oDGCBhzsMEIrvg/hA7Atk30MyoB6bXlh0lgHxXyCe8OLFC26Y+OPHjzlBUQ2NgXX4XFAOVGCOL3sD5achiwEAj9G1Uf/5qQgAAAAASUVORK5CYII=) no-repeat left"></div>
                         </div>
-                        <div>共 25,474 則評分</div>
+                        <div>共 10 則評分</div>
                     </div>
 
                     <table class="table table-sm" style="max-width:350px;margin:10px auto">
@@ -270,19 +316,19 @@
                             <tr>
                                 <th scope="row" style="width:15px">5</th>
                                 <td>
-                                    <div style="background:#57bb8a;width:95%">&nbsp;</div>
+                                    <div style="background:#57bb8a;width:60.8px;">&nbsp;</div>
                                 </td>
                             </tr>
                             <tr>
                                 <th scope="row" style="width:15px">4</th>
                                 <td>
-                                    <div style="background:#9ace6a;width:3.5%">&nbsp;</div>
+                                    <div style="background:#9ace6a;width:75.2px;">&nbsp;</div>
                                 </td>
                             </tr>
                             <tr>
                                 <th scope="row" style="width:15px">3</th>
                                 <td>
-                                    <div style="background:#ffcf02;width:3%;">&nbsp;</div>
+                                    <div style="background:#ffcf02;width:60.2px;">&nbsp;</div>
                                 </td>
                             </tr>
                             <tr>
@@ -294,7 +340,7 @@
                             <tr>
                                 <th scope="row" style="width:15px">1</th>
                                 <td>
-                                    <div style="background:#ff6f31;width:6%;">&nbsp;</div>
+                                    <div style="background:#ff6f31;width:60.8px;">&nbsp;</div>
                                 </td>
                             </tr>
                         </tbody>
@@ -303,152 +349,153 @@
             </section>
             <section class="col" style="margin-top:50px">
                 <div style="display: flex;margin:8px 0">
-                    <img height="48" width="48" style="margin-right:10px;height:48px;width:48px" class="rounded-circle" src="https://lh3.googleusercontent.com/-2jPbm4DGu1M/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3renlRUr9YQ3j8oFuPUNcPGyiffOSQ/w96-h96-n/photo.jpg">
+                    <img height="48" width="48" style="margin-right:10px;height:48px;width:48px" class="rounded-circle" src="https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png">
                     <div style="flex-direction: column">
-                        <h5>黃詩綺</h5>
+                        <h5>CW</h5>
                         <div style="display:flex;flex-direction:row">
                             <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
                             <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
                             <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
                             <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
                             <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
-                            <span style="font-size: 10px">2020年1月16日</span>
+                            <span style="font-size: 10px">2018年5月27日</span>
                         </div>
                         <div>
-                            遊戲玩起來的過程中都很順暢，任務上也不會有特別難過的問題，組隊一起玩也都會互相當忙完成任務！畫風很不錯，背景真的設計的很逼真，特效也相當的華麗好看，基本上近來玩的感覺就是感覺很優質，比起其他的遊戲來說這裡算好了！人物角色裝備都設計的極為精緻，真是辛苦官方設計出這麼好的遊戲了
+                            我覺得128G的SSD實在太小了。256G會好一點。
                         </div>
                     </div>
                 </div>
                 <hr />
                 <div style="display: flex;margin:8px 0">
-                    <img height="48" width="48" style="margin-right:10px;height:48px;width:48px" class="rounded-circle" src="https://lh3.googleusercontent.com/-HF3pB1hYL3A/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rcE62lRmZq2tNYpUQWmI3N5iq7A6A/w96-h96-n/photo.jpg">
+                    <img height="48" width="48" style="margin-right:10px;height:48px;width:48px" class="rounded-circle" src="https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png">
                     <div style="flex-direction: column">
-                        <h5>黃為冰</h5>
+                        <h5>Heatbox86</h5>
                         <div style="display:flex;flex-direction:row">
                             <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
                             <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
                             <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
                             <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
-                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
-                            <span style="font-size: 10px">2020年1月16日</span>
+                            <div style="height: 10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAoUlEQVR4AWNAB7dv39a+c+eOMQMhcPPmzdlAvBhVFNM00Vu3bn0HKvz14MEDSRRJkDVABX5AnAJUtBqo6D8IA9lrgDgPyM4BykWDTHEHcj6BJFEwQsN7IG0GNhXIMQBynmJR+BZokBG6JyLQFQIVtSGrgZlai8XaTRgKoR75DKRzgSYlA9mvgexH2BROuHv3rhyM//jxYyGg2Iz79+8LgPgAWIi+JMqA+1MAAAAASUVORK5CYII=) no-repeat left;"></div>
+                            <span style="font-size: 10px">2019年5月20日</span>
                         </div>
                         <div>
-                            整體真的很不錯！任務也很多可以玩 基本上照著任務走就好 如果新增些情侶功能的話可能會吸引更多人來玩吧XD 也可以稍微讓遊戲更加多采多姿 畫風精緻 玩起來也不會很煩悶 內容充實之外 又可以稍稍解悶 最後因為我手機太廢了 所以改到PC玩 但偶爾也會用手機開來玩！感覺會很不同
+                            我平常使用3D CAD，使用起來頗順暢，遊戲體驗也不錯!
                         </div>
                     </div>
                 </div>
                 <hr />
                 <div style="display: flex;margin:8px 0">
-                    <img height="48" width="48" style="margin-right:10px;height:48px;width:48px" class="rounded-circle" src="https://lh3.googleusercontent.com/-11uC3Js6To4/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rflAXe3CmqJJxs96HbUr4UPO77IHg/w96-h96-n/photo.jpg">
+                    <img height="48" width="48" style="margin-right:10px;height:48px;width:48px" class="rounded-circle" src="https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png">
                     <div style="flex-direction: column">
-                        <h5>李牧方</h5>
+                        <h5>Amazon Customer</h5>
                         <div style="display:flex;flex-direction:row">
                             <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
                             <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
                             <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
                             <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
-                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
-                            <span style="font-size: 10px">2020年1月16日</span>
+                            <div style="height: 10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAoUlEQVR4AWNAB7dv39a+c+eOMQMhcPPmzdlAvBhVFNM00Vu3bn0HKvz14MEDSRRJkDVABX5AnAJUtBqo6D8IA9lrgDgPyM4BykWDTHEHcj6BJFEwQsN7IG0GNhXIMQBynmJR+BZokBG6JyLQFQIVtSGrgZlai8XaTRgKoR75DKRzgSYlA9mvgexH2BROuHv3rhyM//jxYyGg2Iz79+8LgPgAWIi+JMqA+1MAAAAASUVORK5CYII=) no-repeat left;"></div>
+                            <span style="font-size: 10px">2018年3月12日</span>
                         </div>
                         <div>
-                            這遊戲感覺可以成為經典中的經典~ 就算很忙也可以偶爾上來玩一下 人物和景色都處理得很不錯 動作的流暢度也很夠 特效也是數一數二的好看 畫面質感也很讚 第一次玩到這麼好的遊戲 但我覺得還是稍稍少點了靈活度 可能要在加強一下 然後希望角色能夠分成男女 這樣有些職業就能夠玩自己想要的性別了
+                            使用起來速度不錯。但增加RAM要把整個底部拆開，這點稍微麻煩一點。
                         </div>
                     </div>
                 </div>
                 <hr />
                 <div style="display: flex;margin:8px 0">
-                    <img height="48" width="48" style="margin-right:10px;height:48px;width:48px" class="rounded-circle" src="https://lh3.googleusercontent.com/-5-bH1hDfoY0/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdlx-LkcdLLxKBWmFlDthk3NoHKlA/w96-h96-n/photo.jpg">
+                    <img height="48" width="48" style="margin-right:10px;height:48px;width:48px" class="rounded-circle" src="https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png">
                     <div style="flex-direction: column">
-                        <h5>劉婷季</h5>
+                        <h5>SealBeachcomber</h5>
                         <div style="display:flex;flex-direction:row">
                             <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
                             <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
                             <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
                             <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
-                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
-                            <span style="font-size: 10px">2020年1月16日</span>
+                            <div style="height: 10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAoUlEQVR4AWNAB7dv39a+c+eOMQMhcPPmzdlAvBhVFNM00Vu3bn0HKvz14MEDSRRJkDVABX5AnAJUtBqo6D8IA9lrgDgPyM4BykWDTHEHcj6BJFEwQsN7IG0GNhXIMQBynmJR+BZokBG6JyLQFQIVtSGrgZlai8XaTRgKoR75DKRzgSYlA9mvgexH2BROuHv3rhyM//jxYyGg2Iz79+8LgPgAWIi+JMqA+1MAAAAASUVORK5CYII=) no-repeat left;"></div>
+                            <span style="font-size: 10px">2019年2月28日</span>
                         </div>
                         <div>
-                            很難相信這樣大型的遊戲我手機居然跑得起來 甚至流暢到一個讓我懷疑我手上的手機不是我的！獎勵給的很豐富 客服態度也很親切 整體品質也很高水準 已經很久沒有看到這麼好的遊戲了 看來現在容量大的遊戲可能都會做的不錯喔 ( 奇怪推論
+                            電池有點小，很容易沒電，但整體使用起來還不錯!
                         </div>
                     </div>
                 </div>
                 <hr />
                 <div style="display: flex;margin:8px 0">
-                    <img height="48" width="48" style="margin-right:10px;height:48px;width:48px" class="rounded-circle" src="https://lh3.googleusercontent.com/-QFU7rhZPXtk/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3reG2NmtanpNbK0BfKOmmcoKG9onlQ/w96-h96-n/photo.jpg">
+                    <img height="48" width="48" style="margin-right:10px;height:48px;width:48px" class="rounded-circle" src="https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png">
                     <div style="flex-direction: column">
-                        <h5>張逸紫</h5>
+                        <h5>Chaddius</h5>
                         <div style="display:flex;flex-direction:row">
                             <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
-                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
-                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
-                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
-                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
-                            <span style="font-size: 10px">2020年1月16日</span>
+                            <div style="height: 10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAoUlEQVR4AWNAB7dv39a+c+eOMQMhcPPmzdlAvBhVFNM00Vu3bn0HKvz14MEDSRRJkDVABX5AnAJUtBqo6D8IA9lrgDgPyM4BykWDTHEHcj6BJFEwQsN7IG0GNhXIMQBynmJR+BZokBG6JyLQFQIVtSGrgZlai8XaTRgKoR75DKRzgSYlA9mvgexH2BROuHv3rhyM//jxYyGg2Iz79+8LgPgAWIi+JMqA+1MAAAAASUVORK5CYII=) no-repeat left;"></div>
+                            <div style="height: 10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAoUlEQVR4AWNAB7dv39a+c+eOMQMhcPPmzdlAvBhVFNM00Vu3bn0HKvz14MEDSRRJkDVABX5AnAJUtBqo6D8IA9lrgDgPyM4BykWDTHEHcj6BJFEwQsN7IG0GNhXIMQBynmJR+BZokBG6JyLQFQIVtSGrgZlai8XaTRgKoR75DKRzgSYlA9mvgexH2BROuHv3rhyM//jxYyGg2Iz79+8LgPgAWIi+JMqA+1MAAAAASUVORK5CYII=) no-repeat left;"></div>
+                            <div style="height: 10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAoUlEQVR4AWNAB7dv39a+c+eOMQMhcPPmzdlAvBhVFNM00Vu3bn0HKvz14MEDSRRJkDVABX5AnAJUtBqo6D8IA9lrgDgPyM4BykWDTHEHcj6BJFEwQsN7IG0GNhXIMQBynmJR+BZokBG6JyLQFQIVtSGrgZlai8XaTRgKoR75DKRzgSYlA9mvgexH2BROuHv3rhyM//jxYyGg2Iz79+8LgPgAWIi+JMqA+1MAAAAASUVORK5CYII=) no-repeat left;"></div>
+                            <div style="height: 10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAoUlEQVR4AWNAB7dv39a+c+eOMQMhcPPmzdlAvBhVFNM00Vu3bn0HKvz14MEDSRRJkDVABX5AnAJUtBqo6D8IA9lrgDgPyM4BykWDTHEHcj6BJFEwQsN7IG0GNhXIMQBynmJR+BZokBG6JyLQFQIVtSGrgZlai8XaTRgKoR75DKRzgSYlA9mvgexH2BROuHv3rhyM//jxYyGg2Iz79+8LgPgAWIi+JMqA+1MAAAAASUVORK5CYII=) no-repeat left;"></div>
+                            <span style="font-size: 10px">2018年8月28日</span>
                         </div>
                         <div>
-                            遊戲體驗感很高 樂趣多多 是個很值得人去花時間來玩的遊戲 這遊戲剛好在那時我不知道要玩甚麼的時候出現在我眼前 雖然容量有點大 但我就下載來玩了！遊戲背景很立體逼真 真的有讓我驚艷到 系統也越來越穩定 是個會認真做優化的官方呢！
+                            才用了六個月就壞掉，送修回來又壞其他東西，爛!
                         </div>
                     </div>
                 </div>
                 <hr />
                 <div style="display: flex;margin:8px 0">
-                    <img height="48" width="48" style="margin-right:10px;height:48px;width:48px" class="rounded-circle" src="https://lh3.googleusercontent.com/-9Eks1afTxIQ/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rfAs2142GeR6mUhcgV0pOn18NSZ0Q/w96-h96-n/photo.jpg">
+                    <img height="48" width="48" style="margin-right:10px;height:48px;width:48px" class="rounded-circle" src="https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png">
                     <div style="flex-direction: column">
-                        <h5>王又豪</h5>
+                        <h5>Chaddius</h5>
                         <div style="display:flex;flex-direction:row">
                             <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
-                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
-                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
-                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
-                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
-                            <span style="font-size: 10px">2020年1月16日</span>
+                            <div style="height: 10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAoUlEQVR4AWNAB7dv39a+c+eOMQMhcPPmzdlAvBhVFNM00Vu3bn0HKvz14MEDSRRJkDVABX5AnAJUtBqo6D8IA9lrgDgPyM4BykWDTHEHcj6BJFEwQsN7IG0GNhXIMQBynmJR+BZokBG6JyLQFQIVtSGrgZlai8XaTRgKoR75DKRzgSYlA9mvgexH2BROuHv3rhyM//jxYyGg2Iz79+8LgPgAWIi+JMqA+1MAAAAASUVORK5CYII=) no-repeat left;"></div>
+                            <div style="height: 10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAoUlEQVR4AWNAB7dv39a+c+eOMQMhcPPmzdlAvBhVFNM00Vu3bn0HKvz14MEDSRRJkDVABX5AnAJUtBqo6D8IA9lrgDgPyM4BykWDTHEHcj6BJFEwQsN7IG0GNhXIMQBynmJR+BZokBG6JyLQFQIVtSGrgZlai8XaTRgKoR75DKRzgSYlA9mvgexH2BROuHv3rhyM//jxYyGg2Iz79+8LgPgAWIi+JMqA+1MAAAAASUVORK5CYII=) no-repeat left;"></div>
+                            <div style="height: 10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAoUlEQVR4AWNAB7dv39a+c+eOMQMhcPPmzdlAvBhVFNM00Vu3bn0HKvz14MEDSRRJkDVABX5AnAJUtBqo6D8IA9lrgDgPyM4BykWDTHEHcj6BJFEwQsN7IG0GNhXIMQBynmJR+BZokBG6JyLQFQIVtSGrgZlai8XaTRgKoR75DKRzgSYlA9mvgexH2BROuHv3rhyM//jxYyGg2Iz79+8LgPgAWIi+JMqA+1MAAAAASUVORK5CYII=) no-repeat left;"></div>
+                            <div style="height: 10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAoUlEQVR4AWNAB7dv39a+c+eOMQMhcPPmzdlAvBhVFNM00Vu3bn0HKvz14MEDSRRJkDVABX5AnAJUtBqo6D8IA9lrgDgPyM4BykWDTHEHcj6BJFEwQsN7IG0GNhXIMQBynmJR+BZokBG6JyLQFQIVtSGrgZlai8XaTRgKoR75DKRzgSYlA9mvgexH2BROuHv3rhyM//jxYyGg2Iz79+8LgPgAWIi+JMqA+1MAAAAASUVORK5CYII=) no-repeat left;"></div>
+                            <span style="font-size: 10px">2018年3月28日</span>
                         </div>
                         <div>
-                            剛剛進來玩 以為我出問題了 但發現其實是我自己的問題 差點錯怪遊戲了XD 目前玩起來都很順暢好玩 不過我很希望這遊戲能夠有個職業轉換 或者新增一些遠程職業 不用花太多時間去肝 無聊上來玩一波也是ok的 操作簡單 劇情也很豐富精彩 有時候也挺需要用點頭腦來玩這款遊戲 不過這樣也好我討厭無腦遊戲！
+                            這是我買過最爛的華碩產品!!喇叭音質非常糟糕，有時候還會沒聲音!!!
                         </div>
                     </div>
                 </div>
                 <hr />
                 <div style="display: flex;margin:8px 0">
-                    <img height="48" width="48" style="margin-right:10px;height:48px;width:48px" class="rounded-circle" src="https://lh3.googleusercontent.com/-HGIXHGHtN78/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3reQIl_gHLsSciQ2T19N3YMVnLfWXg/w96-h96-n/photo.jpg">
+                    <img height="48" width="48" style="margin-right:10px;height:48px;width:48px" class="rounded-circle" src="https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png">
                     <div style="flex-direction: column">
-                        <h5>黎真軍</h5>
+                        <h5>Brian</h5>
                         <div style="display:flex;flex-direction:row">
                             <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
                             <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
                             <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
                             <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
                             <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
-                            <span style="font-size: 10px">2020年1月16日</span>
+                            <span style="font-size: 10px">2018年5月27日</span>
                         </div>
                         <div>
-                            非常棒的遊戲 基本的細節都有做到 畫面啊、BGM啊、人物上都設計的非常完美 我都不知道要從那裡來挑剔了！精美流暢又不用去課金 這樣就可以玩到一個頂尖了 然後這遊戲好像職業上都很平衡 不用擔心哪個特別的強 這算是不錯的設定
+                            遊戲玩起來非常順!!!喜歡~~
                         </div>
                     </div>
                 </div>
                 <hr />
                 <div style="display: flex;margin:8px 0">
-                    <img height="48" width="48" style="margin-right:10px;height:48px;width:48px" class="rounded-circle" src="https://lh3.googleusercontent.com/-F252Fh5Zda8/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rfSlcFr9ztMn-W5K6AdnvpvP-B2lA/w96-h96-n/photo.jpg">
+                    <img height="48" width="48" style="margin-right:10px;height:48px;width:48px" class="rounded-circle" src="https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png">
                     <div style="flex-direction: column">
-                        <h5>陳永鑫</h5>
+                        <h5>Adwd</h5>
                         <div style="display:flex;flex-direction:row">
                             <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
                             <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
                             <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
                             <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
                             <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
-                            <span style="font-size: 10px">2020年1月16日</span>
+                            <span style="font-size: 10px">2019年5月2日</span>
                         </div>
                         <div>
-                            畫面和音樂都很美 玩起來的手感也很不錯 有時候在競技場打人打的很爽 介面也不會有太多的東西 難度上偏高 但是我覺得夠有挑戰性 裝備附魔有點小難 可能要稍微調整一下 有別於一些無聊打打怪的無聊小遊戲 這種類型的還是比較適合大家來玩啊
+                            外型好看，速度也快~
                         </div>
                     </div>
                 </div>
+
             </section>
 
-        </div>
 
+        </div>
         <!-- Modal -->
         <div class="modal fade bd-example-modal-xl" id="questionModal" tabindex="-1" role="dialog" aria-labelledby="questionModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-xl" role="document">
@@ -459,97 +506,17 @@
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
-                    <form action="./situationPage.php" method="post">
-                        <div class="modal-body" style="padding:2.5rem!important">
-
-                            <div class="form-group ">
-                                <label class=" col-form-label">1. 在此情境中，多數人對此遊戲的評價如何？</label>
-                                <div class=" row col-form-label" style="margin-left:15px">
-                                    <div class="form-check ">
-                                        <input class="form-check-input" type="radio" name="Q1" value="0" required>
-                                        <label class="form-check-label">
-                                            正面
-                                        </label>
-                                    </div>
-                                    &emsp;
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="Q1" value="1">
-                                        <label class="form-check-label">
-                                            負面
-                                        </label>
-                                    </div>
-                                    &emsp;
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="Q1" value="2">
-                                        <label class="form-check-label">
-                                            評價不一
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="form-group ">
-                                <label class=" col-form-label">2. 根據情境內容，下列何者"非"此遊戲主打之特色？</label>
-                                <div class=" row col-form-label" style="margin-left:15px">
-                                    <div class="form-check ">
-                                        <input class="form-check-input" type="radio" name="Q2" value="0" required>
-                                        <label class="form-check-label">
-                                            多樣玩法
-                                        </label>
-                                    </div>
-                                    &emsp;
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="Q2" value="1">
-                                        <label class="form-check-label">
-                                            公會系統
-                                        </label>
-                                    </div>
-                                    &emsp;
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="Q2" value="2">
-                                        <label class="form-check-label">
-                                            遊戲畫面簡約
-                                        </label>
-                                    </div>
-
-
-                                </div>
-                            </div>
-                            <div class="form-group ">
-                                <label class=" col-form-label">3. 此情境中，是否有針對遊戲細項的評分？</label>
-                                <div class=" row col-form-label" style="margin-left:15px">
-                                    <div class="form-check ">
-                                        <input class="form-check-input" type="radio" name="Q3" value="0" required>
-                                        <label class="form-check-label">
-                                            是
-                                        </label>
-                                    </div>
-                                    &emsp;
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="Q3" value="1">
-                                        <label class="form-check-label">
-                                            否
-                                        </label>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                        </div>
-
-
-
-
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">關閉</button>
-                            <button type="submit" class="btn btn-primary">送出</button>
-                        </div>
-                    </form>
-
-
+                    <div class="modal-body">
+                        ...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">關閉</button>
+                        <button type="button" class="btn btn-primary">送出</button>
+                    </div>
                 </div>
             </div>
         </div>
-        <div style="display: flex; flex-direction:row;margin:10px auto">
+        <div style="display: flex; flex-direction:row;margin:auto">
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-info" data-toggle="modal" data-target="#storyModal" style="margin:-30px 5px 0 auto">
                 情境故事

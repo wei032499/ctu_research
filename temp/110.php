@@ -459,93 +459,13 @@
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
-                    <form action="./situationPage.php" method="post">
-                        <div class="modal-body" style="padding:2.5rem!important">
-
-                            <div class="form-group ">
-                                <label class=" col-form-label">1. 在此情境中，多數人對此遊戲的評價如何？</label>
-                                <div class=" row col-form-label" style="margin-left:15px">
-                                    <div class="form-check ">
-                                        <input class="form-check-input" type="radio" name="Q1" value="0" required>
-                                        <label class="form-check-label">
-                                            正面
-                                        </label>
-                                    </div>
-                                    &emsp;
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="Q1" value="1">
-                                        <label class="form-check-label">
-                                            負面
-                                        </label>
-                                    </div>
-                                    &emsp;
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="Q1" value="2">
-                                        <label class="form-check-label">
-                                            評價不一
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="form-group ">
-                                <label class=" col-form-label">2. 根據情境內容，下列何者"非"此遊戲主打之特色？</label>
-                                <div class=" row col-form-label" style="margin-left:15px">
-                                    <div class="form-check ">
-                                        <input class="form-check-input" type="radio" name="Q2" value="0" required>
-                                        <label class="form-check-label">
-                                            多樣玩法
-                                        </label>
-                                    </div>
-                                    &emsp;
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="Q2" value="1">
-                                        <label class="form-check-label">
-                                            公會系統
-                                        </label>
-                                    </div>
-                                    &emsp;
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="Q2" value="2">
-                                        <label class="form-check-label">
-                                            遊戲畫面簡約
-                                        </label>
-                                    </div>
-
-
-                                </div>
-                            </div>
-                            <div class="form-group ">
-                                <label class=" col-form-label">3. 此情境中，是否有針對遊戲細項的評分？</label>
-                                <div class=" row col-form-label" style="margin-left:15px">
-                                    <div class="form-check ">
-                                        <input class="form-check-input" type="radio" name="Q3" value="0" required>
-                                        <label class="form-check-label">
-                                            是
-                                        </label>
-                                    </div>
-                                    &emsp;
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="Q3" value="1">
-                                        <label class="form-check-label">
-                                            否
-                                        </label>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                        </div>
-
-
-
-
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">關閉</button>
-                            <button type="submit" class="btn btn-primary">送出</button>
-                        </div>
-                    </form>
-
-
+                    <div class="modal-body">
+                        ...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">關閉</button>
+                        <button type="button" class="btn btn-primary">送出</button>
+                    </div>
                 </div>
             </div>
         </div>

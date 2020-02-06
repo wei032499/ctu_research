@@ -87,15 +87,15 @@
                 </div>-->
                 <div style="display: flex;flex-direction:row">
                     <div id="titleImg" style="width: 40%">
-                        <img src="https://images-na.ssl-images-amazon.com/images/I/71pE8eYLISL._AC_SX522_.jpg" style="width: 90%" />
+                        <img src="/CKTU/images/head.jpg" style="width: 90%" />
                     </div>
                     <div style="width: 100%">
                         <div style="display: flex;flex-direction:row">
                             <div id="titleImg2" style="width: 40%;display:none">
-                                <img src="https://images-na.ssl-images-amazon.com/images/I/71pE8eYLISL._AC_SX522_.jpg" style="width: 90%" />
+                                <img src="/CKTU/images/head.jpg" style="width: 90%" />
                             </div>
                             <div style="margin: 5px auto 5px 25px ">
-                                <h1>HP OMEN 17-AN012DX 17.3" 電競筆電，Intel i7-7700HQ 四核心 2.80GHz、AMD Radeon RX580 8GB、12GB DDR4、1TB SATA、802.11ac、W10H (認證整新品)</h1>
+                                <h1>Lenovo IdeaPad YOGA S730</h1>
                                 <div style="display:flex;flex-direction:row">
                                     <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;">
                                     </div>
@@ -103,24 +103,25 @@
                                     </div>
                                     <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;">
                                     </div>
-                                    <div style="height: 10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAoUlEQVR4AWNAB7dv39a+c+eOMQMhcPPmzdlAvBhVFNM00Vu3bn0HKvz14MEDSRRJkDVABX5AnAJUtBqo6D8IA9lrgDgPyM4BykWDTHEHcj6BJFEwQsN7IG0GNhXIMQBynmJR+BZokBG6JyLQFQIVtSGrgZlai8XaTRgKoR75DKRzgSYlA9mvgexH2BROuHv3rhyM//jxYyGg2Iz79+8LgPgAWIi+JMqA+1MAAAAASUVORK5CYII=) no-repeat left;">
+                                    <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;">
                                     </div>
                                     <div style="height: 10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAoUlEQVR4AWNAB7dv39a+c+eOMQMhcPPmzdlAvBhVFNM00Vu3bn0HKvz14MEDSRRJkDVABX5AnAJUtBqo6D8IA9lrgDgPyM4BykWDTHEHcj6BJFEwQsN7IG0GNhXIMQBynmJR+BZokBG6JyLQFQIVtSGrgZlai8XaTRgKoR75DKRzgSYlA9mvgexH2BROuHv3rhyM//jxYyGg2Iz79+8LgPgAWIi+JMqA+1MAAAAASUVORK5CYII=) no-repeat left;">
                                     </div>
-                                    <span id="count">28</span>
+                                    <span id="count">762</span>
                                     <div style="width:16px;height:16px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAAW0lEQVR4AWP4TwBSTQEIlAuUbyj/D4QbygWwK1gAlITABdgVHIArOECmggC4ggBMBRAlBuUNQGgAE8VU4ACBmApAejfALIB61QBVwQeoBAJ+QFXwHxNSLy4IQAD87f8pWI1e0gAAAABJRU5ErkJggg==);"></div>
                                 </div>
-                                <div><span>網路售價</span> <span style="color:red;font-size:25px">$28,000</span></div>
+                                <div><span>網路售價</span> <span style="color:red;font-size:25px">$25,990</span></div>
                             </div>
                         </div>
                         <hr />
                         <div style="display: flex; flex-direction:row">
                             <ul class="">
-                                <li>處理器：Intel® Core™ i7-7700HQ 2.8GHz Quad-Core</li>
-                                <li>顯示晶片：AMD-RADEONRX580/8GB </li>
-                                <li>記憶體：12GB DDR4, supports up to 16GB </li>
-                                <li>硬碟：1TB HDD </li>
-                                <li>螢幕：17.3" FHD/防眩光/WLED背光/IPS </li>
+                                <li>處理器：Intel Core i5-8265U</li>
+                                <li>記憶體：1* 8GB LPDDR32133MHz</li>
+                                <li>硬 碟：256GB SSD</li>
+                                <li>顯卡：Intel® UHD Graphics 620</li>
+                                <li>螢 幕：13.3" FHD IPS(1920*1080)(玻璃鏡面)</li>
+                                <li>重量：1.2kg</li>
                             </ul>
                         </div>
                     </div>
@@ -134,7 +135,7 @@
                                     <div class="panel panel-default">
                                         <div class="panel-thumbnail">
                                             <a title="image 1" class="thumb">
-                                                <img style="height: 300px" class="img-fluid mx-auto d-block" src="https://images-na.ssl-images-amazon.com/images/I/71Nod45hXvL._AC_SX522_.jpg" alt="slide 1" onclick="showImg(this)">
+                                                <img style="height: 300px" class="img-fluid mx-auto d-block" src="https://images-na.ssl-images-amazon.com/images/I/61I3A%2B0fvdL._AC_SX679_.jpg" alt="slide 1" onclick="showImg(this)">
                                             </a>
                                         </div>
                                     </div>
@@ -143,7 +144,7 @@
                                     <div class="panel panel-default">
                                         <div class="panel-thumbnail">
                                             <a title="image 3" class="thumb">
-                                                <img style="height: 300px" class="img-fluid mx-auto d-block" src="https://images-na.ssl-images-amazon.com/images/I/71EYHvtVugL._AC_SX522_.jpg" alt="slide 2" onclick="showImg(this)">
+                                                <img style="height: 300px" class="img-fluid mx-auto d-block" src="https://images-na.ssl-images-amazon.com/images/I/41Ydv3HnX3L._AC_.jpg" alt="slide 2" onclick="showImg(this)">
                                             </a>
                                         </div>
                                     </div>
@@ -152,11 +153,22 @@
                                     <div class="panel panel-default">
                                         <div class="panel-thumbnail">
                                             <a title="image 4" class="thumb">
-                                                <img style="height: 300px" class="img-fluid mx-auto d-block" src="https://images-na.ssl-images-amazon.com/images/I/713o6So47RL._AC_SX522_.jpg" alt="slide 3" onclick="showImg(this)">
+                                                <img style="height: 300px" class="img-fluid mx-auto d-block" src="https://images-na.ssl-images-amazon.com/images/I/41atB5qTPcL._AC_.jpg" alt="slide 3" onclick="showImg(this)">
                                             </a>
                                         </div>
                                     </div>
                                 </div>
+                                <div class="carousel-item " style="width: auto;padding:5px">
+                                    <div class="panel panel-default">
+                                        <div class="panel-thumbnail">
+                                            <a title="image 5" class="thumb">
+                                                <img style="height: 300px" class="img-fluid mx-auto d-block" src="https://images-na.ssl-images-amazon.com/images/I/51jjnhJ46GL._AC_SX679_.jpg" alt="slide 4" onclick="showImg(this)">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
 
                             </div>
                             <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev" style="background:white;width: 50px;">
@@ -173,12 +185,6 @@
                 <hr />
 
                 <div id="gamecontent" style="overflow-x: auto;overflow-y: hidden">
-                    <img src="https://m.media-amazon.com/images/S/aplus-media/sota/33a8f304-f1ea-4a4f-b7d4-16d9665cb35e._CR0,886,5000,1546_PT0_SX970__.jpg" alt="" width="750">
-                    <div>
-                        <img src="https://m.media-amazon.com/images/S/aplus-media/sota/494b6ba9-ed39-4e57-9487-54938c7e2961._CR0,0,1500,1500_PT0_SX300__.jpg" />
-                        <img src="https://m.media-amazon.com/images/S/aplus-media/sota/349b451f-fb31-471c-b714-b7eb68a0e725._CR0,0,1500,1500_PT0_SX300__.jpg" />
-                        <img src="https://m.media-amazon.com/images/S/aplus-media/sota/1287fe11-f319-4210-ad4b-eefc170cdd62._CR0,0,1500,1500_PT0_SX300__.jpg" />
-                    </div>
                     <table class="table table-sm" style="width: 80%;margin:auto">
                         <tbody>
                             <tr>
@@ -186,40 +192,39 @@
                                 <td>17.3 英吋 </td>
                             </tr>
                             <tr>
-                                <th scope="row" class="bg-light">最高螢幕解析度</th>
-                                <td>1920 x 1080 </td>
-                            </tr>
-                            <tr>
                                 <th scope="row" class="bg-light">處理器</th>
-                                <td>2.8 GHz Intel Core i7-7700HQ</td>
+                                <td>2.8 GHz Intel Core i7</td>
                             </tr>
                             <tr>
                                 <th scope="row" class="bg-light">RAM</th>
-                                <td>12 GB DDR4 </td>
+                                <td>16 GB DDR </td>
                             </tr>
                             <tr>
                                 <th scope="row" class="bg-light">硬碟</th>
-                                <td>1TB HDD</td>
+                                <td>128 GB Flash Memory Solid State </td>
                             </tr>
                             <tr>
                                 <th scope="row" class="bg-light">圖形輔助處理器</th>
-                                <td>AMD-RADEONRX580/8GB</td>
+                                <td>NVIDIA GeForce GTX 1050 Ti </td>
                             </tr>
                             <tr>
                                 <th scope="row" class="bg-light">晶片組品牌</th>
-                                <td>AMD</td>
+                                <td>nvidia</td>
                             </tr>
                             <tr>
                                 <th scope="row" class="bg-light">卡片說明</th>
-                                <td>AMD-RADEONRX580/8GB</td>
+                                <td>Dedicated</td>
                             </tr>
                             <tr>
                                 <th scope="row" class="bg-light">無線類型</th>
-                                <td>802.11ac </td>
+                                <td>802.11ac</td>
                             </tr>
 
                         </tbody>
                     </table>
+                    <hr />
+                    <img src="https://a.ecimg.tw/img/projects/personal/v0/upload_file/US00003594/IdeaPad/YOGA/YOGA_S730/YOGA%20S730.jpg" alt="" width="750" height="3895">
+
                 </div>
                 <div id="showcontent_button" style="color:green;margin: auto;width: max-content;cursor:pointer" onclick="showcontent()">閱讀完整內容</div>
                 <div id="hidecontent_button" style="color:green;margin: auto;width: max-content;cursor:pointer" onclick="collapse()">收合</div>
@@ -242,17 +247,6 @@
                 </script>
             </section>
 
-            <script>
-                /*function showImg(item) {
-                    console.log(item.src);
-                    $("#imgblock").hide();
-                    $("#imgblock").fadeIn("fast");
-                    $("#imgblock")[0].src = item.src;
-
-
-                }*/
-            </script>
-
 
 
             <hr />
@@ -263,25 +257,25 @@
                         <tbody>
                             <tr>
                                 <th scope="row">重量輕</th>
-                                <td>2.9</td>
+                                <td>4.5</td>
                             </tr>
                             <tr>
                                 <th scope="row">螢幕品質</th>
-                                <td>3.5</td>
+                                <td>4.1</td>
                             </tr>
                             <tr>
                                 <th scope="row">電池壽命</th>
-                                <td>3.6</td>
+                                <td>4.0</td>
                             </tr>
                             <tr>
                                 <th scope="row">性價比</th>
-                                <td>2.8</td>
+                                <td>3.8</td>
                             </tr>
 
                         </tbody>
                     </table>
                     <div style="text-align:center;margin:10px auto">
-                        <span style="font-size: 50px">3.0</span>
+                        <span style="font-size: 50px">4.0</span>
                         <div style="display:flex;flex-direction:row;justify-content:center">
                             <div style="height:17px;width:17px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAABA0lEQVR4AWMgBEpLS+MYKAFlZWWaJSUlP6urq6XJNgRowKzi4uL/QLqNLAMaGhpEgJq/gwwB4rd9fX2c5LiiFmQADAP56aS4gAkYmBJAjS/QDLkGxNwgF02aNIl95syZrEC1LCD1IBsLgIr2APElqMY/IE0k4BqQzVxAgzaRpBHhunK4F1atWsUMFJhKogFFuAKzFKjgHxEG5BGKlRYCBqwiJmonEjDkBDGG7CdgyFdwtOIDoNSJpOkfUNMh9HAC5il1fBlOBjlxlZeXW0FzsjWQfxEmB+SH48v2XkBFv4B0I9DJbBBRRDKAJsyPQNyO0xCgze5ArI3Pu1VVVZJAS5KQxQC83Tw70VP4pQAAAABJRU5ErkJggg==) no-repeat left">
                             </div>
@@ -289,12 +283,12 @@
                             </div>
                             <div style="height:17px;width:17px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAABA0lEQVR4AWMgBEpLS+MYKAFlZWWaJSUlP6urq6XJNgRowKzi4uL/QLqNLAMaGhpEgJq/gwwB4rd9fX2c5LiiFmQADAP56aS4gAkYmBJAjS/QDLkGxNwgF02aNIl95syZrEC1LCD1IBsLgIr2APElqMY/IE0k4BqQzVxAgzaRpBHhunK4F1atWsUMFJhKogFFuAKzFKjgHxEG5BGKlRYCBqwiJmonEjDkBDGG7CdgyFdwtOIDoNSJpOkfUNMh9HAC5il1fBlOBjlxlZeXW0FzsjWQfxEmB+SH48v2XkBFv4B0I9DJbBBRRDKAJsyPQNyO0xCgze5ArI3Pu1VVVZJAS5KQxQC83Tw70VP4pQAAAABJRU5ErkJggg==) no-repeat left">
                             </div>
-                            <div style="height: 17px;width:17px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA+ElEQVR4AWPAB+7cuaPy4MEDSQZywc2bN6fcunWrmSzNDx8+FAQa8AWIX9+/f5+DZANu375dAdT8H4SB7BSSNP///58V6PQnMAOA7MvEaGID2iQDxEZADdUwzUiuSAbSZnfv3jUBBq4xkG8IxNqggKoCangPUkQi/gXUFwy2HchoIlHzT6Dt/uiBlgSU+E1IM9CyH0DsjSvk3YGKPuHTDFJDKPHsxWPAe2JS32t8Xrh37548Ts2gdE8oDGCBhzsMEIrvg/hA7Atk30MyoB6bXlh0lgHxXyCe8OLFC26Y+OPHjzlBUQ2NgXX4XFAOVGCOL3sD5achiwEAj9G1Uf/5qQgAAAAASUVORK5CYII=) no-repeat left">
+                            <div style="height:17px;width:17px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAABA0lEQVR4AWMgBEpLS+MYKAFlZWWaJSUlP6urq6XJNgRowKzi4uL/QLqNLAMaGhpEgJq/gwwB4rd9fX2c5LiiFmQADAP56aS4gAkYmBJAjS/QDLkGxNwgF02aNIl95syZrEC1LCD1IBsLgIr2APElqMY/IE0k4BqQzVxAgzaRpBHhunK4F1atWsUMFJhKogFFuAKzFKjgHxEG5BGKlRYCBqwiJmonEjDkBDGG7CdgyFdwtOIDoNSJpOkfUNMh9HAC5il1fBlOBjlxlZeXW0FzsjWQfxEmB+SH48v2XkBFv4B0I9DJbBBRRDKAJsyPQNyO0xCgze5ArI3Pu1VVVZJAS5KQxQC83Tw70VP4pQAAAABJRU5ErkJggg==) no-repeat left">
                             </div>
                             <div style="height: 17px;width:17px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA+ElEQVR4AWPAB+7cuaPy4MEDSQZywc2bN6fcunWrmSzNDx8+FAQa8AWIX9+/f5+DZANu375dAdT8H4SB7BSSNP///58V6PQnMAOA7MvEaGID2iQDxEZADdUwzUiuSAbSZnfv3jUBBq4xkG8IxNqggKoCangPUkQi/gXUFwy2HchoIlHzT6Dt/uiBlgSU+E1IM9CyH0DsjSvk3YGKPuHTDFJDKPHsxWPAe2JS32t8Xrh37548Ts2gdE8oDGCBhzsMEIrvg/hA7Atk30MyoB6bXlh0lgHxXyCe8OLFC26Y+OPHjzlBUQ2NgXX4XFAOVGCOL3sD5achiwEAj9G1Uf/5qQgAAAAASUVORK5CYII=) no-repeat left">
                             </div>
                         </div>
-                        <div>共 28 則評分</div>
+                        <div>共 762 則評分</div>
                     </div>
 
                     <table class="table table-sm" style="max-width:250px;margin:10px auto">
@@ -302,31 +296,31 @@
                             <tr>
                                 <th scope="row" style="width:15px">5</th>
                                 <td>
-                                    <div style="background:#57bb8a;width:60.8px;">&nbsp;</div>
+                                    <div style="background:#57bb8a;width:48%">&nbsp;</div>
                                 </td>
                             </tr>
                             <tr>
                                 <th scope="row" style="width:15px">4</th>
                                 <td>
-                                    <div style="background:#9ace6a;width:20.0px;">&nbsp;</div>
+                                    <div style="background:#9ace6a;width:15%">&nbsp;</div>
                                 </td>
                             </tr>
                             <tr>
                                 <th scope="row" style="width:15px">3</th>
                                 <td>
-                                    <div style="background:#ffcf02;width:10.0px;">&nbsp;</div>
+                                    <div style="background:#ffcf02;width:12%">&nbsp;</div>
                                 </td>
                             </tr>
                             <tr>
                                 <th scope="row" style="width:15px">2</th>
                                 <td>
-                                    <div style="background:#ff9f02;width:22.0px;">&nbsp;</div>
+                                    <div style="background:#ff9f02;width:7%">&nbsp;</div>
                                 </td>
                             </tr>
                             <tr>
-                                <th scope="row" style="width:15px">1</th>
+                                <th scope=" row" style="width:15px">1</th>
                                 <td>
-                                    <div style="background:#ff6f31;width:60.0px;">&nbsp;</div>
+                                    <div style="background:#ff6f31;width:18%">&nbsp;</div>
                                 </td>
                             </tr>
                         </tbody>
@@ -347,7 +341,7 @@
                             <span style="font-size: 10px">2019年1月9日</span>
                         </div>
                         <div>
-                            這台筆電堅固耐用，我買給我的小孩當作遊戲入門款，性能相當不錯!!
+                            這台筆電堅固耐用，性能相當不錯!!
                         </div>
                     </div>
                 </div>
@@ -355,20 +349,21 @@
                 <div style="display: flex;margin:8px 0">
                     <img height="48" width="48" style="margin-right:10px;height:48px;width:48px" class="rounded-circle" src="https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png">
                     <div style="flex-direction: column">
-                        <h5>Dave</h5>
+                        <h5>valentin</h5>
                         <div style="display:flex;flex-direction:row">
                             <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
-                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
-                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
-                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
                             <div style="height: 10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAoUlEQVR4AWNAB7dv39a+c+eOMQMhcPPmzdlAvBhVFNM00Vu3bn0HKvz14MEDSRRJkDVABX5AnAJUtBqo6D8IA9lrgDgPyM4BykWDTHEHcj6BJFEwQsN7IG0GNhXIMQBynmJR+BZokBG6JyLQFQIVtSGrgZlai8XaTRgKoR75DKRzgSYlA9mvgexH2BROuHv3rhyM//jxYyGg2Iz79+8LgPgAWIi+JMqA+1MAAAAASUVORK5CYII=) no-repeat left;"></div>
-                            <span style="font-size: 10px">2019年8月31日</span>
+                            <div style="height: 10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAoUlEQVR4AWNAB7dv39a+c+eOMQMhcPPmzdlAvBhVFNM00Vu3bn0HKvz14MEDSRRJkDVABX5AnAJUtBqo6D8IA9lrgDgPyM4BykWDTHEHcj6BJFEwQsN7IG0GNhXIMQBynmJR+BZokBG6JyLQFQIVtSGrgZlai8XaTRgKoR75DKRzgSYlA9mvgexH2BROuHv3rhyM//jxYyGg2Iz79+8LgPgAWIi+JMqA+1MAAAAASUVORK5CYII=) no-repeat left;"></div>
+                            <div style="height: 10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAoUlEQVR4AWNAB7dv39a+c+eOMQMhcPPmzdlAvBhVFNM00Vu3bn0HKvz14MEDSRRJkDVABX5AnAJUtBqo6D8IA9lrgDgPyM4BykWDTHEHcj6BJFEwQsN7IG0GNhXIMQBynmJR+BZokBG6JyLQFQIVtSGrgZlai8XaTRgKoR75DKRzgSYlA9mvgexH2BROuHv3rhyM//jxYyGg2Iz79+8LgPgAWIi+JMqA+1MAAAAASUVORK5CYII=) no-repeat left;"></div>
+                            <div style="height: 10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAoUlEQVR4AWNAB7dv39a+c+eOMQMhcPPmzdlAvBhVFNM00Vu3bn0HKvz14MEDSRRJkDVABX5AnAJUtBqo6D8IA9lrgDgPyM4BykWDTHEHcj6BJFEwQsN7IG0GNhXIMQBynmJR+BZokBG6JyLQFQIVtSGrgZlai8XaTRgKoR75DKRzgSYlA9mvgexH2BROuHv3rhyM//jxYyGg2Iz79+8LgPgAWIi+JMqA+1MAAAAASUVORK5CYII=) no-repeat left;"></div>
+                            <span style="font-size: 10px">2019年3月29日</span>
                         </div>
                         <div>
-                            我自己換上一顆SSD(原本只有HDD)，使用起來真的效能強大，不錯!
+                            如果是要拿來玩遊戲，勸你們還是別買了!!!
                         </div>
                     </div>
                 </div>
+
                 <hr />
                 <div style="display: flex;margin:8px 0">
                     <img height="48" width="48" style="margin-right:10px;height:48px;width:48px" class="rounded-circle" src="https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png">
@@ -383,28 +378,11 @@
                             <span style="font-size: 10px">2018年3月3日</span>
                         </div>
                         <div>
-                            這個CP值真的算很高了，但的確有點容易過熱!
+                            這個CP值真的算很高了!
                         </div>
                     </div>
                 </div>
-                <hr />
-                <div style="display: flex;margin:8px 0">
-                    <img height="48" width="48" style="margin-right:10px;height:48px;width:48px" class="rounded-circle" src="https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png">
-                    <div style="flex-direction: column">
-                        <h5>Astolfo</h5>
-                        <div style="display:flex;flex-direction:row">
-                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
-                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
-                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
-                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
-                            <div style="height: 10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAoUlEQVR4AWNAB7dv39a+c+eOMQMhcPPmzdlAvBhVFNM00Vu3bn0HKvz14MEDSRRJkDVABX5AnAJUtBqo6D8IA9lrgDgPyM4BykWDTHEHcj6BJFEwQsN7IG0GNhXIMQBynmJR+BZokBG6JyLQFQIVtSGrgZlai8XaTRgKoR75DKRzgSYlA9mvgexH2BROuHv3rhyM//jxYyGg2Iz79+8LgPgAWIi+JMqA+1MAAAAASUVORK5CYII=) no-repeat left;"></div>
-                            <span style="font-size: 10px">2018年3月23日</span>
-                        </div>
-                        <div>
-                            效能很不錯，但用起來很燙。
-                        </div>
-                    </div>
-                </div>
+
                 <hr />
                 <div style="display: flex;margin:8px 0">
                     <img height="48" width="48" style="margin-right:10px;height:48px;width:48px" class="rounded-circle" src="https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png">
@@ -445,17 +423,17 @@
                 <div style="display: flex;margin:8px 0">
                     <img height="48" width="48" style="margin-right:10px;height:48px;width:48px" class="rounded-circle" src="https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png">
                     <div style="flex-direction: column">
-                        <h5>valentin</h5>
+                        <h5>Astolfo</h5>
                         <div style="display:flex;flex-direction:row">
                             <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
-                            <div style="height: 10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAoUlEQVR4AWNAB7dv39a+c+eOMQMhcPPmzdlAvBhVFNM00Vu3bn0HKvz14MEDSRRJkDVABX5AnAJUtBqo6D8IA9lrgDgPyM4BykWDTHEHcj6BJFEwQsN7IG0GNhXIMQBynmJR+BZokBG6JyLQFQIVtSGrgZlai8XaTRgKoR75DKRzgSYlA9mvgexH2BROuHv3rhyM//jxYyGg2Iz79+8LgPgAWIi+JMqA+1MAAAAASUVORK5CYII=) no-repeat left;"></div>
-                            <div style="height: 10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAoUlEQVR4AWNAB7dv39a+c+eOMQMhcPPmzdlAvBhVFNM00Vu3bn0HKvz14MEDSRRJkDVABX5AnAJUtBqo6D8IA9lrgDgPyM4BykWDTHEHcj6BJFEwQsN7IG0GNhXIMQBynmJR+BZokBG6JyLQFQIVtSGrgZlai8XaTRgKoR75DKRzgSYlA9mvgexH2BROuHv3rhyM//jxYyGg2Iz79+8LgPgAWIi+JMqA+1MAAAAASUVORK5CYII=) no-repeat left;"></div>
-                            <div style="height: 10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAoUlEQVR4AWNAB7dv39a+c+eOMQMhcPPmzdlAvBhVFNM00Vu3bn0HKvz14MEDSRRJkDVABX5AnAJUtBqo6D8IA9lrgDgPyM4BykWDTHEHcj6BJFEwQsN7IG0GNhXIMQBynmJR+BZokBG6JyLQFQIVtSGrgZlai8XaTRgKoR75DKRzgSYlA9mvgexH2BROuHv3rhyM//jxYyGg2Iz79+8LgPgAWIi+JMqA+1MAAAAASUVORK5CYII=) no-repeat left;"></div>
-                            <div style="height: 10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAoUlEQVR4AWNAB7dv39a+c+eOMQMhcPPmzdlAvBhVFNM00Vu3bn0HKvz14MEDSRRJkDVABX5AnAJUtBqo6D8IA9lrgDgPyM4BykWDTHEHcj6BJFEwQsN7IG0GNhXIMQBynmJR+BZokBG6JyLQFQIVtSGrgZlai8XaTRgKoR75DKRzgSYlA9mvgexH2BROuHv3rhyM//jxYyGg2Iz79+8LgPgAWIi+JMqA+1MAAAAASUVORK5CYII=) no-repeat left;"></div>
-                            <span style="font-size: 10px">2019年3月29日</span>
+                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
+                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
+                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
+                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
+                            <span style="font-size: 10px">2018年3月23日</span>
                         </div>
                         <div>
-                            如果是要拿來玩遊戲，勸你們還是別買了!!!
+                            效能很不錯，有些人說有散熱問題，我卻沒遇到。
                         </div>
                     </div>
                 </div>
@@ -478,6 +456,25 @@
                     </div>
                 </div>
 
+                <hr />
+                <div style="display: flex;margin:8px 0">
+                    <img height="48" width="48" style="margin-right:10px;height:48px;width:48px" class="rounded-circle" src="https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png">
+                    <div style="flex-direction: column">
+                        <h5>Dave</h5>
+                        <div style="display:flex;flex-direction:row">
+                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
+                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
+                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
+                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
+                            <div style="height: 10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAoUlEQVR4AWNAB7dv39a+c+eOMQMhcPPmzdlAvBhVFNM00Vu3bn0HKvz14MEDSRRJkDVABX5AnAJUtBqo6D8IA9lrgDgPyM4BykWDTHEHcj6BJFEwQsN7IG0GNhXIMQBynmJR+BZokBG6JyLQFQIVtSGrgZlai8XaTRgKoR75DKRzgSYlA9mvgexH2BROuHv3rhyM//jxYyGg2Iz79+8LgPgAWIi+JMqA+1MAAAAASUVORK5CYII=) no-repeat left;"></div>
+                            <span style="font-size: 10px">2019年8月31日</span>
+                        </div>
+                        <div>
+                            使用起來真的效能強大，不錯!
+                        </div>
+                    </div>
+                </div>
+
             </section>
 
 
@@ -492,13 +489,85 @@
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
-                    <div class="modal-body">
-                        ...
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">關閉</button>
-                        <button type="button" class="btn btn-primary">送出</button>
-                    </div>
+                    <form action="./situationPage.php" method="post">
+                        <div class="modal-body" style="padding:2.5rem!important">
+
+                            <div class="form-group ">
+                                <label class=" col-form-label">1. 在此情境中，多數人對此產品的評價如何？</label>
+                                <div class=" row col-form-label" style="margin-left:15px">
+                                    <div class="form-check ">
+                                        <input class="form-check-input" type="radio" name="Q1" value="0" required>
+                                        <label class="form-check-label">
+                                            正面
+                                        </label>
+                                    </div>
+                                    &emsp;
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="Q1" value="1">
+                                        <label class="form-check-label">
+                                            負面
+                                        </label>
+                                    </div>
+                                    &emsp;
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="Q1" value="2">
+                                        <label class="form-check-label">
+                                            評價不一
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <label class=" col-form-label">2. 根據情境內容，此產品主打的功能為何？</label>
+                                <div class=" row col-form-label" style="margin-left:15px">
+                                    <div class="form-check ">
+                                        <input class="form-check-input" type="radio" name="Q2" value="0" required>
+                                        <label class="form-check-label">
+                                            遊戲體驗極佳
+                                        </label>
+                                    </div>
+                                    &emsp;
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="Q2" value="1">
+                                        <label class="form-check-label">
+                                            輕薄且續航力佳
+                                        </label>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <label class=" col-form-label">3. 此情境中，是否有針對產品細項的評分？</label>
+                                <div class=" row col-form-label" style="margin-left:15px">
+                                    <div class="form-check ">
+                                        <input class="form-check-input" type="radio" name="Q3" value="0" required>
+                                        <label class="form-check-label">
+                                            是
+                                        </label>
+                                    </div>
+                                    &emsp;
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="Q3" value="1">
+                                        <label class="form-check-label">
+                                            否
+                                        </label>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">關閉</button>
+                            <button type="submit" class="btn btn-primary">送出</button>
+                        </div>
+                    </form>
+
+
                 </div>
             </div>
         </div>

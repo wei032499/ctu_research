@@ -88,12 +88,12 @@
                 </div>-->
                 <div style="display: flex;flex-direction:row">
                     <div id="titleImg" style="width: 40%">
-                        <img src="https://b.ecimg.tw/items/DHBF3I1900AECQ5/000001_1575510636.jpg" style="width: 90%" />
+                        <img src="/CKTU/images/head.jpg" style="width: 90%" />
                     </div>
                     <div style="width: 100%">
                         <div style="display: flex;flex-direction:row">
                             <div id="titleImg2" style="width: 40%;display:none">
-                                <img src="https://b.ecimg.tw/items/DHBF3I1900AECQ5/000001_1575510636.jpg" style="width: 90%" />
+                                <img src="/CKTU/images/head.jpg" style="width: 90%" />
                             </div>
                             <div style="margin: 5px auto 5px 25px ">
                                 <h1>Lenovo IdeaPad YOGA S730</h1>
@@ -107,8 +107,10 @@
                                     <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;">
                                     </div>
                                     <div style="height: 10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAoUlEQVR4AWNAB7dv39a+c+eOMQMhcPPmzdlAvBhVFNM00Vu3bn0HKvz14MEDSRRJkDVABX5AnAJUtBqo6D8IA9lrgDgPyM4BykWDTHEHcj6BJFEwQsN7IG0GNhXIMQBynmJR+BZokBG6JyLQFQIVtSGrgZlai8XaTRgKoR75DKRzgSYlA9mvgexH2BROuHv3rhyM//jxYyGg2Iz79+8LgPgAWIi+JMqA+1MAAAAASUVORK5CYII=) no-repeat left;">
+                                        <div style="height:10px;width:6.0px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;">
+                                        </div>
                                     </div>
-                                    <span id="count">14</span>
+                                    <span id="count">762</span>
                                     <div style="width:16px;height:16px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAAW0lEQVR4AWP4TwBSTQEIlAuUbyj/D4QbygWwK1gAlITABdgVHIArOECmggC4ggBMBRAlBuUNQGgAE8VU4ACBmApAejfALIB61QBVwQeoBAJ+QFXwHxNSLy4IQAD87f8pWI1e0gAAAABJRU5ErkJggg==);"></div>
                                 </div>
                                 <div><span>網路售價</span> <span style="color:red;font-size:25px">$25,990</span></div>
@@ -248,16 +250,6 @@
                 </script>
             </section>
 
-            <script>
-                /*function showImg(item) {
-                    console.log(item.src);
-                    $("#imgblock").hide();
-                    $("#imgblock").fadeIn("fast");
-                    $("#imgblock")[0].src = item.src;
-
-
-                }*/
-            </script>
 
 
 
@@ -267,7 +259,7 @@
                 <div id="scores" style="display: flex;justify-content: space-evenly;">
 
                     <div style="text-align:center;margin:10px auto">
-                        <span style="font-size: 50px">4.0</span>
+                        <span style="font-size: 50px">4.7</span>
                         <div style="display:flex;flex-direction:row;justify-content:center">
                             <div style="height:17px;width:17px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAABA0lEQVR4AWMgBEpLS+MYKAFlZWWaJSUlP6urq6XJNgRowKzi4uL/QLqNLAMaGhpEgJq/gwwB4rd9fX2c5LiiFmQADAP56aS4gAkYmBJAjS/QDLkGxNwgF02aNIl95syZrEC1LCD1IBsLgIr2APElqMY/IE0k4BqQzVxAgzaRpBHhunK4F1atWsUMFJhKogFFuAKzFKjgHxEG5BGKlRYCBqwiJmonEjDkBDGG7CdgyFdwtOIDoNSJpOkfUNMh9HAC5il1fBlOBjlxlZeXW0FzsjWQfxEmB+SH48v2XkBFv4B0I9DJbBBRRDKAJsyPQNyO0xCgze5ArI3Pu1VVVZJAS5KQxQC83Tw70VP4pQAAAABJRU5ErkJggg==) no-repeat left">
                             </div>
@@ -277,9 +269,11 @@
                             </div>
                             <div style="height:17px;width:17px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAABA0lEQVR4AWMgBEpLS+MYKAFlZWWaJSUlP6urq6XJNgRowKzi4uL/QLqNLAMaGhpEgJq/gwwB4rd9fX2c5LiiFmQADAP56aS4gAkYmBJAjS/QDLkGxNwgF02aNIl95syZrEC1LCD1IBsLgIr2APElqMY/IE0k4BqQzVxAgzaRpBHhunK4F1atWsUMFJhKogFFuAKzFKjgHxEG5BGKlRYCBqwiJmonEjDkBDGG7CdgyFdwtOIDoNSJpOkfUNMh9HAC5il1fBlOBjlxlZeXW0FzsjWQfxEmB+SH48v2XkBFv4B0I9DJbBBRRDKAJsyPQNyO0xCgze5ArI3Pu1VVVZJAS5KQxQC83Tw70VP4pQAAAABJRU5ErkJggg==) no-repeat left">
                             </div>
-                            <div style="height: 17px;width:17px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA+ElEQVR4AWPAB+7cuaPy4MEDSQZywc2bN6fcunWrmSzNDx8+FAQa8AWIX9+/f5+DZANu375dAdT8H4SB7BSSNP///58V6PQnMAOA7MvEaGID2iQDxEZADdUwzUiuSAbSZnfv3jUBBq4xkG8IxNqggKoCangPUkQi/gXUFwy2HchoIlHzT6Dt/uiBlgSU+E1IM9CyH0DsjSvk3YGKPuHTDFJDKPHsxWPAe2JS32t8Xrh37548Ts2gdE8oDGCBhzsMEIrvg/hA7Atk30MyoB6bXlh0lgHxXyCe8OLFC26Y+OPHjzlBUQ2NgXX4XFAOVGCOL3sD5achiwEAj9G1Uf/5qQgAAAAASUVORK5CYII=) no-repeat left"></div>
+                            <div style="height: 17px;width:17px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA+ElEQVR4AWPAB+7cuaPy4MEDSQZywc2bN6fcunWrmSzNDx8+FAQa8AWIX9+/f5+DZANu375dAdT8H4SB7BSSNP///58V6PQnMAOA7MvEaGID2iQDxEZADdUwzUiuSAbSZnfv3jUBBq4xkG8IxNqggKoCangPUkQi/gXUFwy2HchoIlHzT6Dt/uiBlgSU+E1IM9CyH0DsjSvk3YGKPuHTDFJDKPHsxWPAe2JS32t8Xrh37548Ts2gdE8oDGCBhzsMEIrvg/hA7Atk30MyoB6bXlh0lgHxXyCe8OLFC26Y+OPHjzlBUQ2NgXX4XFAOVGCOL3sD5achiwEAj9G1Uf/5qQgAAAAASUVORK5CYII=) no-repeat left">
+                                <div style="height:17px;width:10.0px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAABA0lEQVR4AWMgBEpLS+MYKAFlZWWaJSUlP6urq6XJNgRowKzi4uL/QLqNLAMaGhpEgJq/gwwB4rd9fX2c5LiiFmQADAP56aS4gAkYmBJAjS/QDLkGxNwgF02aNIl95syZrEC1LCD1IBsLgIr2APElqMY/IE0k4BqQzVxAgzaRpBHhunK4F1atWsUMFJhKogFFuAKzFKjgHxEG5BGKlRYCBqwiJmonEjDkBDGG7CdgyFdwtOIDoNSJpOkfUNMh9HAC5il1fBlOBjlxlZeXW0FzsjWQfxEmB+SH48v2XkBFv4B0I9DJbBBRRDKAJsyPQNyO0xCgze5ArI3Pu1VVVZJAS5KQxQC83Tw70VP4pQAAAABJRU5ErkJggg==) no-repeat left">
+                                </div>
+                            </div>
                         </div>
-                        <div>共 14 則評分</div>
                     </div>
 
                     <table class="table table-sm" style="max-width:350px;margin:10px auto">
@@ -287,31 +281,31 @@
                             <tr>
                                 <th scope="row" style="width:15px">5</th>
                                 <td>
-                                    <div style="background:#57bb8a;width:170.8px;">&nbsp;</div>
+                                    <div style="background:#57bb8a;width:75%;">&nbsp;</div>
                                 </td>
                             </tr>
                             <tr>
                                 <th scope="row" style="width:15px">4</th>
                                 <td>
-                                    <div style="background:#9ace6a;width:20.2px;">&nbsp;</div>
+                                    <div style="background:#9ace6a;width:9%">&nbsp;</div>
                                 </td>
                             </tr>
                             <tr>
                                 <th scope="row" style="width:15px">3</th>
                                 <td>
-                                    <div style="background:#ffcf02;width:0px;">&nbsp;</div>
+                                    <div style="background:#ffcf02;width:3%">&nbsp;</div>
                                 </td>
                             </tr>
                             <tr>
                                 <th scope="row" style="width:15px">2</th>
                                 <td>
-                                    <div style="background:#ff9f02;width:25px;">&nbsp;</div>
+                                    <div style="background:#ff9f02;width:3%">&nbsp;</div>
                                 </td>
                             </tr>
                             <tr>
                                 <th scope="row" style="width:15px">1</th>
                                 <td>
-                                    <div style="background:#ff6f31;width:30.8px;">&nbsp;</div>
+                                    <div style="background:#ff6f31;width:10%">&nbsp;</div>
                                 </td>
                             </tr>
                         </tbody>
@@ -444,13 +438,85 @@
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
-                    <div class="modal-body">
-                        ...
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">關閉</button>
-                        <button type="button" class="btn btn-primary">送出</button>
-                    </div>
+                    <form action="./situationPage.php" method="post">
+                        <div class="modal-body" style="padding:2.5rem!important">
+
+                            <div class="form-group ">
+                                <label class=" col-form-label">1. 在此情境中，多數人對此產品的評價如何？</label>
+                                <div class=" row col-form-label" style="margin-left:15px">
+                                    <div class="form-check ">
+                                        <input class="form-check-input" type="radio" name="Q1" value="0" required>
+                                        <label class="form-check-label">
+                                            正面
+                                        </label>
+                                    </div>
+                                    &emsp;
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="Q1" value="1">
+                                        <label class="form-check-label">
+                                            負面
+                                        </label>
+                                    </div>
+                                    &emsp;
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="Q1" value="2">
+                                        <label class="form-check-label">
+                                            評價不一
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <label class=" col-form-label">2. 根據情境內容，此產品主打的功能為何？</label>
+                                <div class=" row col-form-label" style="margin-left:15px">
+                                    <div class="form-check ">
+                                        <input class="form-check-input" type="radio" name="Q2" value="0" required>
+                                        <label class="form-check-label">
+                                            遊戲體驗極佳
+                                        </label>
+                                    </div>
+                                    &emsp;
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="Q2" value="1">
+                                        <label class="form-check-label">
+                                            輕薄且續航力佳
+                                        </label>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <label class=" col-form-label">3. 此情境中，是否有針對產品細項的評分？</label>
+                                <div class=" row col-form-label" style="margin-left:15px">
+                                    <div class="form-check ">
+                                        <input class="form-check-input" type="radio" name="Q3" value="0" required>
+                                        <label class="form-check-label">
+                                            是
+                                        </label>
+                                    </div>
+                                    &emsp;
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="Q3" value="1">
+                                        <label class="form-check-label">
+                                            否
+                                        </label>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">關閉</button>
+                            <button type="submit" class="btn btn-primary">送出</button>
+                        </div>
+                    </form>
+
+
                 </div>
             </div>
         </div>
