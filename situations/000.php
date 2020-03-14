@@ -1,50 +1,230 @@
 <!--實用品、豐富度高、一致性高-->
 <!--https://www.amazon.com/-/zh_TW/dp/B07RF2123Z/ref=sr_1_2?fst=as%3Aoff&qid=1578845440&rnid=16225007011&s=computers-intl-ship&sr=1-2&th=1-->
+<?php
+/*if (!isset($id)) {
+        header('Location: /CKTU/index.html');
+        exit();
+    }*/
+?>
 <html>
 
 <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+    <meta http-equiv="Content-Language" content="zh-TW">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <link rel="Shortcut Icon" type="image/x-icon" href="/CKTU/images/icon.png" />
     <title>最佳評價、購物網站</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="/CKTU/css/bootstrap.min.css">
     <link rel="stylesheet" href="/CKTU/css/default.css">
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="/CKTU/js/jquery-3.4.1.min.js"></script>
+    <script src="/CKTU/js/popper.min.js"></script>
+    <script src="/CKTU/js/bootstrap.min.js"></script>
 </head>
 <script>
     function start() {
-        $('#start').trigger('click');
+        $('#storyModal').modal({
+            show: true,
+            keyboard: false,
+            backdrop: 'static'
+        })
         $('.container').addClass("show");
+        window.scrollTo(0, 0);
     }
 </script>
 
 <body class="bg-light" onload="start()">
-
-    <button id="start" type="button" class="btn btn-info" data-toggle="modal" data-target="#storyModal" style="display:none">
-        情境故事
-    </button>
-
     <!-- Modal -->
-    <div class="modal fade" id="storyModal" tabindex="-1" role="dialog" aria-labelledby="storyModalLabel" aria-hidden="true">
+    <div class="modal " id="storyModal" tabindex="-1" role="dialog" aria-labelledby="storyModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="storyModalLabel">情境故事</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <!--<button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
-                    </button>
+                    </button>-->
                 </div>
                 <div class="modal-body">
-                    ...
+                    你想買筆記型電腦已經很久了，但是礙於課業/工作忙碌，始終沒有時間好好的研究，趁著剛好有空的這個時候，上網搜尋了一下產品資訊與網友的意見，這時你看到一款不錯的筆記型電腦。
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">關閉</button>
+                    <!--secondary-->
+                    <button type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#startQ" onclick="$('#startQ').modal('handleUpdate')">下一頁</button>
                     <!--<button type="button" class="btn btn-primary">Save changes</button>-->
                 </div>
             </div>
         </div>
     </div>
+
+    <div class="modal fade" id="startQ" tabindex="-1" role="dialog" aria-labelledby="startQLabel" aria-hidden="true" data-backdrop="static">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="startQLabel">情境故事</h5>
+                    <!--<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>-->
+                </div>
+                <form id="startForm" action="/CKTU/finish.php">
+                    <input name="question" value="0" style="visibility: hidden" required>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label for="startQ1">1. 我知道許多廠牌的筆記型電腦</label>
+                            <div id="startQ1" class="d-flex justify-content-center">
+                                <div style="margin-right:auto">非常同意</div>
+                                <div style="display: flex;">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="startQ1" id="startQ1_1" value="6" required>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="startQ1" id="startQ1_2" value="5">
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="startQ1" id="startQ1_3" value="4">
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="startQ1" id="startQ1_4" value="3">
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="startQ1" id="startQ1_5" value="2">
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="startQ1" id="startQ1_6" value="1">
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="startQ1" id="startQ1_7" value="0">
+                                    </div>
+                                </div>
+                                <div style="margin-left:auto">非常不同意</div>
+                            </div>
+                        </div>
+                        <hr />
+                        <div class="form-group">
+                            <label for="startQ2">2. 對我而言，選購一台筆電將不會花費太多時間</label>
+                            <div id="startQ2" class="d-flex justify-content-center">
+                                <div style="margin-right:auto">非常同意</div>
+                                <div style="display: flex">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="startQ2" id="startQ2_1" value="6" required>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="startQ2" id="startQ2_2" value="5">
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="startQ2" id="startQ2_3" value="4">
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="startQ2" id="startQ2_4" value="3">
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="startQ2" id="startQ2_5" value="2">
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="startQ2" id="startQ2_6" value="1">
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="startQ2" id="startQ2_7" value="0">
+                                    </div>
+                                </div>
+                                <div style="margin-left:auto">非常不同意</div>
+                            </div>
+                        </div>
+                        <hr />
+                        <div class="form-group">
+                            <label for="startQ3">3. 我大致瞭解不同筆記型電腦品牌之間的差異</label>
+                            <div id="startQ3" class="d-flex justify-content-center">
+                                <div style="margin-right:auto">非常同意</div>
+                                <div style="display: flex">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="startQ3" id="startQ3_1" value="6" required>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="startQ3" id="startQ3_2" value="5">
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="startQ3" id="startQ3_3" value="4">
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="startQ3" id="startQ3_4" value="3">
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="startQ3" id="startQ3_5" value="2">
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="startQ3" id="startQ3_6" value="1">
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="startQ3" id="startQ3_7" value="0">
+                                    </div>
+                                </div>
+                                <div style="margin-left:auto">非常不同意</div>
+                            </div>
+                        </div>
+                        <hr />
+                        <div class="form-group">
+                            <label for="startQ4">4. 我曾經比較選購過筆記型電腦</label>
+                            <div id="startQ4" class="d-flex justify-content-center">
+                                <div style="margin-right:auto">非常同意</div>
+                                <div style="display: flex">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="startQ4" id="startQ4_1" value="6" required>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="startQ4" id="startQ4_2" value="5">
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="startQ4" id="startQ4_3" value="4">
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="startQ4" id="startQ4_4" value="3">
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="startQ4" id="startQ4_5" value="2">
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="startQ4" id="startQ4_6" value="1">
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="startQ4" id="startQ4_7" value="0">
+                                    </div>
+                                </div>
+                                <div style="margin-left:auto">非常不同意</div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="modal-footer">
+                        <input type="submit" class="btn btn-success" value="確定">
+                        <!--<button type="button" class="btn btn-primary">Save changes</button>-->
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script>
+        $("#startForm").submit(function(e) {
+
+            var form = $(this);
+            var url = form.attr('action');
+
+            $.ajax({
+                type: "POST",
+                url: url,
+                data: form.serialize(), // serializes the form's elements.
+                success: function(data) {
+                    if (data != "")
+                        alert(data); // show response from the php script.
+                    else {
+                        $('#startQ').modal('hide');
+                        alert("請開始閱讀情境");
+                    }
+                }
+            });
+
+            e.preventDefault(); // avoid to execute the actual submit of the form.
+        });
+    </script>
 
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #689f38;box-shadow: 0 2px 4px rgba(0,0,0,0.1);/*position:sticky;top:0;z-index:2000*/">
         <a class="navbar-brand" href="#" style="background: #689f38;">
@@ -91,7 +271,7 @@
                     </div>
                     <div style="width: 100%">
                         <div style="display: flex;flex-direction:row">
-                            <div id="titleImg2" style="width: 40%;display:none">
+                            <div id="titleImg2" style="width: 100%;display:none">
                                 <img src="/CKTU/images/head.jpg" style="width: 90%" />
                             </div>
                             <div style="margin: 5px auto 5px 25px ">
@@ -132,39 +312,39 @@
                 <section>
                     <div class="container-fluid" style="padding: 0px">
                         <div id="carouselExample" class="carousel slide" data-ride="carousel" data-interval="false">
-                            <div class="carousel-inner row w-100 mx-auto" role="listbox" style="height: 300px">
-                                <div class="carousel-item  active" style="width: auto;padding:5px">
+                            <div class="carousel-inner row w-100 mx-auto" role="listbox" style="max-height: 300px">
+                                <div class="carousel-item  active" style="width:auto;padding:5px;max-width:100%">
                                     <div class="panel panel-default">
                                         <div class="panel-thumbnail">
                                             <a title="image 1" class="thumb">
-                                                <img style="height: 300px" class="img-fluid mx-auto d-block" src="https://images-na.ssl-images-amazon.com/images/I/61I3A%2B0fvdL._AC_SX679_.jpg" alt="slide 1" onclick="showImg(this)">
+                                                <img style="max-height: 300px" class="img-fluid mx-auto d-block" src="https://images-na.ssl-images-amazon.com/images/I/61I3A%2B0fvdL._AC_SX679_.jpg" alt="slide 1" onclick="showImg(this)">
                                             </a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="carousel-item " style="width: auto;padding:5px">
+                                <div class="carousel-item " style="width: auto;padding:5px;max-width:100%">
                                     <div class="panel panel-default">
                                         <div class="panel-thumbnail">
                                             <a title="image 3" class="thumb">
-                                                <img style="height: 300px" class="img-fluid mx-auto d-block" src="https://images-na.ssl-images-amazon.com/images/I/41Ydv3HnX3L._AC_.jpg" alt="slide 2" onclick="showImg(this)">
+                                                <img style="max-height: 300px" class="img-fluid mx-auto d-block" src="https://images-na.ssl-images-amazon.com/images/I/41Ydv3HnX3L._AC_.jpg" alt="slide 2" onclick="showImg(this)">
                                             </a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="carousel-item " style="width: auto;padding:5px">
+                                <div class="carousel-item " style="width: auto;padding:5px;max-width:100%">
                                     <div class="panel panel-default">
                                         <div class="panel-thumbnail">
                                             <a title="image 4" class="thumb">
-                                                <img style="height: 300px" class="img-fluid mx-auto d-block" src="https://images-na.ssl-images-amazon.com/images/I/41atB5qTPcL._AC_.jpg" alt="slide 3" onclick="showImg(this)">
+                                                <img style="max-height: 300px" class="img-fluid mx-auto d-block" src="https://images-na.ssl-images-amazon.com/images/I/41atB5qTPcL._AC_.jpg" alt="slide 3" onclick="showImg(this)">
                                             </a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="carousel-item " style="width: auto;padding:5px">
+                                <div class="carousel-item " style="width: auto;padding:5px;max-width:100%">
                                     <div class="panel panel-default">
                                         <div class="panel-thumbnail">
                                             <a title="image 5" class="thumb">
-                                                <img style="height: 300px" class="img-fluid mx-auto d-block" src="https://images-na.ssl-images-amazon.com/images/I/51jjnhJ46GL._AC_SX679_.jpg" alt="slide 4" onclick="showImg(this)">
+                                                <img style="max-height: 300px" class="img-fluid mx-auto d-block" src="https://images-na.ssl-images-amazon.com/images/I/51jjnhJ46GL._AC_SX679_.jpg" alt="slide 4" onclick="showImg(this)">
                                             </a>
                                         </div>
                                     </div>
@@ -225,7 +405,7 @@
                         </tbody>
                     </table>
                     <hr />
-                    <img src="https://a.ecimg.tw/img/projects/personal/v0/upload_file/US00003594/IdeaPad/YOGA/YOGA_S730/YOGA%20S730.jpg" alt="" width="750" height="3895">
+                    <img style="max-width:100%" src="https://a.ecimg.tw/img/projects/personal/v0/upload_file/US00003594/IdeaPad/YOGA/YOGA_S730/YOGA%20S730.jpg" alt="" width="750" height="3895">
 
                 </div>
                 <div id="showcontent_button" style="color:green;margin: auto;width: max-content;cursor:pointer" onclick="showcontent()">閱讀完整內容</div>
@@ -274,8 +454,8 @@
                                 <td>4.3</td>
                             </tr>
                             <tr>
-                                <th scope="row">觸碰螢幕</th>
-                                <td>3.7</td>
+                                <th scope="row">性價比</th>
+                                <td>4.6</td>
                             </tr>
 
                         </tbody>
@@ -407,7 +587,7 @@
                             <span style="font-size: 10px">2020年1月9日</span>
                         </div>
                         <div>
-                            出色的超薄筆記型電腦。喜歡背光鍵盤。快速加載並滿足我的需求。
+                            出色的超薄筆記型電腦。喜歡背光鍵盤。速度快而且滿足我的需求。
                         </div>
                     </div>
                 </div>
@@ -489,7 +669,7 @@
         </div>
         <!-- Modal -->
         <div class="modal fade bd-example-modal-xl" id="questionModal" tabindex="-1" role="dialog" aria-labelledby="questionModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title" id="questionModalLabel">開始答題</h5>
@@ -497,9 +677,9 @@
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
-                    <form action="./situationPage.php" method="post">
-                        <div class="modal-body" style="padding:2.5rem!important">
-
+                    <form id="Form" action="/CKTU/finish.php" method="post">
+                        <div class="modal-body" style="padding:0 2.5rem!important">
+                            <input name="question" value="1" style="visibility: hidden" required>
                             <div class="form-group ">
                                 <label class=" col-form-label">1. 在此情境中，多數人對此產品的評價如何？</label>
                                 <div class=" row col-form-label" style="margin-left:15px">
@@ -564,6 +744,523 @@
                                 </div>
                             </div>
 
+
+
+
+                            <!--Questions-->
+
+                            <div class="form-group ">
+                                <label class=" col-form-label">4. 網友對於這款筆電的評論相當一致</label>
+                                <div id="Q4" class="d-flex justify-content-center" style="max-width: 415px;">
+                                    <div style="margin-right:auto">非常同意</div>
+                                    <div style="display: flex">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q4" value="6" required>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q4" value="5">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q4" value="4">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q4" value="3">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q4" value="2">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q4" value="1">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q4" value="0">
+                                        </div>
+                                    </div>
+                                    <div style="margin-left:auto">非常不同意</div>
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <label class=" col-form-label">5. 網友的評論，讓我感覺購買這款筆電是正確的決定</label>
+                                <div class="d-flex justify-content-center" style="max-width: 415px;">
+                                    <div style="margin-right:auto">非常同意</div>
+                                    <div style="display: flex">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q5" value="6" required>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q5" value="5">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q5" value="4">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q5" value="3">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q5" value="2">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q5" value="1">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q5" value="0">
+                                        </div>
+                                    </div>
+                                    <div style="margin-left:auto">非常不同意</div>
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <label class=" col-form-label">6. 網友的評論，使我感覺購買這款筆電存在不確定的感受</label>
+                                <div class="d-flex justify-content-center" style="max-width: 415px;">
+                                    <div style="margin-right:auto">非常同意</div>
+                                    <div style="display: flex">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q6" value="6" required>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q6" value="5">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q6" value="4">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q6" value="3">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q6" value="2">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q6" value="1">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q6" value="0">
+                                        </div>
+                                    </div>
+                                    <div style="margin-left:auto">非常不同意</div>
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <label class=" col-form-label">7. 如果我購買這款筆電，便可能曝露在許多的交易的不確定之中</label>
+                                <div class="d-flex justify-content-center" style="max-width: 415px;">
+                                    <div style="margin-right:auto">非常同意</div>
+                                    <div style="display: flex">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q7" value="6" required>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q7" value="5">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q7" value="4">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q7" value="3">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q7" value="2">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q7" value="1">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q7" value="0">
+                                        </div>
+                                    </div>
+                                    <div style="margin-left:auto">非常不同意</div>
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <label class=" col-form-label">8. 網友的評論使我更熟悉這款筆電</label>
+                                <div class="d-flex justify-content-center" style="max-width: 415px;">
+                                    <div style="margin-right:auto">非常同意</div>
+                                    <div style="display: flex">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q8" value="6" required>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q8" value="5">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q8" value="4">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q8" value="3">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q8" value="2">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q8" value="1">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q8" value="0">
+                                        </div>
+                                    </div>
+                                    <div style="margin-left:auto">非常不同意</div>
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <label class=" col-form-label">9. 網友的評論有助於我衡量這款筆電</label>
+                                <div class="d-flex justify-content-center" style="max-width: 415px;">
+                                    <div style="margin-right:auto">非常同意</div>
+                                    <div style="display: flex">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q9" value="6" required>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q9" value="5">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q9" value="4">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q9" value="3">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q9" value="2">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q9" value="1">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q9" value="0">
+                                        </div>
+                                    </div>
+                                    <div style="margin-left:auto">非常不同意</div>
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <label class=" col-form-label">10. 網友的評論有助我瞭解這款筆電的效能</label>
+                                <div class="d-flex justify-content-center" style="max-width: 415px;">
+                                    <div style="margin-right:auto">非常同意</div>
+                                    <div style="display: flex">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q10" value="6" required>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q10" value="5">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q10" value="4">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q10" value="3">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q10" value="2">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q10" value="1">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q10" value="0">
+                                        </div>
+                                    </div>
+                                    <div style="margin-left:auto">非常不同意</div>
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <label class=" col-form-label">11. 我感覺這款筆電的CP值很高</label>
+                                <div class="d-flex justify-content-center" style="max-width: 415px;">
+                                    <div style="margin-right:auto">非常同意</div>
+                                    <div style="display: flex">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q11" value="6" required>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q11" value="5">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q11" value="4">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q11" value="3">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q11" value="2">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q11" value="1">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q11" value="0">
+                                        </div>
+                                    </div>
+                                    <div style="margin-left:auto">非常不同意</div>
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <label class=" col-form-label">12. 我感覺這款筆電的待機時間很長</label>
+                                <div class="d-flex justify-content-center" style="max-width: 415px;">
+                                    <div style="margin-right:auto">非常同意</div>
+                                    <div style="display: flex">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q12" value="6" required>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q12" value="5">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q12" value="4">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q12" value="3">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q12" value="2">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q12" value="1">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q12" value="0">
+                                        </div>
+                                    </div>
+                                    <div style="margin-left:auto">非常不同意</div>
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <label class=" col-form-label">13. 我感覺這款筆電的效能很好</label>
+                                <div class="d-flex justify-content-center" style="max-width: 415px;">
+                                    <div style="margin-right:auto">非常同意</div>
+                                    <div style="display: flex">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q13" value="6" required>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q13" value="5">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q13" value="4">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q13" value="3">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q13" value="2">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q13" value="1">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q13" value="0">
+                                        </div>
+                                    </div>
+                                    <div style="margin-left:auto">非常不同意</div>
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <label class=" col-form-label">14. 我感覺這款筆電的品質讓人可以接受</label>
+                                <div class="d-flex justify-content-center" style="max-width: 415px;">
+                                    <div style="margin-right:auto">非常同意</div>
+                                    <div style="display: flex">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q14" value="6" required>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q14" value="5">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q14" value="4">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q14" value="3">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q14" value="2">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q14" value="1">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q14" value="0">
+                                        </div>
+                                    </div>
+                                    <div style="margin-left:auto">非常不同意</div>
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <label class=" col-form-label">15. 此款筆電，以這樣的價格來說是不錯的</label>
+                                <div class="d-flex justify-content-center" style="max-width: 415px;">
+                                    <div style="margin-right:auto">非常同意</div>
+                                    <div style="display: flex">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q15" value="6" required>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q15" value="5">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q15" value="4">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q15" value="3">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q15" value="2">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q15" value="1">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q15" value="0">
+                                        </div>
+                                    </div>
+                                    <div style="margin-left:auto">非常不同意</div>
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <label class=" col-form-label">16. 此款筆電的性價比是高的</label>
+                                <div class="d-flex justify-content-center" style="max-width: 415px;">
+                                    <div style="margin-right:auto">非常同意</div>
+                                    <div style="display: flex">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q16" value="6" required>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q16" value="5">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q16" value="4">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q16" value="3">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q16" value="2">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q16" value="1">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q16" value="0">
+                                        </div>
+                                    </div>
+                                    <div style="margin-left:auto">非常不同意</div>
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <label class=" col-form-label">17. 從待機時間、重量跟螢幕品質來看，這樣的價格是合理的</label>
+                                <div class="d-flex justify-content-center" style="max-width: 415px;">
+                                    <div style="margin-right:auto">非常同意</div>
+                                    <div style="display: flex">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q17" value="6" required>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q17" value="5">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q17" value="4">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q17" value="3">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q17" value="2">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q17" value="1">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q17" value="0">
+                                        </div>
+                                    </div>
+                                    <div style="margin-left:auto">非常不同意</div>
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <label class=" col-form-label">18. 購買這款筆電是可靠的</label>
+                                <div class="d-flex justify-content-center" style="max-width: 415px;">
+                                    <div style="margin-right:auto">非常同意</div>
+                                    <div style="display: flex">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q18" value="6" required>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q18" value="5">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q18" value="4">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q18" value="3">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q18" value="2">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q18" value="1">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q18" value="0">
+                                        </div>
+                                    </div>
+                                    <div style="margin-left:auto">非常不同意</div>
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <label class=" col-form-label">19. 對我而言，購買這款筆電是有價值的</label>
+                                <div id="startQ1" class="d-flex justify-content-center" style="max-width: 415px;">
+                                    <div style="margin-right:auto">非常同意</div>
+                                    <div style="display: flex">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q19" value="6" required>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q19" value="5">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q19" value="4">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q19" value="3">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q19" value="2">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q19" value="1">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q19" value="0">
+                                        </div>
+                                    </div>
+                                    <div style="margin-left:auto">非常不同意</div>
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <label class=" col-form-label">20. 購買這款筆電是明智的選擇</label>
+                                <div class="d-flex justify-content-center" style="max-width: 415px;">
+                                    <div style="margin-right:auto">非常同意</div>
+                                    <div style="display: flex">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q20" value="6" required>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q20" value="5">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q20" value="4">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q20" value="3">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q20" value="2">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q20" value="1">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q20" value="0">
+                                        </div>
+                                    </div>
+                                    <div style="margin-left:auto">非常不同意</div>
+                                </div>
+                            </div>
+
+
                         </div>
 
 
@@ -574,6 +1271,29 @@
                             <button type="submit" class="btn btn-primary">送出</button>
                         </div>
                     </form>
+                    <script>
+                        $("#Form").submit(function(e) {
+
+                            var form = $(this);
+                            var url = form.attr('action');
+
+                            $.ajax({
+                                type: "POST",
+                                url: url,
+                                data: form.serialize(), // serializes the form's elements.
+                                success: function(data) {
+                                    if (data != "")
+                                        alert(data); // show response from the php script.
+                                    else {
+                                        alert("完成!感謝您的填答~");
+                                        location.replace('/CKTU/index.php');
+                                    }
+                                }
+                            });
+
+                            e.preventDefault(); // avoid to execute the actual submit of the form.
+                        });
+                    </script>
 
 
                 </div>

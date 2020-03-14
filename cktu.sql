@@ -1,5 +1,5 @@
 -- phpMyAdmin SQL Dump
--- version 4.9.2
+-- version 5.0.1
 -- https://www.phpmyadmin.net/
 --
 -- 主機： 127.0.0.1
@@ -25,6 +25,43 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
+-- 資料表結構 `form`
+--
+
+CREATE TABLE `form` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `situation` tinyint(3) UNSIGNED NOT NULL COMMENT '情境',
+  `start` datetime NOT NULL COMMENT '開始時間',
+  `end` datetime NOT NULL COMMENT '結束時間',
+  `Q1_1` tinyint(3) UNSIGNED NOT NULL COMMENT '前測',
+  `Q1_2` tinyint(3) UNSIGNED NOT NULL,
+  `Q1_3` tinyint(3) UNSIGNED NOT NULL,
+  `Q1_4` tinyint(3) UNSIGNED NOT NULL,
+  `Q2_1` tinyint(3) UNSIGNED NOT NULL COMMENT '後測',
+  `Q2_2` tinyint(3) UNSIGNED NOT NULL,
+  `Q2_3` tinyint(3) UNSIGNED NOT NULL,
+  `Q2_4` tinyint(3) UNSIGNED NOT NULL,
+  `Q2_5` tinyint(3) UNSIGNED NOT NULL,
+  `Q2_6` tinyint(3) UNSIGNED NOT NULL,
+  `Q2_7` tinyint(3) UNSIGNED NOT NULL,
+  `Q2_8` tinyint(3) UNSIGNED NOT NULL,
+  `Q2_9` tinyint(3) UNSIGNED NOT NULL,
+  `Q2_10` tinyint(3) UNSIGNED NOT NULL,
+  `Q2_11` tinyint(3) UNSIGNED NOT NULL,
+  `Q2_12` tinyint(3) UNSIGNED NOT NULL,
+  `Q2_13` tinyint(3) UNSIGNED NOT NULL,
+  `Q2_14` tinyint(3) UNSIGNED NOT NULL,
+  `Q2_15` tinyint(3) UNSIGNED NOT NULL,
+  `Q2_16` tinyint(3) UNSIGNED NOT NULL,
+  `Q2_17` tinyint(3) UNSIGNED NOT NULL,
+  `Q2_18` tinyint(3) UNSIGNED NOT NULL,
+  `Q2_19` tinyint(3) UNSIGNED NOT NULL,
+  `Q2_20` tinyint(3) UNSIGNED NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+-- --------------------------------------------------------
+
+--
 -- 資料表結構 `personalinfo`
 --
 
@@ -45,6 +82,12 @@ CREATE TABLE `personalinfo` (
 --
 
 --
+-- 資料表索引 `form`
+--
+ALTER TABLE `form`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- 資料表索引 `personalinfo`
 --
 ALTER TABLE `personalinfo`
@@ -58,7 +101,7 @@ ALTER TABLE `personalinfo`
 -- 使用資料表自動遞增(AUTO_INCREMENT) `personalinfo`
 --
 ALTER TABLE `personalinfo`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

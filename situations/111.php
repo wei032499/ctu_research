@@ -3,47 +3,219 @@
 <html>
 
 <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+    <meta http-equiv="Content-Language" content="zh-TW">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <link rel="Shortcut Icon" type="image/x-icon" href="/CKTU/images/icon.png" />
     <title>最佳評價、購物網站</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="/CKTU/css/bootstrap.min.css">
     <link rel="stylesheet" href="/CKTU/css/default.css">
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="/CKTU/js/jquery-3.4.1.min.js"></script>
+    <script src="/CKTU/js/popper.min.js"></script>
+    <script src="/CKTU/js/bootstrap.min.js"></script>
 </head>
 <script>
     function start() {
-        $('#start').trigger('click');
+        $('#storyModal').modal({
+            show: true,
+            keyboard: false,
+            backdrop: 'static'
+        })
+        $('.container').addClass("show");
+        window.scrollTo(0, 0);
     }
 </script>
 
 <body class="bg-light" onload="start()">
-
-    <button id="start" type="button" class="btn btn-info" data-toggle="modal" data-target="#storyModal" style="display:none">
-        情境故事
-    </button>
-
     <!-- Modal -->
-    <div class="modal fade" id="storyModal" tabindex="-1" role="dialog" aria-labelledby="storyModalLabel" aria-hidden="true">
+    <div class="modal " id="storyModal" tabindex="-1" role="dialog" aria-labelledby="storyModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="storyModalLabel">情境故事</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <!--<button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
-                    </button>
+                    </button>-->
                 </div>
                 <div class="modal-body">
-                    ...
+                    你想買一款線上遊戲已經很久了，但是礙於課業/工作忙碌，始終沒有時間好好的研究，趁著剛好有空的這個時候，上網搜尋了一下產品資訊與網友的意見，這時你看到一款不錯的線上遊戲。
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">關閉</button>
+                    <!--secondary-->
+                    <button type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#startQ" onclick="$('#startQ').modal('handleUpdate')">下一頁</button>
                     <!--<button type="button" class="btn btn-primary">Save changes</button>-->
                 </div>
             </div>
         </div>
     </div>
+
+    <div class="modal fade" id="startQ" tabindex="-1" role="dialog" aria-labelledby="startQLabel" aria-hidden="true" data-backdrop="static">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="startQLabel">情境故事</h5>
+                </div>
+                <form id="startForm" action="/CKTU/finish.php">
+                    <input name="question" value="0" style="visibility: hidden" required>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label for="startQ1">1. 我知道許多線上遊戲的產品種類</label>
+                            <div id="startQ1" class="d-flex justify-content-center">
+                                <div style="margin-right:auto">非常同意</div>
+                                <div style="display: flex;">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="startQ1" id="startQ1_1" value="6" required>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="startQ1" id="startQ1_2" value="5">
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="startQ1" id="startQ1_3" value="4">
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="startQ1" id="startQ1_4" value="3">
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="startQ1" id="startQ1_5" value="2">
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="startQ1" id="startQ1_6" value="1">
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="startQ1" id="startQ1_7" value="0">
+                                    </div>
+                                </div>
+                                <div style="margin-left:auto">非常不同意</div>
+                            </div>
+                        </div>
+                        <hr />
+                        <div class="form-group">
+                            <label for="startQ2">2. 對我而言，選購一款線上遊戲將不會花費太多時間</label>
+                            <div id="startQ2" class="d-flex justify-content-center">
+                                <div style="margin-right:auto">非常同意</div>
+                                <div style="display: flex">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="startQ2" id="startQ2_1" value="6" required>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="startQ2" id="startQ2_2" value="5">
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="startQ2" id="startQ2_3" value="4">
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="startQ2" id="startQ2_4" value="3">
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="startQ2" id="startQ2_5" value="2">
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="startQ2" id="startQ2_6" value="1">
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="startQ2" id="startQ2_7" value="0">
+                                    </div>
+                                </div>
+                                <div style="margin-left:auto">非常不同意</div>
+                            </div>
+                        </div>
+                        <hr />
+                        <div class="form-group">
+                            <label for="startQ3">3. 我大致瞭解不同線上遊戲之間的差異</label>
+                            <div id="startQ3" class="d-flex justify-content-center">
+                                <div style="margin-right:auto">非常同意</div>
+                                <div style="display: flex">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="startQ3" id="startQ3_1" value="6" required>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="startQ3" id="startQ3_2" value="5">
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="startQ3" id="startQ3_3" value="4">
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="startQ3" id="startQ3_4" value="3">
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="startQ3" id="startQ3_5" value="2">
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="startQ3" id="startQ3_6" value="1">
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="startQ3" id="startQ3_7" value="0">
+                                    </div>
+                                </div>
+                                <div style="margin-left:auto">非常不同意</div>
+                            </div>
+                        </div>
+                        <hr />
+                        <div class="form-group">
+                            <label for="startQ4">4. 我曾經選購過線上遊戲</label>
+                            <div id="startQ4" class="d-flex justify-content-center">
+                                <div style="margin-right:auto">非常同意</div>
+                                <div style="display: flex">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="startQ4" id="startQ4_1" value="6" required>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="startQ4" id="startQ4_2" value="5">
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="startQ4" id="startQ4_3" value="4">
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="startQ4" id="startQ4_4" value="3">
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="startQ4" id="startQ4_5" value="2">
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="startQ4" id="startQ4_6" value="1">
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="startQ4" id="startQ4_7" value="0">
+                                    </div>
+                                </div>
+                                <div style="margin-left:auto">非常不同意</div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="modal-footer">
+                        <input type="submit" class="btn btn-success" value="確定">
+                        <!--<button type="button" class="btn btn-primary">Save changes</button>-->
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script>
+        $("#startForm").submit(function(e) {
+
+            var form = $(this);
+            var url = form.attr('action');
+
+            $.ajax({
+                type: "POST",
+                url: url,
+                data: form.serialize(), // serializes the form's elements.
+                success: function(data) {
+                    if (data != "")
+                        alert(data); // show response from the php script.
+                    else {
+                        $('#startQ').modal('hide');
+                        alert("請開始閱讀情境");
+                    }
+                }
+            });
+
+            e.preventDefault(); // avoid to execute the actual submit of the form.
+        });
+    </script>
 
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #689f38;box-shadow: 0 2px 4px rgba(0,0,0,0.1);/*position:sticky;top:0;z-index:2000*/">
         <a class="navbar-brand" href="#" style="background: #689f38;">
@@ -90,7 +262,7 @@
                     </div>
                     <div style="width: 100%">
                         <div style="display: flex;flex-direction:row">
-                            <div id="titleImg2" style="width: 40%;display:none">
+                            <div id="titleImg2" style="width: 100%;display:none">
                                 <img id="imgblock" src="https://p2.bahamut.com.tw/B/ACG/c/80/0000084580.PNG" style="width: 90%" />
                             </div>
                             <div style="margin: 5px auto 5px 25px ">
@@ -263,8 +435,16 @@
                 <h1>評論</h1>
 
                 <div id="scores" style="display: flex;justify-content: space-evenly;">
+                    <table class="table table-sm" style="width: 250px;border-left:10px solid rgba(18, 124, 150, 0.85);margin:10px auto">
+                        <tbody>
+                            <tr>
+                                <th scope="row">耐玩度</th>
+                                <td>4.0</td>
+                            </tr>
+                        </tbody>
+                    </table>
 
-                    <div style="text-align:center;margin:10px auto">
+                    <div style="text-align:center;;margin:10px auto">
                         <span style="font-size: 50px">4.0</span>
                         <div style="display:flex;flex-direction:row;justify-content:center">
                             <div style="height:17px;width:17px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAABA0lEQVR4AWMgBEpLS+MYKAFlZWWaJSUlP6urq6XJNgRowKzi4uL/QLqNLAMaGhpEgJq/gwwB4rd9fX2c5LiiFmQADAP56aS4gAkYmBJAjS/QDLkGxNwgF02aNIl95syZrEC1LCD1IBsLgIr2APElqMY/IE0k4BqQzVxAgzaRpBHhunK4F1atWsUMFJhKogFFuAKzFKjgHxEG5BGKlRYCBqwiJmonEjDkBDGG7CdgyFdwtOIDoNSJpOkfUNMh9HAC5il1fBlOBjlxlZeXW0FzsjWQfxEmB+SH48v2XkBFv4B0I9DJbBBRRDKAJsyPQNyO0xCgze5ArI3Pu1VVVZJAS5KQxQC83Tw70VP4pQAAAABJRU5ErkJggg==) no-repeat left">
@@ -273,44 +453,47 @@
                             </div>
                             <div style="height:17px;width:17px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAABA0lEQVR4AWMgBEpLS+MYKAFlZWWaJSUlP6urq6XJNgRowKzi4uL/QLqNLAMaGhpEgJq/gwwB4rd9fX2c5LiiFmQADAP56aS4gAkYmBJAjS/QDLkGxNwgF02aNIl95syZrEC1LCD1IBsLgIr2APElqMY/IE0k4BqQzVxAgzaRpBHhunK4F1atWsUMFJhKogFFuAKzFKjgHxEG5BGKlRYCBqwiJmonEjDkBDGG7CdgyFdwtOIDoNSJpOkfUNMh9HAC5il1fBlOBjlxlZeXW0FzsjWQfxEmB+SH48v2XkBFv4B0I9DJbBBRRDKAJsyPQNyO0xCgze5ArI3Pu1VVVZJAS5KQxQC83Tw70VP4pQAAAABJRU5ErkJggg==) no-repeat left">
                             </div>
-                            <div style="height:17px;width:17px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAABA0lEQVR4AWMgBEpLS+MYKAFlZWWaJSUlP6urq6XJNgRowKzi4uL/QLqNLAMaGhpEgJq/gwwB4rd9fX2c5LiiFmQADAP56aS4gAkYmBJAjS/QDLkGxNwgF02aNIl95syZrEC1LCD1IBsLgIr2APElqMY/IE0k4BqQzVxAgzaRpBHhunK4F1atWsUMFJhKogFFuAKzFKjgHxEG5BGKlRYCBqwiJmonEjDkBDGG7CdgyFdwtOIDoNSJpOkfUNMh9HAC5il1fBlOBjlxlZeXW0FzsjWQfxEmB+SH48v2XkBFv4B0I9DJbBBRRDKAJsyPQNyO0xCgze5ArI3Pu1VVVZJAS5KQxQC83Tw70VP4pQAAAABJRU5ErkJggg==) no-repeat left">
+                            <div style="height: 17px;width:17px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA+ElEQVR4AWPAB+7cuaPy4MEDSQZywc2bN6fcunWrmSzNDx8+FAQa8AWIX9+/f5+DZANu375dAdT8H4SB7BSSNP///58V6PQnMAOA7MvEaGID2iQDxEZADdUwzUiuSAbSZnfv3jUBBq4xkG8IxNqggKoCangPUkQi/gXUFwy2HchoIlHzT6Dt/uiBlgSU+E1IM9CyH0DsjSvk3YGKPuHTDFJDKPHsxWPAe2JS32t8Xrh37548Ts2gdE8oDGCBhzsMEIrvg/hA7Atk30MyoB6bXlh0lgHxXyCe8OLFC26Y+OPHjzlBUQ2NgXX4XFAOVGCOL3sD5achiwEAj9G1Uf/5qQgAAAAASUVORK5CYII=) no-repeat left">
+                                <div style="height:17px;width:15.0px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAABA0lEQVR4AWMgBEpLS+MYKAFlZWWaJSUlP6urq6XJNgRowKzi4uL/QLqNLAMaGhpEgJq/gwwB4rd9fX2c5LiiFmQADAP56aS4gAkYmBJAjS/QDLkGxNwgF02aNIl95syZrEC1LCD1IBsLgIr2APElqMY/IE0k4BqQzVxAgzaRpBHhunK4F1atWsUMFJhKogFFuAKzFKjgHxEG5BGKlRYCBqwiJmonEjDkBDGG7CdgyFdwtOIDoNSJpOkfUNMh9HAC5il1fBlOBjlxlZeXW0FzsjWQfxEmB+SH48v2XkBFv4B0I9DJbBBRRDKAJsyPQNyO0xCgze5ArI3Pu1VVVZJAS5KQxQC83Tw70VP4pQAAAABJRU5ErkJggg==) no-repeat left">
+                                </div>
                             </div>
                             <div style="height: 17px;width:17px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA+ElEQVR4AWPAB+7cuaPy4MEDSQZywc2bN6fcunWrmSzNDx8+FAQa8AWIX9+/f5+DZANu375dAdT8H4SB7BSSNP///58V6PQnMAOA7MvEaGID2iQDxEZADdUwzUiuSAbSZnfv3jUBBq4xkG8IxNqggKoCangPUkQi/gXUFwy2HchoIlHzT6Dt/uiBlgSU+E1IM9CyH0DsjSvk3YGKPuHTDFJDKPHsxWPAe2JS32t8Xrh37548Ts2gdE8oDGCBhzsMEIrvg/hA7Atk30MyoB6bXlh0lgHxXyCe8OLFC26Y+OPHjzlBUQ2NgXX4XFAOVGCOL3sD5achiwEAj9G1Uf/5qQgAAAAASUVORK5CYII=) no-repeat left">
                             </div>
                         </div>
+
                         <div>共 88,609 則評分</div>
                     </div>
 
-                    <table class="table table-sm" style="max-width:300px;;margin:10px auto">
+                    <table class="table table-sm" style="max-width:250px;margin:10px auto">
                         <tbody>
                             <tr>
                                 <th scope="row" style="width:15px">5</th>
                                 <td>
-                                    <div style="background:#57bb8a;width:70%;">&nbsp;</div>
+                                    <div style="background:#57bb8a;width:40%">&nbsp;</div>
                                 </td>
                             </tr>
                             <tr>
                                 <th scope="row" style="width:15px">4</th>
                                 <td>
-                                    <div style="background:#9ace6a;width:18%">&nbsp;</div>
+                                    <div style="background:#9ace6a;width:35%">&nbsp;</div>
                                 </td>
                             </tr>
                             <tr>
                                 <th scope="row" style="width:15px">3</th>
                                 <td>
-                                    <div style="background:#ffcf02;width:5%">&nbsp;</div>
+                                    <div style="background:#ffcf02;width:22%">&nbsp;</div>
                                 </td>
                             </tr>
                             <tr>
                                 <th scope="row" style="width:15px">2</th>
                                 <td>
-                                    <div style="background:#ff9f02;width:2%">&nbsp;</div>
+                                    <div style="background:#ff9f02;width:23%">&nbsp;</div>
                                 </td>
                             </tr>
                             <tr>
-                                <th scope="row" style="width:15px">1</th>
+                                <th scope=" row" style="width:15px">1</th>
                                 <td>
-                                    <div style="background:#ff6f31;width:5%;">&nbsp;</div>
+                                    <div style="background:#ff6f31;width:30%">&nbsp;</div>
                                 </td>
                             </tr>
                         </tbody>
@@ -319,121 +502,39 @@
             </section>
             <section class="col" style="margin-top:50px">
                 <div style="display: flex;margin:8px 0">
-                    <img height="48" width="48" style="margin-right:10px;height:48px;width:48px" class="rounded-circle" src="https://lh3.googleusercontent.com/a-/AAuE7mBVWotXsD1UUV402OqSx75S4trJWVwgKbEEcdS3Rg=w96-h96-n">
+                    <img height="48" width="48" style="margin-right:10px;height:48px;width:48px" class="rounded-circle" src="https://lh3.googleusercontent.com/-zki79n99jYo/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3re1tdK1q5sUMEqgwLTJZIJ2ZJwRig/w48-h48-n/photo.jpg">
                     <div style="flex-direction: column">
-                        <h5>11 5</h5>
+                        <h5>Pj Chen</h5>
                         <div style="display:flex;flex-direction:row">
                             <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
-                            <div style="height: 10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAoUlEQVR4AWNAB7dv39a+c+eOMQMhcPPmzdlAvBhVFNM00Vu3bn0HKvz14MEDSRRJkDVABX5AnAJUtBqo6D8IA9lrgDgPyM4BykWDTHEHcj6BJFEwQsN7IG0GNhXIMQBynmJR+BZokBG6JyLQFQIVtSGrgZlai8XaTRgKoR75DKRzgSYlA9mvgexH2BROuHv3rhyM//jxYyGg2Iz79+8LgPgAWIi+JMqA+1MAAAAASUVORK5CYII=) no-repeat left;">
-                            </div>
-                            <div style="height: 10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAoUlEQVR4AWNAB7dv39a+c+eOMQMhcPPmzdlAvBhVFNM00Vu3bn0HKvz14MEDSRRJkDVABX5AnAJUtBqo6D8IA9lrgDgPyM4BykWDTHEHcj6BJFEwQsN7IG0GNhXIMQBynmJR+BZokBG6JyLQFQIVtSGrgZlai8XaTRgKoR75DKRzgSYlA9mvgexH2BROuHv3rhyM//jxYyGg2Iz79+8LgPgAWIi+JMqA+1MAAAAASUVORK5CYII=) no-repeat left;">
-                            </div>
-                            <div style="height: 10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAoUlEQVR4AWNAB7dv39a+c+eOMQMhcPPmzdlAvBhVFNM00Vu3bn0HKvz14MEDSRRJkDVABX5AnAJUtBqo6D8IA9lrgDgPyM4BykWDTHEHcj6BJFEwQsN7IG0GNhXIMQBynmJR+BZokBG6JyLQFQIVtSGrgZlai8XaTRgKoR75DKRzgSYlA9mvgexH2BROuHv3rhyM//jxYyGg2Iz79+8LgPgAWIi+JMqA+1MAAAAASUVORK5CYII=) no-repeat left;">
-                            </div>
-                            <div style="height: 10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAoUlEQVR4AWNAB7dv39a+c+eOMQMhcPPmzdlAvBhVFNM00Vu3bn0HKvz14MEDSRRJkDVABX5AnAJUtBqo6D8IA9lrgDgPyM4BykWDTHEHcj6BJFEwQsN7IG0GNhXIMQBynmJR+BZokBG6JyLQFQIVtSGrgZlai8XaTRgKoR75DKRzgSYlA9mvgexH2BROuHv3rhyM//jxYyGg2Iz79+8LgPgAWIi+JMqA+1MAAAAASUVORK5CYII=) no-repeat left;">
-                            </div>
-                            <span style="font-size: 10px">2020年1月22日</span>
+                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
+                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
+                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
+                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
+                            <span style="font-size: 10px">2016年9月27日</span>
                         </div>
                         <div>
-                            請簡化優化，每個按鈕功能，好玩的遊戲，可以不用一直在做重複的步驟！
+                            真是太棒的遊戲 玩這麼多千篇一律的遊戲之後 赫然發現這個遊戲。令我眼前為之一亮 無論是遊戲的架構 平衡 遊戲性 風格 畫面 手機效能 等方面都考慮的十分用心 看的出來製作團隊的努力 無論如何請團隊一定要努力下去 為這個手游市場注入一股活水
                         </div>
                     </div>
                 </div>
                 <hr />
                 <div style="display: flex;margin:8px 0">
-                    <img height="48" width="48" style="margin-right:10px;height:48px;width:48px" class="rounded-circle" src="https://lh3.googleusercontent.com/a-/AAuE7mCLKMcv9ObdW7dWYhpYYjPiecV7hKIrnP-slquF_vs=w96-h96-n">
+                    <img height="48" width="48" style="margin-right:10px;height:48px;width:48px" class="rounded-circle" src="https://lh3.googleusercontent.com/a-/AAuE7mDYnzm6yLZqY2Guzl76bgHu-OPRBcWxXSGUMpWYAw=w48-h48-n">
                     <div style="flex-direction: column">
-                        <h5>喬巴媽咪666</h5>
+                        <h5>林柏偉</h5>
                         <div style="display:flex;flex-direction:row">
                             <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
                             <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
                             <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
-                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
-                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
-                            <span style="font-size: 10px">2020年1月16日</span>
+                            <div style="height: 10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAoUlEQVR4AWNAB7dv39a+c+eOMQMhcPPmzdlAvBhVFNM00Vu3bn0HKvz14MEDSRRJkDVABX5AnAJUtBqo6D8IA9lrgDgPyM4BykWDTHEHcj6BJFEwQsN7IG0GNhXIMQBynmJR+BZokBG6JyLQFQIVtSGrgZlai8XaTRgKoR75DKRzgSYlA9mvgexH2BROuHv3rhyM//jxYyGg2Iz79+8LgPgAWIi+JMqA+1MAAAAASUVORK5CYII=) no-repeat left;">
+                            </div>
+                            <div style="height: 10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAoUlEQVR4AWNAB7dv39a+c+eOMQMhcPPmzdlAvBhVFNM00Vu3bn0HKvz14MEDSRRJkDVABX5AnAJUtBqo6D8IA9lrgDgPyM4BykWDTHEHcj6BJFEwQsN7IG0GNhXIMQBynmJR+BZokBG6JyLQFQIVtSGrgZlai8XaTRgKoR75DKRzgSYlA9mvgexH2BROuHv3rhyM//jxYyGg2Iz79+8LgPgAWIi+JMqA+1MAAAAASUVORK5CYII=) no-repeat left;">
+                            </div>
+                            <span style="font-size: 10px">2016年9月17日</span>
                         </div>
                         <div>
-                            好玩~打發時間的遊戲
-                        </div>
-                    </div>
-                </div>
-                <hr />
-                <div style="display: flex;margin:8px 0">
-                    <img height="48" width="48" style="margin-right:10px;height:48px;width:48px" class="rounded-circle" src="https://lh3.googleusercontent.com/a-/AAuE7mCgK3hJPpBR48w0_MKLwVnxxBHtNcEaHCAjRmD4Hw=w96-h96-n">
-                    <div style="flex-direction: column">
-                        <h5>欣遠吳</h5>
-                        <div style="display:flex;flex-direction:row">
-                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
-                            <div style="height: 10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAoUlEQVR4AWNAB7dv39a+c+eOMQMhcPPmzdlAvBhVFNM00Vu3bn0HKvz14MEDSRRJkDVABX5AnAJUtBqo6D8IA9lrgDgPyM4BykWDTHEHcj6BJFEwQsN7IG0GNhXIMQBynmJR+BZokBG6JyLQFQIVtSGrgZlai8XaTRgKoR75DKRzgSYlA9mvgexH2BROuHv3rhyM//jxYyGg2Iz79+8LgPgAWIi+JMqA+1MAAAAASUVORK5CYII=) no-repeat left;">
-                            </div>
-                            <div style="height: 10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAoUlEQVR4AWNAB7dv39a+c+eOMQMhcPPmzdlAvBhVFNM00Vu3bn0HKvz14MEDSRRJkDVABX5AnAJUtBqo6D8IA9lrgDgPyM4BykWDTHEHcj6BJFEwQsN7IG0GNhXIMQBynmJR+BZokBG6JyLQFQIVtSGrgZlai8XaTRgKoR75DKRzgSYlA9mvgexH2BROuHv3rhyM//jxYyGg2Iz79+8LgPgAWIi+JMqA+1MAAAAASUVORK5CYII=) no-repeat left;">
-                            </div>
-                            <div style="height: 10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAoUlEQVR4AWNAB7dv39a+c+eOMQMhcPPmzdlAvBhVFNM00Vu3bn0HKvz14MEDSRRJkDVABX5AnAJUtBqo6D8IA9lrgDgPyM4BykWDTHEHcj6BJFEwQsN7IG0GNhXIMQBynmJR+BZokBG6JyLQFQIVtSGrgZlai8XaTRgKoR75DKRzgSYlA9mvgexH2BROuHv3rhyM//jxYyGg2Iz79+8LgPgAWIi+JMqA+1MAAAAASUVORK5CYII=) no-repeat left;">
-                            </div>
-                            <div style="height: 10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAoUlEQVR4AWNAB7dv39a+c+eOMQMhcPPmzdlAvBhVFNM00Vu3bn0HKvz14MEDSRRJkDVABX5AnAJUtBqo6D8IA9lrgDgPyM4BykWDTHEHcj6BJFEwQsN7IG0GNhXIMQBynmJR+BZokBG6JyLQFQIVtSGrgZlai8XaTRgKoR75DKRzgSYlA9mvgexH2BROuHv3rhyM//jxYyGg2Iz79+8LgPgAWIi+JMqA+1MAAAAASUVORK5CYII=) no-repeat left;">
-                            </div>
-                            <span style="font-size: 10px">2020年1月16日</span>
-                        </div>
-                        <div>
-                            超難過關的，覺得很生氣，步數有夠少
-                        </div>
-                    </div>
-                </div>
-                <hr />
-                <div style="display: flex;margin:8px 0">
-                    <img height="48" width="48" style="margin-right:10px;height:48px;width:48px" class="rounded-circle" src="https://lh3.googleusercontent.com/a-/AAuE7mAwnoV8SI8zhpqcMpnqQ2gYTIpXa3Q3Oe5s4e-aSg=w96-h96-n">
-                    <div style="flex-direction: column">
-                        <h5>小露</h5>
-                        <div style="display:flex;flex-direction:row">
-                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
-                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
-                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
-                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
-                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
-                            <span style="font-size: 10px">2019年8月28日</span>
-                        </div>
-                        <div>
-                            好玩!之前也是玩到一千初帳號不見又重新再用新帳號重玩!(建議無法登入的人!用另一台手機登入!因為之前我也是好幾個月無法登入，同事的都沒問題!重下載也不能!無意間用另一部手機就可以登入!原本的也就能登入了!😁😁😁)
-                        </div>
-                    </div>
-                </div>
-                <hr />
-                <div style="display: flex;margin:8px 0">
-                    <img height="48" width="48" style="margin-right:10px;height:48px;width:48px" class="rounded-circle" src="https://lh3.googleusercontent.com/-s1LsUYmTM9E/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rffySTcFoJwW_49ynwnsrQc8GRfhQ/w96-h96-n/photo.jpg">
-                    <div style="flex-direction: column">
-                        <h5>潘品榆</h5>
-                        <div style="display:flex;flex-direction:row">
-                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
-                            <div style="height: 10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAoUlEQVR4AWNAB7dv39a+c+eOMQMhcPPmzdlAvBhVFNM00Vu3bn0HKvz14MEDSRRJkDVABX5AnAJUtBqo6D8IA9lrgDgPyM4BykWDTHEHcj6BJFEwQsN7IG0GNhXIMQBynmJR+BZokBG6JyLQFQIVtSGrgZlai8XaTRgKoR75DKRzgSYlA9mvgexH2BROuHv3rhyM//jxYyGg2Iz79+8LgPgAWIi+JMqA+1MAAAAASUVORK5CYII=) no-repeat left;">
-                            </div>
-                            <div style="height: 10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAoUlEQVR4AWNAB7dv39a+c+eOMQMhcPPmzdlAvBhVFNM00Vu3bn0HKvz14MEDSRRJkDVABX5AnAJUtBqo6D8IA9lrgDgPyM4BykWDTHEHcj6BJFEwQsN7IG0GNhXIMQBynmJR+BZokBG6JyLQFQIVtSGrgZlai8XaTRgKoR75DKRzgSYlA9mvgexH2BROuHv3rhyM//jxYyGg2Iz79+8LgPgAWIi+JMqA+1MAAAAASUVORK5CYII=) no-repeat left;">
-                            </div>
-                            <div style="height: 10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAoUlEQVR4AWNAB7dv39a+c+eOMQMhcPPmzdlAvBhVFNM00Vu3bn0HKvz14MEDSRRJkDVABX5AnAJUtBqo6D8IA9lrgDgPyM4BykWDTHEHcj6BJFEwQsN7IG0GNhXIMQBynmJR+BZokBG6JyLQFQIVtSGrgZlai8XaTRgKoR75DKRzgSYlA9mvgexH2BROuHv3rhyM//jxYyGg2Iz79+8LgPgAWIi+JMqA+1MAAAAASUVORK5CYII=) no-repeat left;">
-                            </div>
-                            <div style="height: 10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAoUlEQVR4AWNAB7dv39a+c+eOMQMhcPPmzdlAvBhVFNM00Vu3bn0HKvz14MEDSRRJkDVABX5AnAJUtBqo6D8IA9lrgDgPyM4BykWDTHEHcj6BJFEwQsN7IG0GNhXIMQBynmJR+BZokBG6JyLQFQIVtSGrgZlai8XaTRgKoR75DKRzgSYlA9mvgexH2BROuHv3rhyM//jxYyGg2Iz79+8LgPgAWIi+JMqA+1MAAAAASUVORK5CYII=) no-repeat left;">
-                            </div>
-                            <span style="font-size: 10px">2019年12月12日</span>
-                        </div>
-                        <div>
-                            第220關打了快200次仍無法破關，道具櫻桃鑽石一切可以使用的皆以用盡... 難道設計用這種困難刁鑽的關卡逼迫玩家們再去不斷花錢購買你們的道具就是了？！
-                        </div>
-                    </div>
-                </div>
-                <hr />
-                <div style="display: flex;margin:8px 0">
-                    <img height="48" width="48" style="margin-right:10px;height:48px;width:48px" class="rounded-circle" src="https://lh3.googleusercontent.com/a-/AAuE7mAhdWsXuy81FUfCL3QSoVZs32xUT9FXgqACxj0itg=w96-h96-n">
-                    <div style="flex-direction: column">
-                        <h5>蔡明河</h5>
-                        <div style="display:flex;flex-direction:row">
-                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
-                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
-                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
-                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
-                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
-                            <span style="font-size: 10px">2019年11月27日</span>
-                        </div>
-                        <div>
-                            一直有在推陳出新三不五時都有活動送寶物真不錯
+                            卡頓到底什麼時候才能改善啊……“只有中華電信用戶才有這個情況”那就放著不管了嗎？？每個動作都要等好久還不一定成功，老實說已經沒什麼耐心想玩下去了
                         </div>
                     </div>
                 </div>
@@ -455,28 +556,11 @@
                             <span style="font-size: 10px">2020年1月21日</span>
                         </div>
                         <div>
-                            游戲開不了 老更新沒空間再開不了就刪了 又要更新👿👿👿👿👿2020/1/21
+                            廢了 停在加載中不能進入遊戲 連遊戲都進不了，怎麼聯絡?
                         </div>
                     </div>
                 </div>
-                <hr />
-                <div style="display: flex;margin:8px 0">
-                    <img height="48" width="48" style="margin-right:10px;height:48px;width:48px" class="rounded-circle" src="https://lh3.googleusercontent.com/-neIm7YkDk7o/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3re0uBKWRuNypmg007XK5M7TprNa2A/w96-h96-n/photo.jpg">
-                    <div style="flex-direction: column">
-                        <h5>周金蘭</h5>
-                        <div style="display:flex;flex-direction:row">
-                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
-                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
-                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
-                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
-                            <div style="height:10px;width:10px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAn0lEQVR4AWNAB+Xl5drFxcXGDIQAUNHskpKSxXgVVVZWigIVfQcq/lVVVSWJboJxWVmZX2lpaQpQ0Wog/z8IA9lrgDgPiHOA8tEgN7kDOZ9Akjjwe6BCM7CpQNMMgIqfYlH0FihnhOIEoMIIdIVAsTaQHLrCWiwKN2EohHrkM9CqXCA7Gch+DcSPsIXfBKDH5GD8hoYGIaCGGUBaAMQHAMs6d9dLo6HcAAAAAElFTkSuQmCC) no-repeat left;"></div>
-                            <span style="font-size: 10px">2019年11月26日</span>
-                        </div>
-                        <div>
-                            太好玩了！可動動腦
-                        </div>
-                    </div>
-                </div>
+
 
             </section>
 
@@ -484,7 +568,7 @@
 
         <!-- Modal -->
         <div class="modal fade bd-example-modal-xl" id="questionModal" tabindex="-1" role="dialog" aria-labelledby="questionModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title" id="questionModalLabel">開始答題</h5>
@@ -492,11 +576,11 @@
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
-                    <form action="./situationPage.php" method="post">
-                        <div class="modal-body" style="padding:2.5rem!important">
-
+                    <form id="Form" action="/CKTU/finish.php" method="post">
+                        <div class="modal-body" style="padding:0 2.5rem!important">
+                            <input name="question" value="1" style="visibility: hidden" required>
                             <div class="form-group ">
-                                <label class=" col-form-label">1. 在此情境中，多數人對此遊戲的評價如何？</label>
+                                <label class=" col-form-label">1. 在此情境中，留言區多數人對此遊戲的評價如何？</label>
                                 <div class=" row col-form-label" style="margin-left:15px">
                                     <div class="form-check ">
                                         <input class="form-check-input" type="radio" name="Q1" value="0" required>
@@ -544,7 +628,6 @@
                                         </label>
                                     </div>
 
-
                                 </div>
                             </div>
                             <div class="form-group ">
@@ -567,16 +650,550 @@
                                 </div>
                             </div>
 
+
+
+
+                            <!--Questions-->
+
+                            <div class="form-group ">
+                                <label class=" col-form-label">4. 網友對於這款線上遊戲的評論相當一致</label>
+                                <div id="Q4" class="d-flex justify-content-center" style="max-width: 415px;">
+                                    <div style="margin-right:auto">非常同意</div>
+                                    <div style="display: flex">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q4" value="6" required>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q4" value="5">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q4" value="4">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q4" value="3">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q4" value="2">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q4" value="1">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q4" value="0">
+                                        </div>
+                                    </div>
+                                    <div style="margin-left:auto">非常不同意</div>
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <label class=" col-form-label">5. 網友的評論，讓我感覺購買這款線上遊戲是正確的決定</label>
+                                <div class="d-flex justify-content-center" style="max-width: 415px;">
+                                    <div style="margin-right:auto">非常同意</div>
+                                    <div style="display: flex">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q5" value="6" required>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q5" value="5">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q5" value="4">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q5" value="3">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q5" value="2">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q5" value="1">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q5" value="0">
+                                        </div>
+                                    </div>
+                                    <div style="margin-left:auto">非常不同意</div>
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <label class=" col-form-label">6. 網友的評論，使我感覺購買這款線上遊戲存在不確定的感受</label>
+                                <div class="d-flex justify-content-center" style="max-width: 415px;">
+                                    <div style="margin-right:auto">非常同意</div>
+                                    <div style="display: flex">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q6" value="6" required>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q6" value="5">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q6" value="4">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q6" value="3">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q6" value="2">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q6" value="1">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q6" value="0">
+                                        </div>
+                                    </div>
+                                    <div style="margin-left:auto">非常不同意</div>
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <label class=" col-form-label">7. 如果我購買這款線上遊戲，便可能曝露在許多的交易的不確定之中</label>
+                                <div class="d-flex justify-content-center" style="max-width: 415px;">
+                                    <div style="margin-right:auto">非常同意</div>
+                                    <div style="display: flex">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q7" value="6" required>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q7" value="5">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q7" value="4">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q7" value="3">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q7" value="2">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q7" value="1">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q7" value="0">
+                                        </div>
+                                    </div>
+                                    <div style="margin-left:auto">非常不同意</div>
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <label class=" col-form-label">8. 網友的評論使我更熟悉這款線上遊戲</label>
+                                <div class="d-flex justify-content-center" style="max-width: 415px;">
+                                    <div style="margin-right:auto">非常同意</div>
+                                    <div style="display: flex">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q8" value="6" required>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q8" value="5">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q8" value="4">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q8" value="3">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q8" value="2">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q8" value="1">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q8" value="0">
+                                        </div>
+                                    </div>
+                                    <div style="margin-left:auto">非常不同意</div>
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <label class=" col-form-label">9. 網友的評論有助於我衡量這款線上遊戲</label>
+                                <div class="d-flex justify-content-center" style="max-width: 415px;">
+                                    <div style="margin-right:auto">非常同意</div>
+                                    <div style="display: flex">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q9" value="6" required>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q9" value="5">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q9" value="4">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q9" value="3">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q9" value="2">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q9" value="1">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q9" value="0">
+                                        </div>
+                                    </div>
+                                    <div style="margin-left:auto">非常不同意</div>
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <label class=" col-form-label">10. 網友的評論有助我瞭解這款線上遊戲是否真的有趣</label>
+                                <div class="d-flex justify-content-center" style="max-width: 415px;">
+                                    <div style="margin-right:auto">非常同意</div>
+                                    <div style="display: flex">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q10" value="6" required>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q10" value="5">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q10" value="4">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q10" value="3">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q10" value="2">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q10" value="1">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q10" value="0">
+                                        </div>
+                                    </div>
+                                    <div style="margin-left:auto">非常不同意</div>
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <label class=" col-form-label">11. 我感覺這款線上遊戲的CP值很高</label>
+                                <div class="d-flex justify-content-center" style="max-width: 415px;">
+                                    <div style="margin-right:auto">非常同意</div>
+                                    <div style="display: flex">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q11" value="6" required>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q11" value="5">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q11" value="4">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q11" value="3">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q11" value="2">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q11" value="1">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q11" value="0">
+                                        </div>
+                                    </div>
+                                    <div style="margin-left:auto">非常不同意</div>
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <label class=" col-form-label">12. 我感覺這款線上遊戲的耐玩度很高</label>
+                                <div class="d-flex justify-content-center" style="max-width: 415px;">
+                                    <div style="margin-right:auto">非常同意</div>
+                                    <div style="display: flex">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q12" value="6" required>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q12" value="5">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q12" value="4">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q12" value="3">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q12" value="2">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q12" value="1">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q12" value="0">
+                                        </div>
+                                    </div>
+                                    <div style="margin-left:auto">非常不同意</div>
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <label class=" col-form-label">13. 我感覺這款線上遊戲的題材很具創新性</label>
+                                <div class="d-flex justify-content-center" style="max-width: 415px;">
+                                    <div style="margin-right:auto">非常同意</div>
+                                    <div style="display: flex">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q13" value="6" required>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q13" value="5">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q13" value="4">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q13" value="3">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q13" value="2">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q13" value="1">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q13" value="0">
+                                        </div>
+                                    </div>
+                                    <div style="margin-left:auto">非常不同意</div>
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <label class=" col-form-label">14. 我感覺這款線上遊戲的品質讓人可以接受</label>
+                                <div class="d-flex justify-content-center" style="max-width: 415px;">
+                                    <div style="margin-right:auto">非常同意</div>
+                                    <div style="display: flex">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q14" value="6" required>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q14" value="5">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q14" value="4">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q14" value="3">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q14" value="2">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q14" value="1">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q14" value="0">
+                                        </div>
+                                    </div>
+                                    <div style="margin-left:auto">非常不同意</div>
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <label class=" col-form-label">15. 此款線上遊戲，以這樣的價格來說是不錯的</label>
+                                <div class="d-flex justify-content-center" style="max-width: 415px;">
+                                    <div style="margin-right:auto">非常同意</div>
+                                    <div style="display: flex">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q15" value="6" required>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q15" value="5">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q15" value="4">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q15" value="3">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q15" value="2">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q15" value="1">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q15" value="0">
+                                        </div>
+                                    </div>
+                                    <div style="margin-left:auto">非常不同意</div>
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <label class=" col-form-label">16. 此款線上遊戲的性價比是高的</label>
+                                <div class="d-flex justify-content-center" style="max-width: 415px;">
+                                    <div style="margin-right:auto">非常同意</div>
+                                    <div style="display: flex">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q16" value="6" required>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q16" value="5">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q16" value="4">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q16" value="3">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q16" value="2">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q16" value="1">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q16" value="0">
+                                        </div>
+                                    </div>
+                                    <div style="margin-left:auto">非常不同意</div>
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <label class=" col-form-label">17. 從創意思考、耐玩度跟題材創意來看，這樣的價格是合理的</label>
+                                <div class="d-flex justify-content-center" style="max-width: 415px;">
+                                    <div style="margin-right:auto">非常同意</div>
+                                    <div style="display: flex">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q17" value="6" required>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q17" value="5">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q17" value="4">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q17" value="3">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q17" value="2">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q17" value="1">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q17" value="0">
+                                        </div>
+                                    </div>
+                                    <div style="margin-left:auto">非常不同意</div>
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <label class=" col-form-label">18. 購買這款線上遊戲是可靠的</label>
+                                <div class="d-flex justify-content-center" style="max-width: 415px;">
+                                    <div style="margin-right:auto">非常同意</div>
+                                    <div style="display: flex">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q18" value="6" required>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q18" value="5">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q18" value="4">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q18" value="3">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q18" value="2">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q18" value="1">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q18" value="0">
+                                        </div>
+                                    </div>
+                                    <div style="margin-left:auto">非常不同意</div>
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <label class=" col-form-label">19. 對我而言，購買這款線上遊戲是有價值的</label>
+                                <div id="startQ1" class="d-flex justify-content-center" style="max-width: 415px;">
+                                    <div style="margin-right:auto">非常同意</div>
+                                    <div style="display: flex">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q19" value="6" required>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q19" value="5">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q19" value="4">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q19" value="3">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q19" value="2">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q19" value="1">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q19" value="0">
+                                        </div>
+                                    </div>
+                                    <div style="margin-left:auto">非常不同意</div>
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <label class=" col-form-label">20. 購買這款線上遊戲是明智的選擇</label>
+                                <div class="d-flex justify-content-center" style="max-width: 415px;">
+                                    <div style="margin-right:auto">非常同意</div>
+                                    <div style="display: flex">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q20" value="6" required>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q20" value="5">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q20" value="4">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q20" value="3">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q20" value="2">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q20" value="1">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Q20" value="0">
+                                        </div>
+                                    </div>
+                                    <div style="margin-left:auto">非常不同意</div>
+                                </div>
+                            </div>
                         </div>
-
-
-
-
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">關閉</button>
                             <button type="submit" class="btn btn-primary">送出</button>
                         </div>
                     </form>
+                    <script>
+                        $("#Form").submit(function(e) {
+
+                            var form = $(this);
+                            var url = form.attr('action');
+
+                            $.ajax({
+                                type: "POST",
+                                url: url,
+                                data: form.serialize(), // serializes the form's elements.
+                                success: function(data) {
+                                    if (data != "")
+                                        alert(data); // show response from the php script.
+                                    else {
+                                        alert("完成!感謝您的填答~");
+                                        location.replace('/CKTU/index.php');
+                                    }
+                                }
+                            });
+
+                            e.preventDefault(); // avoid to execute the actual submit of the form.
+                        });
+                    </script>
 
 
                 </div>
