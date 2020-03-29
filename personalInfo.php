@@ -34,14 +34,7 @@ if (!isset($_SESSION['situation'])) {
             <form action="./situationPage.php" method="post">
                 <div class="form-group row">
                     <label for="age" style="width:180px" class=" col-form-label">年齡</label>
-                    <select class="form-control" style="max-width: 100px" name="age" id="age" required>
-                        <option selected disabled hidden>年齡</option>
-                        <option value="18">18</option>
-                        <option value="19">19</option>
-                        <option value="20">20</option>
-                        <option value="21">21</option>
-                        <option value="22">22</option>
-                    </select>
+                    <input type="number" class="form-control" style="max-width: 100px" name="age" id="age" min="15" required>
                 </div>
                 <div class="form-group row">
                     <label style="width:180px" class=" col-form-label">您的性別是：</label>

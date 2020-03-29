@@ -58,20 +58,20 @@
     </div>
 
     <div class="modal fade" id="startQ" tabindex="-1" role="dialog" aria-labelledby="startQLabel" aria-hidden="true" data-backdrop="static">
-        <div class="modal-dialog" role="document">
+        <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="startQLabel">情境故事</h5>
+                    <h5 class="modal-title" id="startQLabel">產品熟悉度</h5>
                     <!--<button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>-->
                 </div>
                 <form id="startForm" action="/CKTU/finish.php">
                     <input name="question" value="0" style="visibility: hidden" required>
-                    <div class="modal-body">
+                    <div class="modal-body" style="padding:1rem 2.5rem!important">
                         <div class="form-group">
                             <label for="startQ1">1. 我知道許多廠牌的筆記型電腦</label>
-                            <div id="startQ1" class="d-flex justify-content-center">
+                            <div id="startQ1" class="d-flex justify-content-center" style="max-width: 415px;">
                                 <div style="margin-right:auto">非常同意</div>
                                 <div style="display: flex;">
                                     <div class="form-check form-check-inline">
@@ -102,7 +102,7 @@
                         <hr />
                         <div class="form-group">
                             <label for="startQ2">2. 對我而言，選購一台筆電將不會花費太多時間</label>
-                            <div id="startQ2" class="d-flex justify-content-center">
+                            <div id="startQ2" class="d-flex justify-content-center" style="max-width: 415px;">
                                 <div style="margin-right:auto">非常同意</div>
                                 <div style="display: flex">
                                     <div class="form-check form-check-inline">
@@ -133,7 +133,7 @@
                         <hr />
                         <div class="form-group">
                             <label for="startQ3">3. 我大致瞭解不同筆記型電腦品牌之間的差異</label>
-                            <div id="startQ3" class="d-flex justify-content-center">
+                            <div id="startQ3" class="d-flex justify-content-center" style="max-width: 415px;">
                                 <div style="margin-right:auto">非常同意</div>
                                 <div style="display: flex">
                                     <div class="form-check form-check-inline">
@@ -164,7 +164,7 @@
                         <hr />
                         <div class="form-group">
                             <label for="startQ4">4. 我曾經比較選購過筆記型電腦</label>
-                            <div id="startQ4" class="d-flex justify-content-center">
+                            <div id="startQ4" class="d-flex justify-content-center" style="max-width: 415px;">
                                 <div style="margin-right:auto">非常同意</div>
                                 <div style="display: flex">
                                     <div class="form-check form-check-inline">
@@ -405,7 +405,7 @@
                         </tbody>
                     </table>
                     <hr />
-                    <img style="max-width:100%" src="https://a.ecimg.tw/img/projects/personal/v0/upload_file/US00003594/IdeaPad/YOGA/YOGA_S730/YOGA%20S730.jpg" alt="" width="750" height="3895">
+                    <img style="max-width:100%" src="/CKTU/images/product.jpg" alt="" width="750" height="3895">
 
                 </div>
                 <div id="showcontent_button" style="color:green;margin: auto;width: max-content;cursor:pointer" onclick="showcontent()">閱讀完整內容</div>
@@ -517,7 +517,7 @@
             </section>
             <section class="col" style="margin-top:50px">
                 <div style="display: flex;margin:8px 0">
-                    <img height="48" width="48" style="margin-right:10px;height:48px;width:48px" class="rounded-circle" src="https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png">
+                    <img height="48" width="48" style="margin-right:10px;height:48px;width:48px" class="rounded-circle" src="/CKTU/images/p13.jpg">
                     <div style="flex-direction: column">
                         <h5>Prima</h5>
                         <div style="display:flex;flex-direction:row">
@@ -539,7 +539,7 @@
                 </div>
                 <hr />
                 <div style="display: flex;margin:8px 0">
-                    <img height="48" width="48" style="margin-right:10px;height:48px;width:48px" class="rounded-circle" src="https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/e5165404-74a4-418a-8f81-1e24e61b2937._CR40,0,420,420_SX48_.jpg">
+                    <img height="48" width="48" style="margin-right:10px;height:48px;width:48px" class="rounded-circle" src="/CKTU/images/p14.jpg">
                     <div style="flex-direction: column">
                         <h5>Marc Spector</h5>
                         <div style="display:flex;flex-direction:row">
@@ -557,7 +557,7 @@
                 </div>
                 <hr />
                 <div style="display: flex;margin:8px 0">
-                    <img height="48" width="48" style="margin-right:10px;height:48px;width:48px" class="rounded-circle" src="https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png">
+                    <img height="48" width="48" style="margin-right:10px;height:48px;width:48px" class="rounded-circle" src="/CKTU/images/p13.jpg">
                     <div style="flex-direction: column">
                         <h5>Dan Witham</h5>
                         <div style="display:flex;flex-direction:row">
@@ -575,7 +575,7 @@
                 </div>
                 <hr />
                 <div style="display: flex;margin:8px 0">
-                    <img height="48" width="48" style="margin-right:10px;height:48px;width:48px" class="rounded-circle" src="https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/823b0c70-dfb7-4414-b2d7-e731b7cd4668._CR62,0,375,375_SX48_.jpg">
+                    <img height="48" width="48" style="margin-right:10px;height:48px;width:48px" class="rounded-circle" src="/CKTU/images/p15.jpg">
                     <div style="flex-direction: column">
                         <h5>Pam Eberle</h5>
                         <div style="display:flex;flex-direction:row">
@@ -593,7 +593,7 @@
                 </div>
                 <hr />
                 <div style="display: flex;margin:8px 0">
-                    <img height="48" width="48" style="margin-right:10px;height:48px;width:48px" class="rounded-circle" src="https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/b32cea9f-c4ec-4e68-bdcc-48bf11c4bbb8._CR0,0,2208,2208_SX48_.jpg">
+                    <img height="48" width="48" style="margin-right:10px;height:48px;width:48px" class="rounded-circle" src="/CKTU/images/p16.jpg">
                     <div style="flex-direction: column">
                         <h5>Cory German</h5>
                         <div style="display:flex;flex-direction:row">
@@ -611,7 +611,7 @@
                 </div>
                 <hr />
                 <div style="display: flex;margin:8px 0">
-                    <img height="48" width="48" style="margin-right:10px;height:48px;width:48px" class="rounded-circle" src="https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/095b236c-5511-4278-a514-05a9c6538b1c._CR0,0,375,375_SX48_.jpg">
+                    <img height="48" width="48" style="margin-right:10px;height:48px;width:48px" class="rounded-circle" src="/CKTU/images/p17.jpg">
                     <div style="flex-direction: column">
                         <h5>Karen E.</h5>
                         <div style="display:flex;flex-direction:row">
@@ -668,16 +668,17 @@
 
         </div>
         <!-- Modal -->
-        <div class="modal fade bd-example-modal-xl" id="questionModal" tabindex="-1" role="dialog" aria-labelledby="questionModalLabel" aria-hidden="true">
+        <div class="modal  bd-example-modal-xl" id="prequestionModal" tabindex="-1" role="dialog" aria-labelledby="prequestionModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="questionModalLabel">開始答題</h5>
+                        <h5 class="modal-title" id="prequestionModalLabel">開始答題</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
-                    <form id="Form" action="/CKTU/finish.php" method="post">
+
+                    <form id="preForm" action="/CKTU/finish.php" method="post">
                         <div class="modal-body" style="padding:0 2.5rem!important">
                             <input name="question" value="1" style="visibility: hidden" required>
                             <div class="form-group ">
@@ -746,11 +747,59 @@
 
 
 
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">關閉</button>
+                            <button type="submit" class="btn btn-primary">下一頁</button>
 
+                        </div>
+                    </form>
+                    <script>
+                        $("#preForm").submit(function(e) {
+
+                            var form = $(this);
+                            var url = form.attr('action');
+
+                            $.ajax({
+                                type: "POST",
+                                url: url,
+                                data: form.serialize(), // serializes the form's elements.
+                                success: function(data) {
+                                    if (data != "")
+                                        alert(data); // show response from the php script.
+                                    else {
+                                        $('#prequestionModal').modal('hide');
+                                        $('#questionModal').modal('show');
+                                        $('#questionModal').modal('handleUpdate');
+                                    }
+                                }
+                            });
+
+                            e.preventDefault(); // avoid to execute the actual submit of the form.
+                        });
+                    </script>
+
+
+
+                </div>
+            </div>
+        </div>
+        <div class="modal fade bd-example-modal-xl" id="questionModal" tabindex="-1" role="dialog" aria-labelledby="questionModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="questionModalLabel">開始答題</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <form id="Form" action="/CKTU/finish.php" method="post">
+                        <div class="modal-body" style="padding:0 2.5rem!important">
+                            <input name="question" value="2" style="visibility: hidden" required>
                             <!--Questions-->
 
                             <div class="form-group ">
-                                <label class=" col-form-label">4. 網友對於這款筆電的評論相當一致</label>
+                                <label class=" col-form-label">1. 網友對於這款筆電的評論相當一致</label>
                                 <div id="Q4" class="d-flex justify-content-center" style="max-width: 415px;">
                                     <div style="margin-right:auto">非常同意</div>
                                     <div style="display: flex">
@@ -780,7 +829,7 @@
                                 </div>
                             </div>
                             <div class="form-group ">
-                                <label class=" col-form-label">5. 網友的評論，讓我感覺購買這款筆電是正確的決定</label>
+                                <label class=" col-form-label">2. 網友的評論，讓我感覺購買這款筆電是正確的決定</label>
                                 <div class="d-flex justify-content-center" style="max-width: 415px;">
                                     <div style="margin-right:auto">非常同意</div>
                                     <div style="display: flex">
@@ -810,7 +859,7 @@
                                 </div>
                             </div>
                             <div class="form-group ">
-                                <label class=" col-form-label">6. 網友的評論，使我感覺購買這款筆電存在不確定的感受</label>
+                                <label class=" col-form-label">3. 網友的評論，使我感覺購買這款筆電存在不確定的感受</label>
                                 <div class="d-flex justify-content-center" style="max-width: 415px;">
                                     <div style="margin-right:auto">非常同意</div>
                                     <div style="display: flex">
@@ -840,7 +889,7 @@
                                 </div>
                             </div>
                             <div class="form-group ">
-                                <label class=" col-form-label">7. 如果我購買這款筆電，便可能曝露在許多的交易的不確定之中</label>
+                                <label class=" col-form-label">4. 如果我購買這款筆電，便可能曝露在許多的交易的不確定之中</label>
                                 <div class="d-flex justify-content-center" style="max-width: 415px;">
                                     <div style="margin-right:auto">非常同意</div>
                                     <div style="display: flex">
@@ -870,7 +919,7 @@
                                 </div>
                             </div>
                             <div class="form-group ">
-                                <label class=" col-form-label">8. 網友的評論使我更熟悉這款筆電</label>
+                                <label class=" col-form-label">5. 網友的評論使我更熟悉這款筆電</label>
                                 <div class="d-flex justify-content-center" style="max-width: 415px;">
                                     <div style="margin-right:auto">非常同意</div>
                                     <div style="display: flex">
@@ -900,7 +949,7 @@
                                 </div>
                             </div>
                             <div class="form-group ">
-                                <label class=" col-form-label">9. 網友的評論有助於我衡量這款筆電</label>
+                                <label class=" col-form-label">6. 網友的評論有助於我衡量這款筆電</label>
                                 <div class="d-flex justify-content-center" style="max-width: 415px;">
                                     <div style="margin-right:auto">非常同意</div>
                                     <div style="display: flex">
@@ -930,7 +979,7 @@
                                 </div>
                             </div>
                             <div class="form-group ">
-                                <label class=" col-form-label">10. 網友的評論有助我瞭解這款筆電的效能</label>
+                                <label class=" col-form-label">7. 網友的評論有助我瞭解這款筆電的效能</label>
                                 <div class="d-flex justify-content-center" style="max-width: 415px;">
                                     <div style="margin-right:auto">非常同意</div>
                                     <div style="display: flex">
@@ -960,7 +1009,7 @@
                                 </div>
                             </div>
                             <div class="form-group ">
-                                <label class=" col-form-label">11. 我感覺這款筆電的CP值很高</label>
+                                <label class=" col-form-label">8. 我感覺這款筆電的CP值很高</label>
                                 <div class="d-flex justify-content-center" style="max-width: 415px;">
                                     <div style="margin-right:auto">非常同意</div>
                                     <div style="display: flex">
@@ -990,7 +1039,7 @@
                                 </div>
                             </div>
                             <div class="form-group ">
-                                <label class=" col-form-label">12. 我感覺這款筆電的待機時間很長</label>
+                                <label class=" col-form-label">9. 我感覺這款筆電的待機時間很長</label>
                                 <div class="d-flex justify-content-center" style="max-width: 415px;">
                                     <div style="margin-right:auto">非常同意</div>
                                     <div style="display: flex">
@@ -1020,7 +1069,7 @@
                                 </div>
                             </div>
                             <div class="form-group ">
-                                <label class=" col-form-label">13. 我感覺這款筆電的效能很好</label>
+                                <label class=" col-form-label">10. 我感覺這款筆電的效能很好</label>
                                 <div class="d-flex justify-content-center" style="max-width: 415px;">
                                     <div style="margin-right:auto">非常同意</div>
                                     <div style="display: flex">
@@ -1050,7 +1099,7 @@
                                 </div>
                             </div>
                             <div class="form-group ">
-                                <label class=" col-form-label">14. 我感覺這款筆電的品質讓人可以接受</label>
+                                <label class=" col-form-label">11. 我感覺這款筆電的品質讓人可以接受</label>
                                 <div class="d-flex justify-content-center" style="max-width: 415px;">
                                     <div style="margin-right:auto">非常同意</div>
                                     <div style="display: flex">
@@ -1080,7 +1129,7 @@
                                 </div>
                             </div>
                             <div class="form-group ">
-                                <label class=" col-form-label">15. 此款筆電，以這樣的價格來說是不錯的</label>
+                                <label class=" col-form-label">12. 此款筆電，以這樣的價格來說是不錯的</label>
                                 <div class="d-flex justify-content-center" style="max-width: 415px;">
                                     <div style="margin-right:auto">非常同意</div>
                                     <div style="display: flex">
@@ -1110,7 +1159,7 @@
                                 </div>
                             </div>
                             <div class="form-group ">
-                                <label class=" col-form-label">16. 此款筆電的性價比是高的</label>
+                                <label class=" col-form-label">13. 此款筆電的性價比是高的</label>
                                 <div class="d-flex justify-content-center" style="max-width: 415px;">
                                     <div style="margin-right:auto">非常同意</div>
                                     <div style="display: flex">
@@ -1140,7 +1189,7 @@
                                 </div>
                             </div>
                             <div class="form-group ">
-                                <label class=" col-form-label">17. 從待機時間、重量跟螢幕品質來看，這樣的價格是合理的</label>
+                                <label class=" col-form-label">14. 從待機時間、重量跟螢幕品質來看，這樣的價格是合理的</label>
                                 <div class="d-flex justify-content-center" style="max-width: 415px;">
                                     <div style="margin-right:auto">非常同意</div>
                                     <div style="display: flex">
@@ -1170,7 +1219,7 @@
                                 </div>
                             </div>
                             <div class="form-group ">
-                                <label class=" col-form-label">18. 購買這款筆電是可靠的</label>
+                                <label class=" col-form-label">15. 購買這款筆電是可靠的</label>
                                 <div class="d-flex justify-content-center" style="max-width: 415px;">
                                     <div style="margin-right:auto">非常同意</div>
                                     <div style="display: flex">
@@ -1200,7 +1249,7 @@
                                 </div>
                             </div>
                             <div class="form-group ">
-                                <label class=" col-form-label">19. 對我而言，購買這款筆電是有價值的</label>
+                                <label class=" col-form-label">16. 對我而言，購買這款筆電是有價值的</label>
                                 <div id="startQ1" class="d-flex justify-content-center" style="max-width: 415px;">
                                     <div style="margin-right:auto">非常同意</div>
                                     <div style="display: flex">
@@ -1230,7 +1279,7 @@
                                 </div>
                             </div>
                             <div class="form-group ">
-                                <label class=" col-form-label">20. 購買這款筆電是明智的選擇</label>
+                                <label class=" col-form-label">17. 購買這款筆電是明智的選擇</label>
                                 <div class="d-flex justify-content-center" style="max-width: 415px;">
                                     <div style="margin-right:auto">非常同意</div>
                                     <div style="display: flex">
@@ -1285,8 +1334,7 @@
                                     if (data != "")
                                         alert(data); // show response from the php script.
                                     else {
-                                        alert("完成!感謝您的填答~");
-                                        location.replace('/CKTU/index.php');
+                                        location.replace('/CKTU/finishpage.php');
                                     }
                                 }
                             });
@@ -1304,7 +1352,7 @@
             <button type="button" class="btn btn-info" data-toggle="modal" data-target="#storyModal" style="margin:-30px 5px 0 auto">
                 情境故事
             </button>
-            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#questionModal" style="margin:-30px auto 0 5px">
+            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#prequestionModal" style="margin:-30px auto 0 5px">
                 開始答題
             </button>
         </div>

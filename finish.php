@@ -1,6 +1,7 @@
 <?php
 session_start();
 if (!isset($_SESSION['id']) || !isset($_SESSION['situation'])) {
+    echo "ERROR";
     exit();
 }
 require_once("./DB.php");
@@ -26,18 +27,36 @@ if ($_POST['question'] === "0") {
         if ($stmt->execute()) {
             $stmt->close();
         } else {
-
+            echo $stmt->error;
             exit();
         }
     } else {
+        echo "ERROR";
         exit();
     }
 } else if ($_POST['question'] === "1") {
-    $now = new DateTime('NOW', new DateTimeZone('Asia/Taipei'));
-    $now = $now->format('Y-m-d H:i:s');
+
     $Q1 = $_POST['Q1'];
     $Q2 = $_POST['Q2'];
     $Q3 = $_POST['Q3'];
+
+    if ($stmt = $conn->prepare("UPDATE form SET Q2_1 = ?,Q2_2=?,Q2_3=? WHERE id=?")) {
+
+        $stmt->bind_param("iiii",  $Q1, $Q2, $Q3, $id); //i - integer；d - double；s - string；b - BLOB
+
+        if ($stmt->execute()) {
+            $stmt->close();
+        } else {
+            echo $stmt->error;
+            exit();
+        }
+    } else {
+        echo "ERROR";
+        exit();
+    }
+} else if ($_POST['question'] === "2") {
+    $now = new DateTime('NOW', new DateTimeZone('Asia/Taipei'));
+    $now = $now->format('Y-m-d H:i:s');
     $Q4 = $_POST['Q4'];
     $Q5 = $_POST['Q5'];
     $Q6 = $_POST['Q6'];
@@ -55,9 +74,9 @@ if ($_POST['question'] === "0") {
     $Q18 = $_POST['Q18'];
     $Q19 = $_POST['Q19'];
     $Q20 = $_POST['Q20'];
-    if ($stmt = $conn->prepare("UPDATE form SET end=?, Q2_1 = ?,Q2_2=?,Q2_3=?,Q2_4=?,Q2_5=?,Q2_6=?,Q2_7=?,Q2_8=?,Q2_9=?,Q2_10=?, Q2_11 = ?,Q2_12=?,Q2_13=?,Q2_14=?,Q2_15=?,Q2_16=?,Q2_17=?,Q2_18=?,Q2_19=?,Q2_20=? WHERE id=?")) {
+    if ($stmt = $conn->prepare("UPDATE form SET end=?, Q2_4=?,Q2_5=?,Q2_6=?,Q2_7=?,Q2_8=?,Q2_9=?,Q2_10=?, Q2_11 = ?,Q2_12=?,Q2_13=?,Q2_14=?,Q2_15=?,Q2_16=?,Q2_17=?,Q2_18=?,Q2_19=?,Q2_20=? WHERE id=?")) {
 
-        $stmt->bind_param("siiiiiiiiiiiiiiiiiiiii", $now, $Q1, $Q2, $Q3, $Q4, $Q5, $Q6, $Q7, $Q8, $Q9, $Q10, $Q11, $Q12, $Q13, $Q14, $Q15, $Q16, $Q17, $Q18, $Q19, $Q20, $id); //i - integer；d - double；s - string；b - BLOB
+        $stmt->bind_param("siiiiiiiiiiiiiiiiii", $now, $Q4, $Q5, $Q6, $Q7, $Q8, $Q9, $Q10, $Q11, $Q12, $Q13, $Q14, $Q15, $Q16, $Q17, $Q18, $Q19, $Q20, $id); //i - integer；d - double；s - string；b - BLOB
 
         if ($stmt->execute()) {
             $stmt->close();
